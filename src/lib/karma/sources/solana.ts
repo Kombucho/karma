@@ -172,7 +172,7 @@ export class SolanaRpc {
 
   // params is usually a positional array, but DAS methods (getTokenAccounts) take a named-arg object.
   async call<T>(method: string, params: unknown[] | Record<string, unknown>): Promise<T> {
-    if (this.state && STATE_METHODS.has(method)) return this.state.callDirect<T>(method, params).catch(() => this.callDirect<T>(method, params));
+    if (this.state && STATE_METHODS.has(method)) return this.state.callDirect<T>(method, params).catch(() => this.withFallbacks<T>(method, params));
     // A transaction the state node still has (recent) costs Helius nothing; an old one comes back null there.
     if (this.state && method === "getTransaction") {
       const hit = await this.state.callDirect<T | null>(method, params).catch(() => null);
