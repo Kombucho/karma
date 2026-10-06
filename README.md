@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Karma
 
-## Getting Started
+On-chain karma for crypto callers. One question, answered from the blockchain: if you had copied this person's calls, what happened to you, and did they sell into you?
 
-First, run the development server:
+Live: [karmawtf.vercel.app](https://karmawtf.vercel.app)
+
+## What's here
+
+- **The engine**: reads a caller's pump.fun callouts and on-chain trades, prices every call at 1h / 6h / 24h / 7d, and checks whether the caller exited before their followers could. Output is a trust grade with a confidence interval, not a vibe.
+- **Coin x-ray**: holder book scan that flags manufactured holder bases (deployer wallet farms, funder-clustered bundles).
+- **The dataset**: 733 callers, 10,756 callouts, 5,668 scored against what the price actually did. See [DATA.md](DATA.md).
+
+## The finding
+
+Split each caller's history in half and ask whether the first half predicts the second:
+
+| trait | split-half r |
+|---|---|
+| picks that hit 2× | 0.09 |
+| dumping on followers | 0.44 |
+| calls that rug | 0.52 |
+
+Picking skill barely persists. Integrity does. So Karma scores callers on what you can actually forecast: whether they will dump on you. Numbers in `seed/calibration.json`, method in `scripts/calibrate.ts`.
+
+## Run it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # optional: add a free Helius key
+npm run dev                  # http://localhost:3000
+npm run score -- <wallet>    # score a wallet from the terminal
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app boots with no keys, reading the committed dataset.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Code: MIT ([LICENSE](LICENSE)). Data: CC BY 4.0 ([LICENSE-DATA](LICENSE-DATA)). Build on it, credit the source.
