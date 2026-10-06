@@ -1,0 +1,125 @@
+{
+  "harvested_at": "2026-09-16",
+  "method": "pump.fun /pnl-leaderboard union (daily/weekly/monthly x realized/unrealized/combined, limit 100 each) \u2192 xUsername filter \u2192 callout/list check for past-7d callouts",
+  "leaderboard_wallets": 391,
+  "with_x_handle": 179,
+  "active_callers_7d": {
+    "991Mi3sGxGCxVsBnRTYBGwxKxNXxMksyMFo85cqxsuML": {
+      "xUsername": "Betmoreee",
+      "username": "betmoree",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#7",
+        "daily/combined#51"
+      ],
+      "best_pnl_usd": 15844.179565642029,
+      "callouts_7d": 50,
+      "latest_callout": 1789534055.759
+    },
+    "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh": {
+      "xUsername": "TheMisterTurtle",
+      "username": "TheMisterTurtle",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#9",
+        "daily/combined#47",
+        "weekly/realized#4",
+        "weekly/combined#7",
+        "monthly/realized#44",
+        "monthly/combined#62"
+      ],
+      "best_pnl_usd": 180694.18454606432,
+      "callouts_7d": 50,
+      "latest_callout": 1789571224.553
+    },
+    "12aV8MEJPqbfbGEf894Top9mBk6tCAm7W4qSPvdmonke": {
+      "xUsername": "downsin",
+      "username": "downsin",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#19",
+        "daily/combined#54",
+        "monthly/realized#88",
+        "monthly/combined#99"
+      ],
+      "best_pnl_usd": 107823.09865193452,
+      "callouts_7d": 45,
+      "latest_callout": 1789537847.719
+    },
+    "DNsh1UfJdxmze6T6GV9QK5SoFm7HsM5TRNxVuwVgo8Zj": {
+      "xUsername": "Hashbergers",
+      "username": "hashbergers",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#4",
+        "daily/unrealized#24",
+        "daily/combined#8",
+        "weekly/realized#16",
+        "weekly/unrealized#31",
+        "weekly/combined#9",
+        "monthly/unrealized#85"
+      ],
+      "best_pnl_usd": 91500.95578086663,
+      "callouts_7d": 25,
+      "latest_callout": 1789515393.483
+    },
+    "CyaE1VxvBrahnPWkqm5VsdCvyS2QmNht2UFrKJHga54o": {
+      "xUsername": "Cented7",
+      "username": "cented69420",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#15",
+        "daily/combined#49",
+        "weekly/realized#24",
+        "weekly/combined#32",
+        "monthly/realized#12",
+        "monthly/combined#17"
+      ],
+      "best_pnl_usd": 476169.999492706,
+      "callouts_7d": 24,
+      "latest_callout": 1789529386.014
+    },
+    "GFHyYGrvQ2dTTRyTAi9dgKyEP5rgegCAduPnS3nAHJ8t": {
+      "xUsername": "TLowNFTs",
+      "username": "TLowNFTs",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#18",
+        "daily/combined#55"
+      ],
+      "best_pnl_usd": 14124.956299686382,
+      "callouts_7d": 9,
+      "latest_callout": 1789526590.715
+    },
+    "LeenseyyUU3ccdBPCFCrrZ8oKU2B3T2uToGGZ7eVABY": {
+      "xUsername": "leensx100",
+      "username": "leensfun",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#14",
+        "daily/combined#48",
+        "weekly/realized#57",
+        "weekly/combined#62"
+      ],
+      "best_pnl_usd": 29188.037920707127,
+      "callouts_7d": 4,
+      "latest_callout": 1789520443.816
+    },
+    "7rZyUQYsMkii33f6zUKQG2dCMy8YTeNv2damjBqpayLe": {
+      "xUsername": "luckygrind99",
+      "username": "kushhhhh",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#3",
+        "daily/unrealized#61",
+        "daily/combined#17",
+        "weekly/realized#30",
+        "weekly/unrealized#68",
+        "weekly/combined#31"
+      ],
+      "best_pnl_usd": 54449.177702824825,
+      "callouts_7d": 1,
+      "latest_callout": 1789150845.181
+    }
+  }
+}

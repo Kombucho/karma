@@ -1,0 +1,145 @@
+{
+  "_doc": "REVIEW QUEUE for seed/cex_funders.json. Exchange-scale funders (balance ≥ exchangeFunderMinBalanceSol) that first-funded fresh holders of scanned coins. The balance gate already excludes these live; promoting a verified one into cex_funders.json spares the RPC and documents it. Verify each (a whale is not an exchange) before promoting.",
+  "generated_at": "2026-09-24T12:12:01.272Z",
+  "candidates": [
+    {
+      "address": "9SLPTL41SPsYkgdsMzdfJsxymEANKr5bYoBsQzJyKpKS",
+      "balance_sol": 373849,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "JEANPHIL"
+      ],
+      "evidence": "373,849 SOL balance, 1000+ txns, first-funded fresh holders on JEANPHIL",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF",
+      "balance_sol": 116277,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "familiars",
+        "PUMPCAT"
+      ],
+      "evidence": "116,277 SOL balance, 1000+ txns, first-funded fresh holders on familiars, PUMPCAT",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "BmFdpraQhkiDQE6SnfG5omcA1VwzqfXrwtNYBwWTymy6",
+      "balance_sol": 55784,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "UNTXD",
+        "PUMPCAT"
+      ],
+      "evidence": "55,784 SOL balance, 1000+ txns, first-funded fresh holders on UNTXD, PUMPCAT",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+      "balance_sol": 50410,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "PUMPCAT"
+      ],
+      "evidence": "50,410 SOL balance, 1000+ txns, first-funded fresh holders on PUMPCAT",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "balance_sol": 40991,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "ARCHIBROWN"
+      ],
+      "evidence": "40,991 SOL balance, 1000+ txns, first-funded fresh holders on ARCHIBROWN",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "DPqsobysNf5iA9w7zrQM8HLzCKZEDMkZsWbiidsAt1xo",
+      "balance_sol": 27658,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "TURF",
+        "JEANPHIL",
+        "OTC"
+      ],
+      "evidence": "27,658 SOL balance, 1000+ txns, first-funded fresh holders on TURF, JEANPHIL, OTC",
+      "first_seen_at": 1790250894
+    },
+    {
+      "address": "4NyK1AdJBNbgaJ9EsKz3J4rfeHsuYdjkTPg3JaNdLeFw",
+      "balance_sol": 18402,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "ARCHIBROWN"
+      ],
+      "evidence": "18,402 SOL balance, 1000+ txns, first-funded fresh holders on ARCHIBROWN",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "H8sMJSCQxfKiFTCfDR3DUMLPwcRbM61LGFJ8N4dK3WjS",
+      "balance_sol": 17914,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "ARCHIBROWN"
+      ],
+      "evidence": "17,914 SOL balance, 1000+ txns, first-funded fresh holders on ARCHIBROWN",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu",
+      "balance_sol": 16723,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "PUMPCAT"
+      ],
+      "evidence": "16,723 SOL balance, 1000+ txns, first-funded fresh holders on PUMPCAT",
+      "first_seen_at": 1790251484
+    },
+    {
+      "address": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
+      "balance_sol": 4699,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "TURF",
+        "SI",
+        "familiars",
+        "JEANPHIL"
+      ],
+      "evidence": "4,699 SOL balance, 1000+ txns, first-funded fresh holders on TURF, SI, familiars, JEANPHIL",
+      "first_seen_at": 1790250894
+    },
+    {
+      "address": "4sbM7JnL8M2af2sgCU5oh2C7RaZWKSSmrUeaeU3Hkps8",
+      "balance_sol": 2303,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "TURF"
+      ],
+      "evidence": "2,303 SOL balance, 1000+ txns, first-funded fresh holders on TURF",
+      "first_seen_at": 1790250894
+    },
+    {
+      "address": "5F1seMKUqSNhv45f6FhB2cFmgJbk8U1avJw7M6TexUq1",
+      "balance_sol": 2147,
+      "tx_count": 1000,
+      "tx_count_capped": true,
+      "seen_on": [
+        "JEANPHIL"
+      ],
+      "evidence": "2,147 SOL balance, 1000+ txns, first-funded fresh holders on JEANPHIL",
+      "first_seen_at": 1790251484
+    }
+  ]
+}

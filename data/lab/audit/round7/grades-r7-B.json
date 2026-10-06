@@ -1,0 +1,47 @@
+[
+  {"image": "double_top.png", "panel": 1, "title": "MOODENG 2025-06-07 → neither", "verdict": "VALID", "why": "Two roughly equal peaks, clear valley, after genuine advance"},
+  {"image": "double_top.png", "panel": 2, "title": "BOME 2024-05-13 → stop", "verdict": "VALID", "why": "Equal peaks with deep clear valley after prior rally"},
+  {"image": "double_top.png", "panel": 3, "title": "ACT 2025-08-25 → neither", "verdict": "INVALID", "why": "Minor bounce peaks inside larger downtrend, not dominant highs"},
+  {"image": "double_top.png", "panel": 4, "title": "MOODENG 2024-12-06 → neither", "verdict": "INVALID", "why": "Second peak unformed, still spiking upward at detection line"},
+  {"image": "double_top.png", "panel": 5, "title": "BONK 2025-05-28 → neither", "verdict": "VALID", "why": "Two equal peaks, clear valley, after a real advance"},
+  {"image": "double_top.png", "panel": 6, "title": "POPCAT 2026-07-08 → neither", "verdict": "VALID", "why": "Comparable peaks with clear valley between, after advance"},
+  {"image": "double_top.png", "panel": 7, "title": "GRIFFAIN 2025-07-26 → target", "verdict": "VALID", "why": "Clean textbook double top, equal peaks, clear valley"},
+  {"image": "double_top.png", "panel": 8, "title": "GRIFFAIN 2026-07-08 → neither", "verdict": "VALID", "why": "Clean double top, equal peaks, clear separating valley"},
+
+  {"image": "double_bottom.png", "panel": 1, "title": "GIGA 2026-07-15 → stop", "verdict": "VALID", "why": "Clear W shape, roughly equal lows, prior decline present"},
+  {"image": "double_bottom.png", "panel": 2, "title": "TROLL 2026-06-09 → stop", "verdict": "VALID", "why": "Sharp decline into two comparable lows, clear peak between"},
+  {"image": "double_bottom.png", "panel": 3, "title": "TROLL 2026-08-16 → target", "verdict": "VALID", "why": "Clean W right before breakout, dominant recent lows"},
+  {"image": "double_bottom.png", "panel": 4, "title": "CHILLGUY 2026-03-16 → stop", "verdict": "VALID", "why": "Textbook W, equal troughs, clear peak, prior decline"},
+  {"image": "double_bottom.png", "panel": 5, "title": "WIF 2025-06-10 → stop", "verdict": "VALID", "why": "Clear V-peak-V shape after genuine prior decline"},
+  {"image": "double_bottom.png", "panel": 6, "title": "FWOG 2025-07-14 → target", "verdict": "VALID", "why": "Clean W, near-equal troughs, clear peak, prior decline"},
+  {"image": "double_bottom.png", "panel": 7, "title": "PNUT 2025-12-13 → stop", "verdict": "VALID", "why": "Clean W after sizable decline, troughs nearly equal"},
+  {"image": "double_bottom.png", "panel": 8, "title": "ZEREBRO 2026-03-17 → stop", "verdict": "VALID", "why": "Modest but clear W after decline, troughs close"},
+  {"image": "double_bottom.png", "panel": 9, "title": "ACT 2026-05-15 → stop", "verdict": "INVALID", "why": "Choppy sideways range, troughs not clearly dominant lows"},
+  {"image": "double_bottom.png", "panel": 10, "title": "WIF 2024-09-07 → neither", "verdict": "VALID", "why": "Clear equal troughs, strong peak between, textbook W"},
+  {"image": "double_bottom.png", "panel": 11, "title": "TROLL 2026-09-18 → None", "verdict": "INVALID", "why": "No clear prior decline, mismatched high-low-high structure"},
+  {"image": "double_bottom.png", "panel": 12, "title": "WIF 2025-08-23 → stop", "verdict": "VALID", "why": "Decline into two similar troughs with clear peak"},
+
+  {"image": "head_shoulders.png", "panel": 1, "title": "MEW 2024-06-24 → neither", "verdict": "VALID", "why": "Clean 3-peak H&S, head clearly higher, shoulders equal"},
+  {"image": "head_shoulders.png", "panel": 2, "title": "USELESS 2025-08-31 → neither", "verdict": "VALID", "why": "Textbook head and shoulders, equal shoulders, higher head"},
+
+  {"image": "inv_head_shoulders.png", "panel": 1, "title": "GIGA 2025-04-22 → neither", "verdict": "INVALID", "why": "Shoulders uneven height, right shoulder choppy not clean"},
+
+  {"image": "bear_flag.png", "panel": 1, "title": "BAN 2026-03-22 → neither", "verdict": "VALID", "why": "Sharp steep pole then short shallow sideways flag"},
+
+  {"image": "asc_triangle.png", "panel": 1, "title": "BONK 2024-05-20 → target", "verdict": "VALID", "why": "Flat resistance, rising lows, narrowing range before breakout"},
+
+  {"image": "desc_triangle.png", "panel": 1, "title": "TROLL 2026-06-24 → neither", "verdict": "VALID", "why": "Flat-ish support, declining highs, narrowing before line"},
+  {"image": "desc_triangle.png", "panel": 2, "title": "TROLL 2025-11-02 → target", "verdict": "VALID", "why": "Flat support, gently declining highs, narrowing range"},
+  {"image": "desc_triangle.png", "panel": 3, "title": "TROLL 2026-08-11 → stop", "verdict": "VALID", "why": "Clean descending triangle, flat lows, clearly falling highs"},
+  {"image": "desc_triangle.png", "panel": 4, "title": "MEW 2025-08-26 → neither", "verdict": "VALID", "why": "Very clean flat support, clearly declining sequence of highs"},
+  {"image": "desc_triangle.png", "panel": 5, "title": "MEW 2026-02-28 → stop", "verdict": "INVALID", "why": "Support is rising, not flat; more symmetrical triangle"},
+  {"image": "desc_triangle.png", "panel": 6, "title": "WIF 2025-02-24 → stop", "verdict": "VALID", "why": "Flat support, declining highs, clean descending triangle shape"},
+
+  {"image": "distribution.png", "panel": 1, "title": "MYRO 2025-05-06 → stop", "verdict": "VALID", "why": "Sideways band near highs after big advance, ~2 weeks"},
+  {"image": "distribution.png", "panel": 2, "title": "BONK 2024-03-16 → neither", "verdict": "INVALID", "why": "High sits mid-band not early, more a symmetrical wedge"},
+  {"image": "distribution.png", "panel": 3, "title": "BONK 2024-11-29 → neither", "verdict": "VALID", "why": "High early in band, not revisited, ~2 week range"},
+
+  {"image": "accumulation.png", "panel": 1, "title": "ACT 2025-04-23 → neither", "verdict": "VALID", "why": "Flat band near lows after crash, low early, unrevisited"},
+  {"image": "accumulation.png", "panel": 2, "title": "PONKE 2025-02-14 → target", "verdict": "VALID", "why": "Basing with higher lows after huge decline, ~2 weeks"},
+  {"image": "accumulation.png", "panel": 3, "title": "MOODENG 2025-01-02 → stop", "verdict": "VALID", "why": "Flat band near lows, low early, not revisited"}
+]

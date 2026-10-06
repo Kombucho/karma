@@ -1,0 +1,40 @@
+{
+  "_doc": "Funders that must NEVER make a holder look like a Sybil. A CEX hot wallet is the first funder of thousands of unrelated people, so a shared-funder cluster pointing here is a crowd, not a bundle. This is the belt to the corroboration braces (uniform-amount / burner-funder tests in coin.ts): those catch unlisted exchanges too, this just spares the RPC. Grow it with scripts/harvest-cex-funders.ts (Solscan/label sources). Only add an address with a checkable source \u2014 a wrong entry here silently blinds the detector.",
+  "funders": [
+    {
+      "address": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "label": "Binance: hot wallet",
+      "source": "empirical: 1.23M SOL balance, 1000+ txns, first-funded 2 TURF holders 2026-09-24 \u2014 flagged a false bundle before exclusion"
+    },
+    {
+      "address": "ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "label": "OKX: Router",
+      "source": "solscan label, observed 2026-09-24"
+    },
+    {
+      "address": "proVF4pMXVaYqmy4NjniPh4pqKNfMmsihgd4wdkCX3u",
+      "label": "OKX: fee/proxy",
+      "source": "solscan label, observed 2026-09-24"
+    },
+    {
+      "address": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
+      "label": "Relay: Solver (cross-chain bridge)",
+      "source": "solscan label 2026-09-25; 1,000 txns in 0.01h; wrongly flagged as the $Brim insider purse 2026-09-24"
+    },
+    {
+      "address": "H8sMJSCQxfKiFTCfDR3DUMLPwcRbM61LGFJ8N4dK3WjS",
+      "label": "Coinbase 1",
+      "source": "solscan label 2026-09-25; 25.7k SOL, 1,000 txns in 3.4h"
+    },
+    {
+      "address": "2AQdpHJ2JpcEgPiATUXjQxA8QmafFegfQwSLWSprPicm",
+      "label": "Coinbase 2",
+      "source": "solscan label 2026-09-25; 28k SOL, 1,000 txns in 3.4h"
+    },
+    {
+      "address": "iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu",
+      "label": "Bybit Wallet 10",
+      "source": "solscan label 2026-09-25; only 132 SOL, which is why balance can't be the gate"
+    }
+  ]
+}

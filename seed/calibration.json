@@ -1,0 +1,120 @@
+{
+  "generated_from": "733 wallets · 5661 scored calls · 3925 coins",
+  "priors_version": "trust-v3-fairwindow-2026-09",
+  "base_rates": {
+    "rug": 0.4502738032149797,
+    "dump": 0.20137784843667197,
+    "win": 0.254725313548843
+  },
+  "measured_tau": {
+    "rug": 0.16098275617649346,
+    "dump": 0.1008929926807727,
+    "win": 0.052806873743254906
+  },
+  "reliability": {
+    "rug": {
+      "r": 0.5230377108815982,
+      "sb": 0.6868348789326326,
+      "spread": 0.2495701114603553
+    },
+    "dump": {
+      "r": 0.4389887035654298,
+      "sb": 0.6101350239619435,
+      "spread": 0.14075013739647907
+    },
+    "win": {
+      "r": 0.08862430068553268,
+      "sb": 0.16281889101634758,
+      "spread": 0.05044328977255805
+    }
+  },
+  "predictive_validity": {
+    "v2 opportunity (live)": {
+      "dumpRatio": 1.6795995245672215,
+      "rugRatio": 1.4004053623112263
+    },
+    "v3 trust (raw rates)": {
+      "dumpRatio": 1.8700124763454666,
+      "rugRatio": 1.8430887408462233
+    },
+    "v3 trust (shrunk)": {
+      "dumpRatio": 2.032680774202804,
+      "rugRatio": 1.6160148418758875
+    }
+  },
+  "grade_distribution": {
+    "D": 160,
+    "F": 28,
+    "B": 63,
+    "C": 129,
+    "A": 9
+  },
+  "scoreable": 389,
+  "total_wallets": 733,
+  "market_harm": 0.6516516516516516,
+  "precision_at_top": [
+    {
+      "K": 10,
+      "model": "raw rates",
+      "next_harm": 0.39889249639249635,
+      "worst": 1.1111111111111112,
+      "thin": 6,
+      "blowups": 3
+    },
+    {
+      "K": 10,
+      "model": "shrunk",
+      "next_harm": 0.3573484848484848,
+      "worst": 0.875,
+      "thin": 3,
+      "blowups": 2
+    },
+    {
+      "K": 25,
+      "model": "raw rates",
+      "next_harm": 0.43794549894549895,
+      "worst": 1.1111111111111112,
+      "thin": 13,
+      "blowups": 6
+    },
+    {
+      "K": 25,
+      "model": "shrunk",
+      "next_harm": 0.43468209568209576,
+      "worst": 1.1111111111111112,
+      "thin": 10,
+      "blowups": 6
+    },
+    {
+      "K": 50,
+      "model": "raw rates",
+      "next_harm": 0.48714801864801854,
+      "worst": 1.1111111111111112,
+      "thin": 31,
+      "blowups": 13
+    },
+    {
+      "K": 50,
+      "model": "shrunk",
+      "next_harm": 0.4839680874680872,
+      "worst": 1.1428571428571428,
+      "thin": 27,
+      "blowups": 13
+    }
+  ],
+  "movement": {
+    "C→D": 89,
+    "C→C": 81,
+    "D→D": 64,
+    "B→B": 53,
+    "B→C": 48,
+    "D→F": 22,
+    "A→B": 10,
+    "A→A": 8,
+    "B→D": 7,
+    "F→F": 6,
+    "S→A": 1
+  },
+  "movement_unchanged": 212,
+  "movement_total": 389
+}

@@ -1,0 +1,4289 @@
+{
+  "harvested_at": "2026-09-21",
+  "method": "pump.fun /pnl-leaderboard union (daily/weekly/monthly × realized/unrealized/combined, limit 100)",
+  "boards_pulled": 9,
+  "unique_wallets": 338,
+  "with_x_handle": 182,
+  "wallets": [
+    {
+      "wallet": "4UrFSCrGxgoCtCUBAEZq7ZmPK3Pczkxx7PwYnkBMi1KR",
+      "username": "J777Crypto",
+      "xUsername": "J777Crypto",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#1",
+        "daily/combined#1",
+        "weekly/unrealized#1",
+        "weekly/combined#1",
+        "monthly/realized#77",
+        "monthly/unrealized#1",
+        "monthly/combined#1"
+      ],
+      "best_pnl_usd": 3628828.445528027,
+      "positions_max": 28
+    },
+    {
+      "wallet": "Bmi9zf27MNN5pjCtyv2Y15TDQoYgcbcmPTxvEoQ6UwWs",
+      "username": "Crypto_Keys",
+      "xUsername": "crypto__keys",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#2",
+        "daily/combined#2",
+        "weekly/unrealized#2",
+        "weekly/combined#2",
+        "monthly/realized#6",
+        "monthly/unrealized#2",
+        "monthly/combined#2"
+      ],
+      "best_pnl_usd": 2930701.9429739453,
+      "positions_max": 130
+    },
+    {
+      "wallet": "J23qr98GjGJJqKq9CBEnyRhHbmkaVxtTJNNxKu597wsA",
+      "username": "gr3gor14n",
+      "xUsername": "gr3gor14n",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#4",
+        "weekly/combined#5",
+        "monthly/realized#5",
+        "monthly/unrealized#3",
+        "monthly/combined#3"
+      ],
+      "best_pnl_usd": 2355584.207141106,
+      "positions_max": 52
+    },
+    {
+      "wallet": "3jWTgYPG5s7WfaRvppPBXio4hHQxg18fLUkV2z5covSQ",
+      "username": "weeshark41081",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#1",
+        "monthly/combined#4"
+      ],
+      "best_pnl_usd": 1787325.4518851556,
+      "positions_max": 3
+    },
+    {
+      "wallet": "21rgbFW6sujQovCw3qt6R2EdE97Yzzvk8sSc37Bb72Cm",
+      "username": "hexiecs",
+      "xUsername": "hexiecs",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#91",
+        "daily/unrealized#33",
+        "daily/combined#28",
+        "monthly/realized#2",
+        "monthly/combined#5"
+      ],
+      "best_pnl_usd": 1277018.9346160213,
+      "positions_max": 85
+    },
+    {
+      "wallet": "2M2vLX34LXMg24dMEnjWHvRXS1tshpEDRWzmXgV8ENNZ",
+      "username": "SossaDotKek",
+      "xUsername": "GeoffO7",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#87",
+        "daily/combined#92",
+        "weekly/unrealized#3",
+        "weekly/combined#3",
+        "monthly/unrealized#4",
+        "monthly/combined#6"
+      ],
+      "best_pnl_usd": 1043006.3498193682,
+      "positions_max": 24
+    },
+    {
+      "wallet": "6HJetMbdHBuk3mLUainxAPpBpWzDgYbHGTS2TqDAUSX2",
+      "username": "onlyljc",
+      "xUsername": "OnlyLJC",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#33",
+        "daily/unrealized#17",
+        "daily/combined#16",
+        "weekly/realized#44",
+        "weekly/unrealized#15",
+        "weekly/combined#13",
+        "monthly/realized#8",
+        "monthly/unrealized#19",
+        "monthly/combined#7"
+      ],
+      "best_pnl_usd": 895493.7116000146,
+      "positions_max": 54
+    },
+    {
+      "wallet": "9oqcX4mTVdLP7MDs7ZTL7jueW5EMjXTx7bwqy57cEuww",
+      "username": "mirage",
+      "xUsername": "miragemunny",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#13",
+        "daily/combined#14",
+        "weekly/unrealized#20",
+        "weekly/combined#22",
+        "monthly/unrealized#5",
+        "monthly/combined#8"
+      ],
+      "best_pnl_usd": 880507.5036932122,
+      "positions_max": 6
+    },
+    {
+      "wallet": "9djgawmgpGrzt7DQoJ6tA2YW4gQyt3yH19uVZ3e2T3JJ",
+      "username": "retardedgains",
+      "xUsername": "retardedgains",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#6",
+        "daily/combined#7",
+        "weekly/unrealized#7",
+        "weekly/combined#8",
+        "monthly/realized#45",
+        "monthly/unrealized#10",
+        "monthly/combined#9"
+      ],
+      "best_pnl_usd": 741892.5606513419,
+      "positions_max": 13
+    },
+    {
+      "wallet": "5hh7UE6i2BtyCvaMMadS71wFwK88JRmtRTfXkjZ3CHvF",
+      "username": "curb1",
+      "xUsername": "CryptoCurb",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#12",
+        "daily/combined#15",
+        "weekly/unrealized#17",
+        "weekly/combined#19",
+        "monthly/unrealized#6",
+        "monthly/combined#10"
+      ],
+      "best_pnl_usd": 722645.1273844194,
+      "positions_max": 68
+    },
+    {
+      "wallet": "G29kbPokFzmVeYuZB1ihA7AmGzLjyDaECEyRMKhHiR4J",
+      "username": "Mannerssx",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#32",
+        "daily/combined#31",
+        "weekly/unrealized#43",
+        "weekly/combined#41",
+        "monthly/unrealized#7",
+        "monthly/combined#11"
+      ],
+      "best_pnl_usd": 707662.9716701302,
+      "positions_max": 4
+    },
+    {
+      "wallet": "HsQnUgdVVUJNTTEe5mzpQFFi55oXq4UwcjByEFb3Rd52",
+      "username": "counter17",
+      "xUsername": "0xcounter",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#3",
+        "daily/combined#3",
+        "weekly/realized#35",
+        "weekly/unrealized#12",
+        "weekly/combined#10",
+        "monthly/unrealized#8",
+        "monthly/combined#12"
+      ],
+      "best_pnl_usd": 690798.5857100068,
+      "positions_max": 21
+    },
+    {
+      "wallet": "33Mduffr6xQBvERJaJBRSAG6pAcQtGq1qDdKt6MF4vBn",
+      "username": "Contra",
+      "xUsername": "supercontraa",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#74",
+        "weekly/combined#56",
+        "monthly/realized#22",
+        "monthly/unrealized#23",
+        "monthly/combined#13"
+      ],
+      "best_pnl_usd": 629655.1710235275,
+      "positions_max": 7
+    },
+    {
+      "wallet": "EVqxB3F6iUBeWsTpBFQqWwxpqUS8s4NrzgxBvQ2VRbTq",
+      "username": "faposhi__",
+      "xUsername": "faposhi__",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#32",
+        "daily/unrealized#91",
+        "daily/combined#58",
+        "weekly/unrealized#6",
+        "weekly/combined#7",
+        "monthly/unrealized#9",
+        "monthly/combined#14"
+      ],
+      "best_pnl_usd": 606205.0308351638,
+      "positions_max": 20
+    },
+    {
+      "wallet": "EsYapC57ZVREhwM74JckDuAHXBtTg9esTVNixZ3a4TwJ",
+      "username": "0xOmnia",
+      "xUsername": "0xOmnia",
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#11",
+        "monthly/combined#15"
+      ],
+      "best_pnl_usd": 555069.5522299344,
+      "positions_max": 1
+    },
+    {
+      "wallet": "EeiWEJNqoGosFA7oWPEZJbm9ntf6umdTV7cWHxYDeDHb",
+      "username": "remp",
+      "xUsername": "remp0x",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#18",
+        "daily/combined#20",
+        "weekly/unrealized#59",
+        "weekly/combined#67",
+        "monthly/realized#7",
+        "monthly/combined#16"
+      ],
+      "best_pnl_usd": 539529.9538276824,
+      "positions_max": 7
+    },
+    {
+      "wallet": "BQ4KBzzXXk6ZMxVQb4mePuUbJfe85MerzYj53eatzUWd",
+      "username": "brc20niubi",
+      "xUsername": "brc20niubi",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#61",
+        "daily/combined#66",
+        "monthly/realized#3",
+        "monthly/combined#17"
+      ],
+      "best_pnl_usd": 534582.7622887539,
+      "positions_max": 197
+    },
+    {
+      "wallet": "6rq8QHA89oeaPix1jUP7raHJ9HwNejUVCzwdwmpqcMhe",
+      "username": "swayzeeee",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#44",
+        "daily/combined#44",
+        "weekly/unrealized#56",
+        "weekly/combined#85",
+        "monthly/unrealized#12",
+        "monthly/combined#18"
+      ],
+      "best_pnl_usd": 532799.2475194844,
+      "positions_max": 6
+    },
+    {
+      "wallet": "EnPjBjzy6zaufzpZ2m3Q8nPS3KpyiRxNLKtcSiMYwWCa",
+      "username": "collectible",
+      "xUsername": "collectible",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#27",
+        "daily/combined#33",
+        "weekly/unrealized#11",
+        "weekly/combined#14",
+        "monthly/unrealized#14",
+        "monthly/combined#19"
+      ],
+      "best_pnl_usd": 524558.5797741048,
+      "positions_max": 17
+    },
+    {
+      "wallet": "3neNZ7NxWhp5R92doeKkhoau8p7zVBtLQJzVrPXqsWEc",
+      "username": "xSickFish",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#15",
+        "monthly/combined#20"
+      ],
+      "best_pnl_usd": 515275.31859487755,
+      "positions_max": 5
+    },
+    {
+      "wallet": "2jgmHtkCkJXm3Xq4dp9DgippkQjXLK3rhaREAz7oG7s7",
+      "username": "six666888eight",
+      "xUsername": "six666888eight",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#9",
+        "monthly/combined#21"
+      ],
+      "best_pnl_usd": 507397.8443531492,
+      "positions_max": 45
+    },
+    {
+      "wallet": "HXpJhVrbdGvnaPh2zpex7boUGX1qiRTL5ZNhmV76pBpC",
+      "username": "LaserDandyWing",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#5",
+        "weekly/combined#36",
+        "monthly/realized#10",
+        "monthly/combined#22"
+      ],
+      "best_pnl_usd": 502269.0627163362,
+      "positions_max": 3
+    },
+    {
+      "wallet": "74YxQkkVCAPk4njqfwJSE6MFKcVECgZv3S4wuynnDGrD",
+      "username": "Dawnnite",
+      "xUsername": "dawnnitee",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#99",
+        "monthly/realized#25",
+        "monthly/unrealized#37",
+        "monthly/combined#23"
+      ],
+      "best_pnl_usd": 468792.35347998387,
+      "positions_max": 9
+    },
+    {
+      "wallet": "CkZqyugfNYUpCEfRTeERprSTwLPc6rcrtUNcdDZEig53",
+      "username": "swansonbenson0",
+      "xUsername": "swansonbenson0",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#24",
+        "daily/combined#23",
+        "weekly/unrealized#24",
+        "weekly/combined#26",
+        "monthly/realized#37",
+        "monthly/unrealized#26",
+        "monthly/combined#24"
+      ],
+      "best_pnl_usd": 445562.83070059295,
+      "positions_max": 36
+    },
+    {
+      "wallet": "CP8EA1BnR2bnHa7BJps9c53zZwxaubrBtQCbREaZVibe",
+      "username": "lvvpumpy",
+      "xUsername": "lvvpumpy",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#11",
+        "monthly/combined#25"
+      ],
+      "best_pnl_usd": 440983.8744484742,
+      "positions_max": 1
+    },
+    {
+      "wallet": "AH39BneW9UeWxQysUcwogQrYFdPvJuRVZ5w4ccq9SKfL",
+      "username": "_logjam",
+      "xUsername": "_logjam",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#4",
+        "daily/combined#4",
+        "weekly/realized#2",
+        "weekly/unrealized#8",
+        "weekly/combined#4",
+        "monthly/realized#84",
+        "monthly/combined#91"
+      ],
+      "best_pnl_usd": 413761.31783516955,
+      "positions_max": 22
+    },
+    {
+      "wallet": "q1x4ZBM4suUaMB8BjsHpVH5dwyUtEnRY8QB8kzvCQ9z",
+      "username": "deroller",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#12",
+        "monthly/combined#26"
+      ],
+      "best_pnl_usd": 409394.48871749116,
+      "positions_max": 6
+    },
+    {
+      "wallet": "64w4qRu9VGio7U1Asc6B68QDpS8L1McmSn2yyExC6Fii",
+      "username": "lbexplorer",
+      "xUsername": "lbexplorer",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#64",
+        "daily/combined#75",
+        "weekly/realized#84",
+        "weekly/unrealized#78",
+        "weekly/combined#59",
+        "monthly/unrealized#18",
+        "monthly/combined#27"
+      ],
+      "best_pnl_usd": 404603.69487049466,
+      "positions_max": 6
+    },
+    {
+      "wallet": "AVHR6Zedgq5qGPaAZYf9dfS4hHXed17NSh3t5ShNPkzA",
+      "username": "CatoshiNakameme",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#22",
+        "weekly/combined#23",
+        "monthly/unrealized#16",
+        "monthly/combined#28"
+      ],
+      "best_pnl_usd": 404464.8246328564,
+      "positions_max": 22
+    },
+    {
+      "wallet": "9H7nQxF1vmrr9fjcE55Y9RoTb1uhKtE7934y8Ww8oijr",
+      "username": "yuge69",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#18",
+        "monthly/combined#29"
+      ],
+      "best_pnl_usd": 402106.7838064332,
+      "positions_max": 145
+    },
+    {
+      "wallet": "CyaE1VxvBrahnPWkqm5VsdCvyS2QmNht2UFrKJHga54o",
+      "username": "cented69420",
+      "xUsername": "Cented7",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#5",
+        "daily/combined#99",
+        "weekly/realized#7",
+        "weekly/combined#44",
+        "monthly/realized#16",
+        "monthly/combined#30"
+      ],
+      "best_pnl_usd": 392750.00440592814,
+      "positions_max": 671
+    },
+    {
+      "wallet": "FtDwzAxJuMmLa3MDVxcGjKRwHmpNnMyCzmEwGQYX5q9J",
+      "username": "360ng",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#24",
+        "monthly/unrealized#63",
+        "monthly/combined#31"
+      ],
+      "best_pnl_usd": 391132.4282728747,
+      "positions_max": 47
+    },
+    {
+      "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9",
+      "username": "notdecu",
+      "xUsername": "notdecu",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#23",
+        "weekly/realized#6",
+        "weekly/combined#40",
+        "monthly/realized#17",
+        "monthly/combined#32"
+      ],
+      "best_pnl_usd": 384994.8940766971,
+      "positions_max": 222
+    },
+    {
+      "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT",
+      "username": "trunoest",
+      "xUsername": "trunoest",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#55",
+        "weekly/realized#9",
+        "weekly/combined#52",
+        "monthly/realized#19",
+        "monthly/combined#33"
+      ],
+      "best_pnl_usd": 367487.95656449214,
+      "positions_max": 42
+    },
+    {
+      "wallet": "4YMaKs8Xx1U1NyP1PTQe5J3kxZvE3bSCoVUEPgrkNXpb",
+      "username": "munji",
+      "xUsername": "munji33",
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#13",
+        "monthly/combined#34"
+      ],
+      "best_pnl_usd": 350384.23895838496,
+      "positions_max": 4
+    },
+    {
+      "wallet": "6s1H4NEejNCfd7AkgW6S2r9nGadE4q7AXQDCWKXM36Jg",
+      "username": "rustbond",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#56",
+        "daily/combined#65",
+        "weekly/unrealized#77",
+        "monthly/unrealized#17",
+        "monthly/combined#35"
+      ],
+      "best_pnl_usd": 349828.29105643753,
+      "positions_max": 3
+    },
+    {
+      "wallet": "29yFzeBZgxf5zqrAkKXwgZtQehRf4pL8WbV2nRJikbw8",
+      "username": "throatycrab1008",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#10",
+        "weekly/realized#3",
+        "weekly/combined#25",
+        "monthly/realized#20",
+        "monthly/combined#36"
+      ],
+      "best_pnl_usd": 347435.3624342302,
+      "positions_max": 78
+    },
+    {
+      "wallet": "BxMvZfRDREfLMZMaUdz9p9gHyk7QkXGZN8igqZeFniPd",
+      "username": "akinwhale46226",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#9",
+        "daily/combined#12",
+        "weekly/unrealized#47",
+        "weekly/combined#50",
+        "monthly/unrealized#20",
+        "monthly/combined#37"
+      ],
+      "best_pnl_usd": 342658.90871518827,
+      "positions_max": 8
+    },
+    {
+      "wallet": "24L6uekgvsQRgT41DZRhahEAAVnkseTT7x4qyigC3HvH",
+      "username": "Nexybtw",
+      "xUsername": "Nexybtw",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#7",
+        "daily/combined#8",
+        "weekly/unrealized#5",
+        "weekly/combined#6"
+      ],
+      "best_pnl_usd": 338852.6511416785,
+      "positions_max": 3
+    },
+    {
+      "wallet": "23LAQiqYP77uDchq5k4W2SPUuZ7f1du9rt7KGUkXa36V",
+      "username": "TylerD",
+      "xUsername": "Tyler_Did_It",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#21",
+        "daily/unrealized#39",
+        "daily/combined#27",
+        "weekly/unrealized#16",
+        "weekly/combined#16",
+        "monthly/realized#56",
+        "monthly/unrealized#30",
+        "monthly/combined#38"
+      ],
+      "best_pnl_usd": 333798.2940419452,
+      "positions_max": 31
+    },
+    {
+      "wallet": "G3sYJ99sqZy39m98qSP9De543Ae2zHy8B6we7tb7z3jT",
+      "username": "roovera",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#16",
+        "daily/combined#18",
+        "weekly/unrealized#34",
+        "weekly/combined#33",
+        "monthly/unrealized#13",
+        "monthly/combined#39"
+      ],
+      "best_pnl_usd": 328431.9176398453,
+      "positions_max": 2
+    },
+    {
+      "wallet": "8HH3M6SfUCC9yGM3ytaFQWnDc19tSBYCNJBnqeWaQ8Xb",
+      "username": "fomo_sexual",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/realized#89",
+        "daily/unrealized#54",
+        "daily/combined#52",
+        "weekly/realized#27",
+        "monthly/realized#59",
+        "monthly/unrealized#32",
+        "monthly/combined#40"
+      ],
+      "best_pnl_usd": 326182.3915620574,
+      "positions_max": 4
+    },
+    {
+      "wallet": "EFpQWGxuoS9nxB1sX9x6LTJAvsnKxcnpZpMmz3QDGnfJ",
+      "username": "hotdogenj0yer",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#75",
+        "daily/combined#73",
+        "monthly/realized#51",
+        "monthly/unrealized#33",
+        "monthly/combined#41"
+      ],
+      "best_pnl_usd": 321171.7735370071,
+      "positions_max": 11
+    },
+    {
+      "wallet": "BGSecfpdtCSa5xLfjYkmXKtzJgaUxpdLAsCiNkbxVm8o",
+      "username": "punter",
+      "xUsername": "punter_punts",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#26",
+        "daily/unrealized#10",
+        "daily/combined#9",
+        "weekly/realized#50",
+        "weekly/unrealized#10",
+        "weekly/combined#9",
+        "monthly/unrealized#22",
+        "monthly/combined#42"
+      ],
+      "best_pnl_usd": 312469.61542104126,
+      "positions_max": 16
+    },
+    {
+      "wallet": "5CYEcx88NhdRaFw3pc5YNBXoiKa3EseD8BM7Bvs8NkaU",
+      "username": "Loshmi",
+      "xUsername": "loshmi",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#27",
+        "monthly/combined#43"
+      ],
+      "best_pnl_usd": 308038.7324300337,
+      "positions_max": 5
+    },
+    {
+      "wallet": "HizZ5US8st5MHKXjeboHwGmbDa85KeM8GG1a7XJNMUrc",
+      "username": "GemAnon",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#77",
+        "daily/combined#81",
+        "monthly/realized#21",
+        "monthly/combined#44"
+      ],
+      "best_pnl_usd": 304326.81147202285,
+      "positions_max": 873
+    },
+    {
+      "wallet": "AHKnF7imSiSyBsPU3Rd8Gykk6etfLHRA1f5aZPpcbSWf",
+      "username": "surecrab69160",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#81",
+        "daily/combined#86",
+        "weekly/unrealized#94",
+        "monthly/unrealized#21",
+        "monthly/combined#45"
+      ],
+      "best_pnl_usd": 296164.80877488584,
+      "positions_max": 5
+    },
+    {
+      "wallet": "AusMtCwzrPnPoJUSHYUH9iogVwpWh2ESHC6xWU75tBDo",
+      "username": "Uniswapvillain",
+      "xUsername": "UniswapVillain",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#53",
+        "daily/unrealized#57",
+        "daily/combined#49",
+        "weekly/realized#98",
+        "monthly/realized#34",
+        "monthly/unrealized#87",
+        "monthly/combined#46"
+      ],
+      "best_pnl_usd": 285145.687054002,
+      "positions_max": 82
+    },
+    {
+      "wallet": "uDYvqwgSxNDMKGPaMJ7JqyadEg1EhxkuCx9hbLSanHA",
+      "username": "passthedutcher",
+      "xUsername": "passthedutcher",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#17",
+        "daily/unrealized#15",
+        "daily/combined#10",
+        "weekly/realized#22",
+        "weekly/unrealized#25",
+        "weekly/combined#17",
+        "monthly/realized#47",
+        "monthly/unrealized#47",
+        "monthly/combined#47"
+      ],
+      "best_pnl_usd": 284579.0802953806,
+      "positions_max": 12
+    },
+    {
+      "wallet": "DFqdZtjk7p6k88HihENe3VfwFRC7MuEm9sWgQo7tz586",
+      "username": "zachvierr",
+      "xUsername": "zachvierrr",
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#27",
+        "monthly/combined#48"
+      ],
+      "best_pnl_usd": 281958.73104162194,
+      "positions_max": 10
+    },
+    {
+      "wallet": "HNHYoSBUakcJog6rXRXGRBEcs4L2YvwyYJZTKqVonBtM",
+      "username": "Painkillerbill",
+      "xUsername": "painkillerbill",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#21",
+        "daily/combined#22",
+        "weekly/unrealized#14",
+        "weekly/combined#15",
+        "monthly/unrealized#24",
+        "monthly/combined#49"
+      ],
+      "best_pnl_usd": 279993.2891035221,
+      "positions_max": 2
+    },
+    {
+      "wallet": "215nhcAHjQQGgwpQSJQ7zR26etbjjtVdW74NLzwEgQjP",
+      "username": "ogantd",
+      "xUsername": "0GAntD",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#55",
+        "monthly/realized#29",
+        "monthly/combined#50"
+      ],
+      "best_pnl_usd": 278102.673423973,
+      "positions_max": 261
+    },
+    {
+      "wallet": "GRWXXWeQhKQYHR3BCpkCHtDAXmTej5Cwb2tYPM6uV5WP",
+      "username": "TheSurveillor",
+      "xUsername": "surveillor",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#46",
+        "daily/combined#46",
+        "weekly/unrealized#87",
+        "monthly/realized#28",
+        "monthly/combined#51"
+      ],
+      "best_pnl_usd": 275466.5641533051,
+      "positions_max": 5
+    },
+    {
+      "wallet": "2QrfK8gf3vBcFfuaCJbFxGk3w1JxwjamGE9aGwdQHFas",
+      "username": "Thokani",
+      "xUsername": "thokani",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#20",
+        "daily/combined#21",
+        "weekly/unrealized#35",
+        "weekly/combined#28",
+        "monthly/realized#49",
+        "monthly/unrealized#51",
+        "monthly/combined#52"
+      ],
+      "best_pnl_usd": 272258.8887603426,
+      "positions_max": 6
+    },
+    {
+      "wallet": "BNahnx13rLru9zxuWNGBD7vVv1pGQXB11Q7qeTyupdWf",
+      "username": "rayan",
+      "xUsername": "69d",
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#26",
+        "monthly/combined#53"
+      ],
+      "best_pnl_usd": 262847.6128495029,
+      "positions_max": 64
+    },
+    {
+      "wallet": "E7pskdV9xCCMXtsu747tjjFEMq9Fwwnvwo6fApQWBwxP",
+      "username": "Thepennyflippe",
+      "xUsername": "Thepennyflippe",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#48",
+        "monthly/realized#30",
+        "monthly/combined#54"
+      ],
+      "best_pnl_usd": 261132.5347680386,
+      "positions_max": 4
+    },
+    {
+      "wallet": "3yTahCwhuYTrqWsVqHavYxZ9eknMRvNZF117HHEzpn9X",
+      "username": "Tittyfag",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#54",
+        "weekly/combined#62",
+        "monthly/unrealized#25",
+        "monthly/combined#55"
+      ],
+      "best_pnl_usd": 260196.53123757167,
+      "positions_max": 9
+    },
+    {
+      "wallet": "AAcnkt8u8NgZBAPY5eUTSSc4oeHZNfB6dXsV1yWf8YSC",
+      "username": "CryptoGodJohn",
+      "xUsername": "CryptoGodJohn",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#70",
+        "daily/combined#76",
+        "weekly/unrealized#9",
+        "weekly/combined#11",
+        "monthly/unrealized#35",
+        "monthly/combined#59"
+      ],
+      "best_pnl_usd": 254455.35590178092,
+      "positions_max": 3
+    },
+    {
+      "wallet": "GijFWw4oNyh9ko3FaZforNsi3jk6wDovARpkKahPD4o5",
+      "username": "lunarfang",
+      "xUsername": "lunarfang_416",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#23",
+        "monthly/combined#56"
+      ],
+      "best_pnl_usd": 254012.9211757279,
+      "positions_max": 1406
+    },
+    {
+      "wallet": "9E9xEwxxmfBy4edHySzy5kyaUjrafiWa9mKsYnA8Yaq1",
+      "username": "tradeslop",
+      "xUsername": "tradeslop",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#98",
+        "monthly/realized#31",
+        "monthly/combined#57"
+      ],
+      "best_pnl_usd": 245056.9133506333,
+      "positions_max": 4
+    },
+    {
+      "wallet": "CXhZnEbWmaiK8GE8uYqDyQmcGS9SANqsuLJMYSYnLmGR",
+      "username": "CoinSmuggler",
+      "xUsername": "CoinSmuggling",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#8",
+        "daily/combined#11",
+        "weekly/realized#80",
+        "weekly/unrealized#13",
+        "weekly/combined#12",
+        "monthly/unrealized#38",
+        "monthly/combined#84"
+      ],
+      "best_pnl_usd": 243537.0026446649,
+      "positions_max": 35
+    },
+    {
+      "wallet": "Fv7ubG15npHzRTKqg8AkAwNNMLaaTgecGWt3yoTmfUWT",
+      "username": "realgainzy",
+      "xUsername": "gainzy222",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#31",
+        "daily/combined#32",
+        "weekly/unrealized#21",
+        "weekly/combined#21",
+        "monthly/unrealized#36",
+        "monthly/combined#58"
+      ],
+      "best_pnl_usd": 242377.24809457918,
+      "positions_max": 275
+    },
+    {
+      "wallet": "2fg5QD1eD7rzNNCsvnhmXFm5hqNgwTTG8p7kQ6f3rx6f",
+      "username": "cupseyyyyy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#32",
+        "monthly/combined#60"
+      ],
+      "best_pnl_usd": 228669.78292871188,
+      "positions_max": 7
+    },
+    {
+      "wallet": "G3gZWqrYkNmYFKYCyfRCNtGuxdyuE2wiYKkZpiZn4WSS",
+      "username": "goyim",
+      "xUsername": "goyimpnl",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#29",
+        "daily/combined#30",
+        "monthly/unrealized#29",
+        "monthly/combined#61"
+      ],
+      "best_pnl_usd": 228437.4798995459,
+      "positions_max": 9
+    },
+    {
+      "wallet": "4EsYuWFZAt1PfNJq8Jr7monip43gNqrQ7k2Kne1npqJx",
+      "username": "Guywhobuys",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#81",
+        "monthly/realized#41",
+        "monthly/combined#62"
+      ],
+      "best_pnl_usd": 221470.48204562376,
+      "positions_max": 2
+    },
+    {
+      "wallet": "6rc9at7PvNuEL3q69iTpfVGUDJ1QAnpd3cQwD28ZaC2P",
+      "username": "tentaclepapi",
+      "xUsername": "tentaclepapi",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#69",
+        "daily/combined#74",
+        "weekly/unrealized#49",
+        "weekly/combined#55",
+        "monthly/unrealized#28",
+        "monthly/combined#63"
+      ],
+      "best_pnl_usd": 210759.3673616443,
+      "positions_max": 4
+    },
+    {
+      "wallet": "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh",
+      "username": "TheMisterTurtle",
+      "xUsername": "TheMisterTurtle",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#13",
+        "weekly/combined#64",
+        "monthly/realized#35",
+        "monthly/combined#64"
+      ],
+      "best_pnl_usd": 205055.01572659632,
+      "positions_max": 6
+    },
+    {
+      "wallet": "4xWwgcjfnK4CspxSTdiXszd5JcorWFj95v2y6QtkPurB",
+      "username": "Mptrading",
+      "xUsername": "MPtrading_x",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#63",
+        "weekly/combined#80",
+        "monthly/unrealized#53",
+        "monthly/combined#65"
+      ],
+      "best_pnl_usd": 203277.62780958347,
+      "positions_max": 17
+    },
+    {
+      "wallet": "3g2CMS6j2HUFtoPGs2TS2QpMzsDXKHZG8U3JJj1U859E",
+      "username": "moneystoreheist",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#92",
+        "daily/combined#87",
+        "weekly/unrealized#67",
+        "weekly/combined#73",
+        "monthly/realized#61",
+        "monthly/unrealized#80",
+        "monthly/combined#66"
+      ],
+      "best_pnl_usd": 201089.94206486264,
+      "positions_max": 9
+    },
+    {
+      "wallet": "FFdBLYqL9rs5fUT38ArE8GV2L3BziEgG5LJUu6sshfkF",
+      "username": "alphaprophet",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#21",
+        "weekly/combined#98",
+        "monthly/realized#38",
+        "monthly/combined#67"
+      ],
+      "best_pnl_usd": 194748.4737588676,
+      "positions_max": 5
+    },
+    {
+      "wallet": "BSzpGGB3AMwtW126RT3Z27STSBrVjKV5A96H4BsUKdtD",
+      "username": "ferre",
+      "xUsername": "FerreWeb3",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#66",
+        "weekly/realized#40",
+        "monthly/realized#40",
+        "monthly/combined#68"
+      ],
+      "best_pnl_usd": 189046.67644745327,
+      "positions_max": 3
+    },
+    {
+      "wallet": "EFdEVbaVJ7HXguXvFsX4yW2FBL8bWy6fXn2GDwuK1i1D",
+      "username": "Chjokka",
+      "xUsername": "chjokka",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#76",
+        "monthly/unrealized#88",
+        "monthly/combined#69"
+      ],
+      "best_pnl_usd": 182107.66089676856,
+      "positions_max": 7
+    },
+    {
+      "wallet": "Fh9mFXura9qKSQppPvkTMjBeRwR6ETxfdXS79T98RwzR",
+      "username": "ansemsdad",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#43",
+        "monthly/combined#70"
+      ],
+      "best_pnl_usd": 178394.10462227382,
+      "positions_max": 11
+    },
+    {
+      "wallet": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+      "username": "cooker",
+      "xUsername": "CookerFlips",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#1",
+        "daily/unrealized#22",
+        "daily/combined#5",
+        "weekly/realized#1",
+        "monthly/realized#4"
+      ],
+      "best_pnl_usd": 175299.04955608142,
+      "positions_max": 72
+    },
+    {
+      "wallet": "GgbCFRHHAPv5i1fqt1D1buf8FPNA31oKrkZvXDyZymsT",
+      "username": "losther",
+      "xUsername": "all_ineed1",
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#12",
+        "monthly/realized#36",
+        "monthly/combined#71"
+      ],
+      "best_pnl_usd": 174987.56457167375,
+      "positions_max": 108
+    },
+    {
+      "wallet": "Goj6MczfEqArgzWMxLFAi5Z1MbPPMb1PjWcCjg5gSBBx",
+      "username": "Proteus1",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#18",
+        "weekly/combined#18",
+        "monthly/unrealized#57"
+      ],
+      "best_pnl_usd": 174520.43083751688,
+      "positions_max": 1
+    },
+    {
+      "wallet": "AuPp4YTMTyqxYXQnHc5KUc6pUuCSsHQpBJhgnD45yqrf",
+      "username": "daniworldwidee",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#58",
+        "monthly/combined#72"
+      ],
+      "best_pnl_usd": 173795.73232969063,
+      "positions_max": 35
+    },
+    {
+      "wallet": "95CwNd3p9TtUmNesnri1Tf5KzS58SzgDZJCDHmTiwgE2",
+      "username": "DecentralizeDie",
+      "xUsername": "DecentrlizOrDie",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#45",
+        "weekly/combined#45",
+        "monthly/unrealized#62",
+        "monthly/combined#73"
+      ],
+      "best_pnl_usd": 171792.87423611985,
+      "positions_max": 11
+    },
+    {
+      "wallet": "5FnE3q4tcDkEjRGuHgcxoBLXoZjWXDE5xEpJyneHDc9g",
+      "username": "megz0101",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#44",
+        "monthly/combined#74"
+      ],
+      "best_pnl_usd": 170536.8509732449,
+      "positions_max": 2
+    },
+    {
+      "wallet": "77n6X7LtGy5AZprsvjZu1eaekJpxqLeVRZLPJZdBYyg9",
+      "username": "asaprubi",
+      "xUsername": "zRubizz",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#41",
+        "daily/combined#39",
+        "weekly/unrealized#27",
+        "weekly/combined#39",
+        "monthly/unrealized#45",
+        "monthly/combined#75"
+      ],
+      "best_pnl_usd": 169241.81044330198,
+      "positions_max": 20
+    },
+    {
+      "wallet": "ErQn9Kwqd2jUnCke84i8GEeaA5cWZ4dtsQJZazs2mTTA",
+      "username": "poorplumber",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#96",
+        "daily/combined#97",
+        "monthly/unrealized#41",
+        "monthly/combined#76"
+      ],
+      "best_pnl_usd": 167888.84327377574,
+      "positions_max": 11
+    },
+    {
+      "wallet": "22ZeReo2tiCFnSX4oMb7aReRQtuGhfPbJ95sKBuf2L9c",
+      "username": "richtardio",
+      "xUsername": "richtardio",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#52",
+        "monthly/combined#77"
+      ],
+      "best_pnl_usd": 166506.46412922756,
+      "positions_max": 22
+    },
+    {
+      "wallet": "FaCDoRVWSGtr24Eg5rwxMd7LNjTkfBTSCQEjX6TnbzAt",
+      "username": "DJ_trader",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#19",
+        "daily/combined#19",
+        "weekly/unrealized#19",
+        "weekly/combined#20",
+        "monthly/unrealized#60",
+        "monthly/combined#93"
+      ],
+      "best_pnl_usd": 166032.99538946408,
+      "positions_max": 6
+    },
+    {
+      "wallet": "2jYJwvXCHPgRPo7MRfAgZz4VoEqCNGyCMUgwWW6aKfBB",
+      "username": "swooshi",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#66",
+        "monthly/combined#78"
+      ],
+      "best_pnl_usd": 165026.23177991793,
+      "positions_max": 18
+    },
+    {
+      "wallet": "Cqs7HRBE87a9zq3pC2aLTYQDJ5HsgTWCaRFQqzHY7XBS",
+      "username": "duckcuck",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#60",
+        "weekly/combined#71",
+        "monthly/unrealized#34",
+        "monthly/combined#79"
+      ],
+      "best_pnl_usd": 164744.847914192,
+      "positions_max": 13
+    },
+    {
+      "wallet": "4NbdPJQHpD7bQrvuJ8wPuVtaWJeU41JzDyjWwGr9UAVF",
+      "username": "crypticd22",
+      "xUsername": "crypticd22",
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#48",
+        "monthly/combined#80"
+      ],
+      "best_pnl_usd": 164652.8436532126,
+      "positions_max": 12
+    },
+    {
+      "wallet": "5LprzVTseZMU9wVujzKwV1xe4gfejfkPcoDkYTEKisGb",
+      "username": "sized",
+      "xUsername": "sized_in",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#79",
+        "weekly/combined#89",
+        "monthly/realized#63",
+        "monthly/combined#81"
+      ],
+      "best_pnl_usd": 162700.607973262,
+      "positions_max": 23
+    },
+    {
+      "wallet": "6vbrTLsWy76TxDQAUKLqZrPohQuq6EVaJgfGzR82paFa",
+      "username": "marcell",
+      "xUsername": "MarcellxMarcell",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#5",
+        "daily/combined#6",
+        "weekly/unrealized#41",
+        "weekly/combined#53",
+        "monthly/unrealized#49"
+      ],
+      "best_pnl_usd": 157338.6206849615,
+      "positions_max": 40
+    },
+    {
+      "wallet": "82m59BvGrbCSKUXhuqdNXP7pSnYQEasLhWCek7zsbXpT",
+      "username": "Dimi",
+      "xUsername": "DimitriDotEth",
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#46",
+        "monthly/combined#82"
+      ],
+      "best_pnl_usd": 155477.11014319622,
+      "positions_max": 3
+    },
+    {
+      "wallet": "3j5c4aD1aznxQXJ3DWw1b7UD8kKuaqXVbpaVeWPR83TG",
+      "username": "Kaaox",
+      "xUsername": "xKaaox",
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#48",
+        "monthly/combined#83"
+      ],
+      "best_pnl_usd": 153656.5036156254,
+      "positions_max": 6
+    },
+    {
+      "wallet": "FRJB1ZuDJ1RtPGs5gWSxE87kKV53sKEdGfgTReVzcSoH",
+      "username": "MomsFavourite",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#42",
+        "monthly/combined#85"
+      ],
+      "best_pnl_usd": 145974.1137961504,
+      "positions_max": 7
+    },
+    {
+      "wallet": "2LPRuWPFATqCexjKA3eBkBh14tKFxHxNjve1bdKxHYko",
+      "username": "laxstarfish1400",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#14",
+        "daily/combined#26",
+        "weekly/unrealized#28",
+        "weekly/combined#24",
+        "monthly/unrealized#50",
+        "monthly/combined#90"
+      ],
+      "best_pnl_usd": 144507.78966259246,
+      "positions_max": 3
+    },
+    {
+      "wallet": "4kU4JzzLVF2b6BjjabR7y6yePKQVCnxGpLKAJUKKHQVk",
+      "username": "threadedtxs",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#40",
+        "monthly/combined#86"
+      ],
+      "best_pnl_usd": 143002.40458254766,
+      "positions_max": 57
+    },
+    {
+      "wallet": "AMAoBmUM6LzYkRBa7GmKy6apZg5LGDakMDMPrAFsbGRo",
+      "username": "amapump",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#53",
+        "monthly/combined#87"
+      ],
+      "best_pnl_usd": 140585.95933958847,
+      "positions_max": 7
+    },
+    {
+      "wallet": "CAvvAFNRfXDWTTDqwgxb9qSyYT8fTuTXWSFwL7Jsz8vT",
+      "username": "binaryshark2861",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#54",
+        "monthly/combined#88"
+      ],
+      "best_pnl_usd": 139942.79875098978,
+      "positions_max": 6
+    },
+    {
+      "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt",
+      "username": "theonomics",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#46",
+        "monthly/realized#55",
+        "monthly/combined#89"
+      ],
+      "best_pnl_usd": 139109.1125743823,
+      "positions_max": 766
+    },
+    {
+      "wallet": "K1i1BNY4m6XmnKzhV3kEP3DayF1hyFA6So2MqnP1nRb",
+      "username": "boldsealamorpho",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#72",
+        "monthly/combined#92"
+      ],
+      "best_pnl_usd": 134682.54649052373,
+      "positions_max": 11
+    },
+    {
+      "wallet": "9qpucJgTkTVSbMPksG4fequu9STgFxr9AQmLN25MwiBV",
+      "username": "FrostxXBT",
+      "xUsername": "FrostxXBT",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#26",
+        "weekly/combined#27"
+      ],
+      "best_pnl_usd": 129116.79643295925,
+      "positions_max": 44
+    },
+    {
+      "wallet": "6PHz4ku4n3LrvBvR9FByRnWCJn14WMW5JUGyJBdemwSr",
+      "username": "FruitF1y",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#73",
+        "monthly/combined#94"
+      ],
+      "best_pnl_usd": 128658.59450060927,
+      "positions_max": 15
+    },
+    {
+      "wallet": "5xZ7Ns6kpJKDwH2MUeityAEc17qkEwofp97eLEqPvgdT",
+      "username": "bostoncapital",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#43",
+        "daily/combined#43",
+        "weekly/unrealized#31",
+        "weekly/combined#31",
+        "monthly/unrealized#43",
+        "monthly/combined#95"
+      ],
+      "best_pnl_usd": 128548.99896414368,
+      "positions_max": 1
+    },
+    {
+      "wallet": "5RmywfYqdCuFHCM7vFfoKaobD6MZharunTMT1qQHiy93",
+      "username": "LadyboyDestroyr",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#26",
+        "daily/combined#24",
+        "weekly/unrealized#80",
+        "monthly/unrealized#90",
+        "monthly/combined#96"
+      ],
+      "best_pnl_usd": 126615.74786644685,
+      "positions_max": 4
+    },
+    {
+      "wallet": "6fWHsypc3B19Za2bKoJJeh4beoHYNHkebVCLcviTA2WU",
+      "username": "hsank",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#98",
+        "weekly/combined#81",
+        "monthly/combined#97"
+      ],
+      "best_pnl_usd": 126572.50229359414,
+      "positions_max": 71
+    },
+    {
+      "wallet": "944q8jiyLsHoYaVieiz96zGcATUHuMj3G47H1RAQunH6",
+      "username": "hoeleeshiet",
+      "xUsername": "hoeleeshiett",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#95",
+        "monthly/unrealized#54",
+        "monthly/combined#98"
+      ],
+      "best_pnl_usd": 125781.35735584877,
+      "positions_max": 4
+    },
+    {
+      "wallet": "4y2T1ghykCTq4EddoXjptZamk4qAsqcZw6eKxS8jdvE1",
+      "username": "hdegroot",
+      "xUsername": "hdegrootvan",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#15",
+        "monthly/combined#99"
+      ],
+      "best_pnl_usd": 124813.0250950772,
+      "positions_max": 39
+    },
+    {
+      "wallet": "GeUnv1jmtviRbR7Gu1JnXSGkUMUgFVBHuEVQVpTaUX1W",
+      "username": "Gladey",
+      "xUsername": "Gladey777",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#28",
+        "weekly/realized#10",
+        "weekly/combined#58",
+        "monthly/realized#67",
+        "monthly/combined#100"
+      ],
+      "best_pnl_usd": 124173.03899351475,
+      "positions_max": 2
+    },
+    {
+      "wallet": "Frk9APGk2RkutWrBCKueWB4UQBA5ZTJdgtRdNZSmFX1i",
+      "username": "Dumpcomesfast",
+      "xUsername": "dcfgod",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#38",
+        "daily/combined#38",
+        "weekly/unrealized#29",
+        "weekly/combined#29"
+      ],
+      "best_pnl_usd": 122541.3916720376,
+      "positions_max": 15
+    },
+    {
+      "wallet": "BHREKFkPQgAtDs8Vb1UfLkUpjG6ScidTjHaCWFuG2AtX",
+      "username": "Risk100x",
+      "xUsername": "riskconviction",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#71"
+      ],
+      "best_pnl_usd": 121515.39743512309,
+      "positions_max": 6
+    },
+    {
+      "wallet": "EwfZY9YvNA1XUjDnicQMkNPw61d75gn8oKfCWL1Reyxa",
+      "username": "hierux",
+      "xUsername": "hierux",
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#44"
+      ],
+      "best_pnl_usd": 121411.95846832456,
+      "positions_max": 17
+    },
+    {
+      "wallet": "4qMpTuriauYx2KMDGN3uNGcd4REjm8m1fjnwVf8aTVUH",
+      "username": "ShooterG",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#24",
+        "daily/unrealized#98",
+        "daily/combined#57",
+        "weekly/realized#24",
+        "weekly/unrealized#48",
+        "weekly/combined#30",
+        "monthly/unrealized#98"
+      ],
+      "best_pnl_usd": 121122.67562927301,
+      "positions_max": 4
+    },
+    {
+      "wallet": "EZYvsE8V74qRpCRcjzHa4k6qF9NR2W8ySMHdsGQv22TY",
+      "username": "shaams",
+      "xUsername": "shaams",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#62"
+      ],
+      "best_pnl_usd": 120472.8978396242,
+      "positions_max": 4
+    },
+    {
+      "wallet": "DdM1tyCdoEyoxYYmGMjdf5rRPcpmj3UzZTpE7ScuTf7d",
+      "username": "FlippingProfits",
+      "xUsername": "Flippingprofits",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#9",
+        "daily/unrealized#23",
+        "daily/combined#13",
+        "monthly/realized#14"
+      ],
+      "best_pnl_usd": 119910.93929876448,
+      "positions_max": 256
+    },
+    {
+      "wallet": "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU",
+      "username": "megga",
+      "xUsername": "Megga",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#81",
+        "monthly/realized#70"
+      ],
+      "best_pnl_usd": 118619.64409396604,
+      "positions_max": 54
+    },
+    {
+      "wallet": "4BKBwYZb5hnUKkvqPfefP7PWotHNUdWA9s22w7nV6xWw",
+      "username": "I4NFTS",
+      "xUsername": "I4NFTS",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#34",
+        "monthly/realized#60"
+      ],
+      "best_pnl_usd": 118235.51403353979,
+      "positions_max": 1
+    },
+    {
+      "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb",
+      "username": "banval",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#54",
+        "weekly/realized#66",
+        "monthly/realized#75"
+      ],
+      "best_pnl_usd": 115622.89771801508,
+      "positions_max": 265
+    },
+    {
+      "wallet": "EU1bFxZ9oiUC2V6tme6gaPgTP6mvVm54q2oUKD27U3pm",
+      "username": "lunchmoney_69",
+      "xUsername": "lunchmoney_69",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#68",
+        "monthly/realized#80"
+      ],
+      "best_pnl_usd": 115582.85921816887,
+      "positions_max": 122
+    },
+    {
+      "wallet": "2PYV6pHDEC4Bry9VMAL4FEVC3bSRsqGqSeiW9us9ibo2",
+      "username": "RisitasEngineer",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#76",
+        "daily/combined#83",
+        "weekly/unrealized#40",
+        "weekly/combined#38",
+        "monthly/unrealized#64"
+      ],
+      "best_pnl_usd": 115402.4069147076,
+      "positions_max": 4
+    },
+    {
+      "wallet": "5YRgrP3mjGzrzirYYN5HAQH19cTYREYwGxW6XRJQUzij",
+      "username": "slingoor",
+      "xUsername": "slingoorio",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#11",
+        "daily/combined#17",
+        "weekly/unrealized#32",
+        "monthly/unrealized#86"
+      ],
+      "best_pnl_usd": 114820.77040744499,
+      "positions_max": 22
+    },
+    {
+      "wallet": "6Mbu9DRp89epNbmK6wTkYTuBrcWwyD6TPz83EQ5Fx2d2",
+      "username": "Revenantwithin",
+      "xUsername": "Revenantwithin",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#93",
+        "monthly/unrealized#66"
+      ],
+      "best_pnl_usd": 113445.87970722401,
+      "positions_max": 2
+    },
+    {
+      "wallet": "7TNYdvwDzuRKvquzn24grcGwvrtpsYK58GAWdRBnm3UT",
+      "username": "stngzx",
+      "xUsername": "stngzx",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#64"
+      ],
+      "best_pnl_usd": 112293.55780311234,
+      "positions_max": 21
+    },
+    {
+      "wallet": "HG1xNEhagquSPVNGgQqwUPH12eroWfgDzwLecVVxyPvY",
+      "username": "spiderheard",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#73"
+      ],
+      "best_pnl_usd": 111104.87331890508,
+      "positions_max": 246
+    },
+    {
+      "wallet": "2NsevsKWiaDtEiYF5gGLCVGNBwsLNibgppoiVPHHYrqq",
+      "username": "y22",
+      "xUsername": "real_y22",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#35",
+        "daily/combined#36",
+        "weekly/unrealized#23",
+        "weekly/combined#32",
+        "monthly/unrealized#72"
+      ],
+      "best_pnl_usd": 110805.73589896415,
+      "positions_max": 2
+    },
+    {
+      "wallet": "E6tvipohEWXq2r7UkNtvZD4rvL7kPmUdvLkaaepm4Pz3",
+      "username": "LucieRoseDonlan",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#58",
+        "daily/combined#62",
+        "weekly/unrealized#36",
+        "weekly/combined#34",
+        "monthly/unrealized#58"
+      ],
+      "best_pnl_usd": 109990.09740792384,
+      "positions_max": 10
+    },
+    {
+      "wallet": "catK9v3gp2dd32bkUxDEst4BarwDoCL3pkFfVoVjcgi",
+      "username": "bulkytuna85591",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#11",
+        "weekly/combined#78",
+        "monthly/realized#79"
+      ],
+      "best_pnl_usd": 107588.65551856514,
+      "positions_max": 3
+    },
+    {
+      "wallet": "EDXHdSFdadFbYFFjxPXBqMe1kCEDFqpPu552uvp48HR8",
+      "username": "Clowntrenches",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#83"
+      ],
+      "best_pnl_usd": 106935.58486551986,
+      "positions_max": 1
+    },
+    {
+      "wallet": "7zRmP2PxXxXh4c8GuE9kkZvsPp6YwSrdg6Uj6NJhWdXq",
+      "username": "BoiledFairStay",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#63",
+        "daily/combined#68",
+        "weekly/unrealized#37",
+        "weekly/combined#35"
+      ],
+      "best_pnl_usd": 106607.85301314345,
+      "positions_max": 2
+    },
+    {
+      "wallet": "FjkwfPK91zbRKNZVRBEhz99EdjF46ytW8E95djHdG4RX",
+      "username": "G4RX",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#82"
+      ],
+      "best_pnl_usd": 106432.68412749893,
+      "positions_max": 1
+    },
+    {
+      "wallet": "BRx8TP6HsD9srJ62rcYizjAHyZ5mt3cp8wPBEZioTsym",
+      "username": "addotveeril",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#74",
+        "monthly/realized#85"
+      ],
+      "best_pnl_usd": 105768.21630283391,
+      "positions_max": 0
+    },
+    {
+      "wallet": "ASv4ktNwZ8uBbUj94ACnr7Nj1sTtcYnEUZgWxkMsakA7",
+      "username": "retardmode",
+      "xUsername": "retardmode",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#86"
+      ],
+      "best_pnl_usd": 102992.3307242813,
+      "positions_max": 23
+    },
+    {
+      "wallet": "9yux6D62cavMZJC8ysTKXeDfhed2iV8jCVRcjm1xy4eX",
+      "username": "RobertClive",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#92"
+      ],
+      "best_pnl_usd": 102939.6531787813,
+      "positions_max": 9
+    },
+    {
+      "wallet": "DNsh1UfJdxmze6T6GV9QK5SoFm7HsM5TRNxVuwVgo8Zj",
+      "username": "hashbergers",
+      "xUsername": "Hashbergers",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#4",
+        "weekly/combined#37",
+        "monthly/realized#88"
+      ],
+      "best_pnl_usd": 101686.64945821457,
+      "positions_max": 0
+    },
+    {
+      "wallet": "7jGhuFYrwdUMNY7Rt6ZhgRLMtjUxt7WY4ssXpSYcw7r2",
+      "username": "hasaka",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#95",
+        "daily/combined#98",
+        "weekly/unrealized#91",
+        "monthly/realized#99"
+      ],
+      "best_pnl_usd": 101489.8674578164,
+      "positions_max": 14
+    },
+    {
+      "wallet": "8ZN71XTdVo8yRovnGLmNgW3Tgniw6A4J3JGLvPD686FP",
+      "username": "NATE9169",
+      "xUsername": "NATE9169",
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#8",
+        "weekly/combined#48",
+        "monthly/realized#91"
+      ],
+      "best_pnl_usd": 100368.76975558602,
+      "positions_max": 1
+    },
+    {
+      "wallet": "B57KoeTNWMTB87Sg28PaWjSGXeYAuk4n613VL1VCarRq",
+      "username": "seanlippel",
+      "xUsername": "seanlippel",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#46"
+      ],
+      "best_pnl_usd": 99951.83389435272,
+      "positions_max": 43
+    },
+    {
+      "wallet": "EGB6v3y5oS7Whv4KHYp8ksL2wRfqdfAF5Dbqq8kHXsZH",
+      "username": "CyrusAbrahim",
+      "xUsername": "CyrusAbrahimX",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#45",
+        "weekly/unrealized#65",
+        "weekly/combined#60",
+        "monthly/unrealized#94"
+      ],
+      "best_pnl_usd": 96564.46776229738,
+      "positions_max": 24
+    },
+    {
+      "wallet": "D9gTruhRvQQNEaQ2VGWgXmc6Ttk17StSLtjdfqqFvYSw",
+      "username": "yeez_er",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#46",
+        "monthly/realized#94"
+      ],
+      "best_pnl_usd": 95940.97019094345,
+      "positions_max": 24
+    },
+    {
+      "wallet": "J1mrKpbLgbYu5EZrVyyBqLYSSYgyNknRqp8N3Spgfvad",
+      "username": "0xleet",
+      "xUsername": "0xleet",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#93"
+      ],
+      "best_pnl_usd": 95485.11871266618,
+      "positions_max": 3
+    },
+    {
+      "wallet": "12aV8MEJPqbfbGEf894Top9mBk6tCAm7W4qSPvdmonke",
+      "username": "downsin",
+      "xUsername": "downsin",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#87"
+      ],
+      "best_pnl_usd": 95351.6574199674,
+      "positions_max": 26
+    },
+    {
+      "wallet": "3VUNtVtjjx5ckUojT7UocJ5fbuAJRsNUXNfTBnPte9vC",
+      "username": "buddhaaaaa",
+      "xUsername": "mofo_chad",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#52",
+        "weekly/realized#20",
+        "weekly/combined#100",
+        "monthly/realized#95"
+      ],
+      "best_pnl_usd": 94858.92838147366,
+      "positions_max": 2
+    },
+    {
+      "wallet": "7kGAXsa7n1qN2FuNoJAGmzebmN9KqqLAHcwj7gvoekKk",
+      "username": "rarewhaleenforc",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#77",
+        "weekly/realized#37",
+        "monthly/realized#96"
+      ],
+      "best_pnl_usd": 94684.98033797213,
+      "positions_max": 1
+    },
+    {
+      "wallet": "GVXndNAyARszNNYd1BYnscyYae6d7farHXw1yUDgu7ga",
+      "username": "greycrab94249",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#67",
+        "monthly/realized#89"
+      ],
+      "best_pnl_usd": 94044.97221262514,
+      "positions_max": 71
+    },
+    {
+      "wallet": "J7nThCiQuC2UmRGskHiDjM1uQuSAAXU52cU9vcZKwHJv",
+      "username": "ExpensiveGF",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#89",
+        "daily/combined#94",
+        "weekly/unrealized#38",
+        "weekly/combined#43",
+        "monthly/unrealized#61"
+      ],
+      "best_pnl_usd": 93868.95347066438,
+      "positions_max": 1
+    },
+    {
+      "wallet": "3kfyzegbWkgAdLWtywmGcLFcUw2RPzt3i1EEzdXYtYM8",
+      "username": "ThePatientOne",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#25",
+        "daily/combined#25",
+        "weekly/unrealized#46",
+        "weekly/combined#51"
+      ],
+      "best_pnl_usd": 93559.42414834411,
+      "positions_max": 7
+    },
+    {
+      "wallet": "7FbTEKYT1yFz1FDpfErTv5Cw8beWVTDJDTdidMLE4X7Z",
+      "username": "TurboCactusWren",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#37",
+        "daily/combined#40",
+        "weekly/unrealized#30",
+        "weekly/combined#42",
+        "monthly/unrealized#52"
+      ],
+      "best_pnl_usd": 93179.50469593034,
+      "positions_max": 3
+    },
+    {
+      "wallet": "B32QbbdDAyhvUQzjcaM5j6ZVKwjCxAwGH5Xgvb9SJqnC",
+      "username": "KADENOX1",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#29",
+        "monthly/realized#97"
+      ],
+      "best_pnl_usd": 92965.76067708712,
+      "positions_max": 77
+    },
+    {
+      "wallet": "36YdEpphGT1P7WCNFa5XxPfLP5b8gJFr7Jtck5UYpB6N",
+      "username": "kanpai",
+      "xUsername": "kanpai",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#78"
+      ],
+      "best_pnl_usd": 92693.15730154411,
+      "positions_max": 54
+    },
+    {
+      "wallet": "sAdNbe1cKNMDqDsa4npB3TfL62T14uAo2MsUQfLvzLT",
+      "username": "prospering",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#2",
+        "daily/combined#53",
+        "weekly/realized#19",
+        "weekly/combined#93",
+        "monthly/realized#100"
+      ],
+      "best_pnl_usd": 91932.43079423287,
+      "positions_max": 252
+    },
+    {
+      "wallet": "HeLp58DAyrLWfDhiMLjjrHagsQhnZC45gZ2MC5JSdyWi",
+      "username": "MadToast",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#62",
+        "monthly/realized#69"
+      ],
+      "best_pnl_usd": 90911.80264567654,
+      "positions_max": 183
+    },
+    {
+      "wallet": "CTqTnVXfvaf11i9rKL1aLF4qxCMiadcUvqqjh5SsPHG8",
+      "username": "shortthebottom",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#57"
+      ],
+      "best_pnl_usd": 90344.58051073978,
+      "positions_max": 9
+    },
+    {
+      "wallet": "4A2GsbyNfQdqvf1Upz8GTXf6f3j5tcx8qko5yMbiFD8D",
+      "username": "hiddensendo",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#83",
+        "daily/unrealized#94",
+        "daily/combined#80",
+        "weekly/realized#59",
+        "monthly/realized#90"
+      ],
+      "best_pnl_usd": 90188.30939609012,
+      "positions_max": 203
+    },
+    {
+      "wallet": "2X4H5Y9C4Fy6Pf3wpq8Q4gMvLcWvfrrwDv2bdR8AAwQv",
+      "username": "orange",
+      "xUsername": "OrangeSBS",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#60",
+        "weekly/realized#31",
+        "weekly/unrealized#81",
+        "weekly/combined#46"
+      ],
+      "best_pnl_usd": 87451.64745598366,
+      "positions_max": 16
+    },
+    {
+      "wallet": "HVaeUPbAwFhZnY8T3MrUzTWqpHiAbTU1NACmCQdJrqZp",
+      "username": "RoaringKitty",
+      "xUsername": "RoaringKitty",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#57",
+        "weekly/combined#72",
+        "monthly/unrealized#55"
+      ],
+      "best_pnl_usd": 86909.91464685577,
+      "positions_max": 43
+    },
+    {
+      "wallet": "2p8oSST3XGoAs7YCgn3LkRPenVcq3vZNkepcLiTEK1D5",
+      "username": "2kprio",
+      "xUsername": "2kPrio",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#28",
+        "daily/combined#29",
+        "weekly/unrealized#75",
+        "weekly/combined#65"
+      ],
+      "best_pnl_usd": 86452.20130220537,
+      "positions_max": 3
+    },
+    {
+      "wallet": "tRLPE3Dc9qEXyqHAgsmeFjwSG9TsHxmJGHa1jND3Gho",
+      "username": "HalibutCrypto",
+      "xUsername": "HalibutCrypto",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#78",
+        "daily/combined#91",
+        "weekly/unrealized#33",
+        "weekly/combined#68",
+        "monthly/unrealized#39"
+      ],
+      "best_pnl_usd": 84675.71080144764,
+      "positions_max": 3
+    },
+    {
+      "wallet": "ACTbvbNm5qTLuofNRPxFPMtHAAtdH1CtzhCZatYHy831",
+      "username": "slidrrz",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#33",
+        "monthly/realized#68"
+      ],
+      "best_pnl_usd": 83191.9877326698,
+      "positions_max": 40
+    },
+    {
+      "wallet": "5QvRryZtNXnBDSULPRec6BZRJ6m4nJnrtmqQsJTHf241",
+      "username": "Psihopat",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#30",
+        "daily/combined#35",
+        "weekly/unrealized#42",
+        "weekly/combined#47",
+        "monthly/unrealized#65"
+      ],
+      "best_pnl_usd": 82921.92034501593,
+      "positions_max": 5
+    },
+    {
+      "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t",
+      "username": "mitch",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#55",
+        "daily/combined#60",
+        "weekly/unrealized#50",
+        "weekly/combined#49"
+      ],
+      "best_pnl_usd": 81153.96103386574,
+      "positions_max": 151
+    },
+    {
+      "wallet": "8H9zNgGHvf6EXh2bM3FCRvcVZRTn1n1XHupRTWTtfpZJ",
+      "username": "Jacobs_Ladder",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#75"
+      ],
+      "best_pnl_usd": 80783.49242375215,
+      "positions_max": 16
+    },
+    {
+      "wallet": "E3BWuuX9SBFrWLPjBbTmT7jeE6fhQA9RUMWsNJHP6L5u",
+      "username": "Lazul",
+      "xUsername": "lazulcapital",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#48",
+        "daily/combined#50",
+        "weekly/unrealized#61",
+        "weekly/combined#76",
+        "monthly/unrealized#68"
+      ],
+      "best_pnl_usd": 80470.7290676512,
+      "positions_max": 31
+    },
+    {
+      "wallet": "3iytvAv32aGQyeRLHhy2ALHPsGAvcp82swAKbNeoencX",
+      "username": "EmberGuy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#34",
+        "daily/combined#34"
+      ],
+      "best_pnl_usd": 79709.47030892961,
+      "positions_max": 12
+    },
+    {
+      "wallet": "GPi1dqmPyw9f6svn9ewrFTReXBLwFriHdBT1tqvEHCPu",
+      "username": "HARDDRIVE",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#71",
+        "daily/combined#77",
+        "weekly/unrealized#53",
+        "weekly/combined#61",
+        "monthly/unrealized#71"
+      ],
+      "best_pnl_usd": 79175.01947980668,
+      "positions_max": 8
+    },
+    {
+      "wallet": "HU6xp8rA2RHknXWaFWnZ4Z1uQ1d6xcMpnxcFX2zHzs14",
+      "username": "Niczzy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#74"
+      ],
+      "best_pnl_usd": 78665.28915408028,
+      "positions_max": 15
+    },
+    {
+      "wallet": "4F1XUgtstYYbKQSdURg4bhbHEGXBmNFYJYhQEjw2ZLto",
+      "username": "zilxbt",
+      "xUsername": "zilxbt",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#36",
+        "daily/combined#37",
+        "weekly/unrealized#62",
+        "weekly/combined#74"
+      ],
+      "best_pnl_usd": 76271.61386366485,
+      "positions_max": 18
+    },
+    {
+      "wallet": "FvfMvFPUwu4hUnxkon2t5QM1ktuzPjuDnvDP5GebwZZo",
+      "username": "retmex",
+      "xUsername": "retardmex",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#51",
+        "daily/combined#56",
+        "monthly/realized#92"
+      ],
+      "best_pnl_usd": 75421.65305252152,
+      "positions_max": 22
+    },
+    {
+      "wallet": "5ijWW53NLoCWfV3Ntr3qANuMK6qcUmub1PCfJmtrJrk7",
+      "username": "zkShronk",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#69"
+      ],
+      "best_pnl_usd": 75168.57480498873,
+      "positions_max": 185
+    },
+    {
+      "wallet": "f4CMmXJCRu4fzyqZPkDiFhGKAeCo1s7sxUtPKQp9SDy",
+      "username": "Cirrus",
+      "xUsername": "CirrusNFT",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#62",
+        "daily/combined#67",
+        "weekly/unrealized#52",
+        "weekly/combined#54"
+      ],
+      "best_pnl_usd": 74880.99528441989,
+      "positions_max": 8
+    },
+    {
+      "wallet": "4NqDZN9WbMoycg7cCL5GFuX6H6U2U2ZyiGGafmsqKvmH",
+      "username": "Arun_14159",
+      "xUsername": "arun_14159",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#74",
+        "daily/combined#79",
+        "weekly/unrealized#68",
+        "weekly/combined#63",
+        "monthly/unrealized#70"
+      ],
+      "best_pnl_usd": 73648.27259508995,
+      "positions_max": 6
+    },
+    {
+      "wallet": "8k1sAmVUjzaZkxqexeYkCPphjcQobYugQeGmCyvKtHNG",
+      "username": "POORGOAT___",
+      "xUsername": "PoorGoat_",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#90",
+        "monthly/unrealized#97"
+      ],
+      "best_pnl_usd": 73457.6862022736,
+      "positions_max": 11
+    },
+    {
+      "wallet": "Bc7aomJAsvEY5D7s8hxXp2h2Px7BvYCfWhVbJfDt3yg",
+      "username": "chadrothstein",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#51",
+        "weekly/combined#57",
+        "monthly/unrealized#76"
+      ],
+      "best_pnl_usd": 72528.59538823813,
+      "positions_max": 18
+    },
+    {
+      "wallet": "9AcQoQtMUiohLtCwtmBfzKTpzRk83fKvjCbWGo54EUut",
+      "username": "bbcappital",
+      "xUsername": "bbcappital",
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#83"
+      ],
+      "best_pnl_usd": 70941.57526599013,
+      "positions_max": 24
+    },
+    {
+      "wallet": "7BkxAVBtg6xgU3jLbwx5P4TyRDH39A17t7rz4xSJu8nk",
+      "username": "fraillobster533",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#88",
+        "monthly/unrealized#84"
+      ],
+      "best_pnl_usd": 70425.76432015805,
+      "positions_max": 4
+    },
+    {
+      "wallet": "9qaZKyXQ9MNDxC822Eeo8RWZCAaBuNTZDFPMmWp4sKH1",
+      "username": "ChillBagPocket",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#89"
+      ],
+      "best_pnl_usd": 69739.80148292435,
+      "positions_max": 11
+    },
+    {
+      "wallet": "CJwH8oCUA2hTxFhCKeyY8F3tAxWEEvvXJAQExtYJEKxg",
+      "username": "icedmilo",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#86",
+        "daily/combined#95",
+        "weekly/unrealized#69",
+        "weekly/combined#79",
+        "monthly/unrealized#59"
+      ],
+      "best_pnl_usd": 68733.84761540423,
+      "positions_max": 4
+    },
+    {
+      "wallet": "DbWxXP2TQRx2hdFiELmgCtL7k22JEjD9H2AfguVyjamb",
+      "username": "justtakes1",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "monthly/unrealized#74"
+      ],
+      "best_pnl_usd": 68277.45221366498,
+      "positions_max": 6
+    },
+    {
+      "wallet": "A71r4j8B1LeW84DgGrg1fx9V1djf5Qvn73Ve2YrpbfxT",
+      "username": "reubs",
+      "xUsername": "0xreubs",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#40",
+        "daily/combined#41",
+        "weekly/unrealized#58",
+        "weekly/combined#70",
+        "monthly/unrealized#77"
+      ],
+      "best_pnl_usd": 67782.35672024993,
+      "positions_max": 1
+    },
+    {
+      "wallet": "8H14bK23kreBrsiXrjXJ5TGuB4n4V3xA9XoSJb5RAnHR",
+      "username": "TraderMarlow",
+      "xUsername": "marlowlowlowlow",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#100",
+        "weekly/unrealized#39",
+        "weekly/combined#66"
+      ],
+      "best_pnl_usd": 67777.61530641091,
+      "positions_max": 21
+    },
+    {
+      "wallet": "CAPn1yH4oSywsxGU456jfgTrSSUidf9jgeAnHceNUJdw",
+      "username": "cap",
+      "xUsername": "cap100x",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#44",
+        "monthly/unrealized#67"
+      ],
+      "best_pnl_usd": 67610.05953411911,
+      "positions_max": 11
+    },
+    {
+      "wallet": "BqhAPgnScqDUP9f7fFuqrZn8WRznduGT7VvPzbUjHnT7",
+      "username": "NRv_",
+      "xUsername": "NRv_gg",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#42",
+        "daily/combined#42"
+      ],
+      "best_pnl_usd": 66769.43773445235,
+      "positions_max": 4
+    },
+    {
+      "wallet": "9rSmaSya7pUuyq2JHhcbq6rkuXCvLR3wteC5p7eta6Y8",
+      "username": "AliAnsar",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#100",
+        "monthly/unrealized#95"
+      ],
+      "best_pnl_usd": 66744.30736537719,
+      "positions_max": 2
+    },
+    {
+      "wallet": "41xvyT53tY5RWGw5yM1Wb8fs3YkD6chusmXprMvKs2P2",
+      "username": "croccapital",
+      "xUsername": "croceatchart",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#100",
+        "monthly/realized#98"
+      ],
+      "best_pnl_usd": 65666.6149483107,
+      "positions_max": 7
+    },
+    {
+      "wallet": "ig1dkXsQv11kwpgNuQg6EpDnVPXipJ4jnUqh5py9woV",
+      "username": "AFKCatEnjoyer",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#67",
+        "weekly/unrealized#96",
+        "weekly/combined#69"
+      ],
+      "best_pnl_usd": 65561.3644335237,
+      "positions_max": 12
+    },
+    {
+      "wallet": "8ydgp432XRYYKv9w8NuqUAvuwQSbZeTRpRAeWq5o2WbZ",
+      "username": "justacatguy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#71",
+        "weekly/combined#75",
+        "monthly/unrealized#100"
+      ],
+      "best_pnl_usd": 63516.55023363419,
+      "positions_max": 1
+    },
+    {
+      "wallet": "7rZyUQYsMkii33f6zUKQG2dCMy8YTeNv2damjBqpayLe",
+      "username": "kushhhhh",
+      "xUsername": "luckygrind99",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#16",
+        "weekly/combined#77"
+      ],
+      "best_pnl_usd": 62439.631631746306,
+      "positions_max": 2
+    },
+    {
+      "wallet": "6GgoXcZHDigzb2NY3bHR4L1rduvKyvAcexgbho43TdfR",
+      "username": "dhill0705",
+      "xUsername": "dhillhouse01",
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#85"
+      ],
+      "best_pnl_usd": 61058.01405138776,
+      "positions_max": 43
+    },
+    {
+      "wallet": "9F55sbbVN2GDoAEG79uuQtXkDWwmBTBhaXUvo6A7Zs2U",
+      "username": "sigmaorcamispla",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#96"
+      ],
+      "best_pnl_usd": 59114.1301017932,
+      "positions_max": 24
+    },
+    {
+      "wallet": "4suNYdgLYL1CfP6sdsVe8zJEQ9ZBiPcZtFrKzNiWRWS1",
+      "username": "beigeotter78352",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#72",
+        "weekly/combined#87",
+        "monthly/unrealized#99"
+      ],
+      "best_pnl_usd": 57958.3636697312,
+      "positions_max": 112
+    },
+    {
+      "wallet": "AcoNeFQsTPYs7ZrH8RMWaxxGJTTQJJ4H5aTXmptaz5UK",
+      "username": "ily",
+      "xUsername": "ilyunow",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#45",
+        "daily/combined#45"
+      ],
+      "best_pnl_usd": 57571.028491584904,
+      "positions_max": 143
+    },
+    {
+      "wallet": "DSQeAaPEdWsqAYBG6wmQE3oxoCGTUVb8Xu2ouRmzixa6",
+      "username": "four3two1",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/realized#44",
+        "weekly/realized#26",
+        "weekly/combined#82"
+      ],
+      "best_pnl_usd": 57460.80977753955,
+      "positions_max": 2
+    },
+    {
+      "wallet": "AjHee8HUn6ynSgPQiDfs5XJ5oA9nbtEtStm1z6XJ8Doj",
+      "username": "swiftshark04352",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#15",
+        "weekly/combined#83"
+      ],
+      "best_pnl_usd": 56832.72817169318,
+      "positions_max": 1
+    },
+    {
+      "wallet": "6i2aHtxfqkC2biTo98FSkP59FVHPKFRLZWDbdghN6WKK",
+      "username": "sapijiju",
+      "xUsername": "sapijiju",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#70",
+        "weekly/combined#84"
+      ],
+      "best_pnl_usd": 56728.51391989631,
+      "positions_max": 33
+    },
+    {
+      "wallet": "6b2jH7tafg1HLU8PZUyuMi6K2MfmZNFFLdgpAohyNesk",
+      "username": "AGIdreamer",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#55",
+        "weekly/combined#95",
+        "monthly/unrealized#78"
+      ],
+      "best_pnl_usd": 56571.817378897314,
+      "positions_max": 79
+    },
+    {
+      "wallet": "AAUpFirsLpFC1aYGvZTMf8Vg8kqxqJbv3a6ov6sxTHmi",
+      "username": "feedingfish8812",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#47",
+        "daily/combined#47",
+        "monthly/unrealized#81"
+      ],
+      "best_pnl_usd": 56550.07252732146,
+      "positions_max": 11
+    },
+    {
+      "wallet": "8iUjQmHfoo9BTqh1SqcRywSHDJu9HEBkQmhQL1VNnh86",
+      "username": "RelaxShrimp",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#82",
+        "monthly/unrealized#79"
+      ],
+      "best_pnl_usd": 55648.95584386032,
+      "positions_max": 4
+    },
+    {
+      "wallet": "AcKpsk3AKJR8YiTrHr2XCFZ2WV8gcM3zjgcr4P1MjHD1",
+      "username": "151618",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#60",
+        "weekly/combined#86"
+      ],
+      "best_pnl_usd": 55010.37935170649,
+      "positions_max": 56
+    },
+    {
+      "wallet": "J3Kj5yaSWg6E7cg3hPbNnrecef3xkotqYds9WpnByPj1",
+      "username": "CordSaltGallium",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#22",
+        "daily/unrealized#65",
+        "daily/combined#48"
+      ],
+      "best_pnl_usd": 54191.39677615623,
+      "positions_max": 21
+    },
+    {
+      "wallet": "BM4z8XWwCJNM7nkeLE7hjVe3sYhkaLqavLbaZxaiQ8Rm",
+      "username": "_opensecret",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#50"
+      ],
+      "best_pnl_usd": 53964.21264732929,
+      "positions_max": 48
+    },
+    {
+      "wallet": "ewCWVY3XpqiZzX2RJvnQ5PcMNJSoxHHo93SS3c7sGXs",
+      "username": "jimbotrading",
+      "xUsername": "Jimbotrading",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#70",
+        "weekly/combined#88"
+      ],
+      "best_pnl_usd": 53580.285947343276,
+      "positions_max": 33
+    },
+    {
+      "wallet": "72Ynf335QktDvdFEwNHJqoYmzGQpTzmj6wfZuB4puBGT",
+      "username": "serpintaxt",
+      "xUsername": "serpinxbt",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#84",
+        "daily/combined#78",
+        "weekly/combined#90"
+      ],
+      "best_pnl_usd": 53457.73147951319,
+      "positions_max": 3
+    },
+    {
+      "wallet": "3P3Tr5HErnSSqmNrjGXBaACxQj3NmKfi3Efbu5FuuY7i",
+      "username": "coreyape",
+      "xUsername": "Corey_Ape",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#65"
+      ],
+      "best_pnl_usd": 52695.37123003857,
+      "positions_max": 24
+    },
+    {
+      "wallet": "4QgBrdUe2ABLtByhpncAGGEZ9SLWbuHRhmEAwXYDjr5J",
+      "username": "0xNirvana",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#81"
+      ],
+      "best_pnl_usd": 52450.71493068033,
+      "positions_max": 147
+    },
+    {
+      "wallet": "9LXWa7V3AE15VfBupcx5gDts2ix3Y9NzbcKZKjkkq6hV",
+      "username": "rikz_",
+      "xUsername": "kenAbz",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#37",
+        "weekly/realized#17",
+        "weekly/combined#91"
+      ],
+      "best_pnl_usd": 51884.07374445179,
+      "positions_max": 0
+    },
+    {
+      "wallet": "8ZBVBpcJPSj8gEvmX4KYL3DXmjamNL5GKWUFZgSWiF1i",
+      "username": "analyze",
+      "xUsername": "analyzationz",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#79",
+        "weekly/combined#92"
+      ],
+      "best_pnl_usd": 51836.452768925665,
+      "positions_max": 5
+    },
+    {
+      "wallet": "4mK9yCvQQPm1aZcREB4Du2DmLM1V9FoUWXoRgYuUDqB9",
+      "username": "chainsawiq",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#49",
+        "daily/combined#51"
+      ],
+      "best_pnl_usd": 50162.67332846592,
+      "positions_max": 15
+    },
+    {
+      "wallet": "HWaKJXeHTBRn9r1tQFcGSf1Z7o4iExYyrvyMTwYgseXF",
+      "username": "s0rry",
+      "xUsername": "s0rry_sms",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#7",
+        "weekly/realized#23",
+        "weekly/combined#94"
+      ],
+      "best_pnl_usd": 49033.5616670255,
+      "positions_max": 11
+    },
+    {
+      "wallet": "9bp5HxehjiPfNdVAfGeST3CUifhWCC7j6tjNVq8B4KGE",
+      "username": "Altcoinsherpa",
+      "xUsername": "AltcoinSherpa",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#56",
+        "weekly/combined#96"
+      ],
+      "best_pnl_usd": 47911.7008748421,
+      "positions_max": 4
+    },
+    {
+      "wallet": "2H9G4AJnjJ73GbKpg7MyLDHfKpZaevv6NKu4RGRDQCob",
+      "username": "oldwhale06352",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#86",
+        "weekly/combined#97"
+      ],
+      "best_pnl_usd": 47733.78636007113,
+      "positions_max": 18
+    },
+    {
+      "wallet": "2ksQ77e9e5SS6VA6poanRGWfkU3R4R5wZnptbJHb2nx9",
+      "username": "Anglio",
+      "xUsername": "anglio",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#31",
+        "daily/unrealized#93",
+        "daily/combined#59",
+        "weekly/realized#74",
+        "weekly/combined#99"
+      ],
+      "best_pnl_usd": 47420.50692468721,
+      "positions_max": 19
+    },
+    {
+      "wallet": "2KBGGFSGge6d2XY7eH41GysoegVYHbHy1c6nbLcErZpy",
+      "username": "riskanonymous",
+      "xUsername": "riskanonymous",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#73"
+      ],
+      "best_pnl_usd": 46885.07106296998,
+      "positions_max": 3
+    },
+    {
+      "wallet": "WPwTsbeGukuqos65dGyB4R5KYv6btVSSLyi5ECLXtzf",
+      "username": "Mertrade",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#30"
+      ],
+      "best_pnl_usd": 46766.52197111028,
+      "positions_max": 3
+    },
+    {
+      "wallet": "3QaWsDXFT4eDY5ddxhQzPUR5uorcWxoEGogyAuMYLU7n",
+      "username": "Serpent",
+      "xUsername": "Serpents_Game",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#53",
+        "daily/combined#54"
+      ],
+      "best_pnl_usd": 46668.15508338863,
+      "positions_max": 20
+    },
+    {
+      "wallet": "6mrqa4cDaqBCD9UrUiUyoK78e4AJ8XzRaF8uTbcuTVae",
+      "username": "cousin",
+      "xUsername": "cousincrypt0",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#66"
+      ],
+      "best_pnl_usd": 46347.5303178325,
+      "positions_max": 12
+    },
+    {
+      "wallet": "EkfjKqMYSjEukG91YJdEmLFtMWVcUpdx5gMoGZvd1eGQ",
+      "username": "memeologist99",
+      "xUsername": "memeologist99",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#89"
+      ],
+      "best_pnl_usd": 46244.63231971825,
+      "positions_max": 290
+    },
+    {
+      "wallet": "6TkTCyQTqvTqAHLzghbFByNZFp8dxXnQ2trjE1QoHmUi",
+      "username": "nobrainflipp",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#82",
+        "daily/combined#90",
+        "weekly/unrealized#83"
+      ],
+      "best_pnl_usd": 45495.13844977402,
+      "positions_max": 10
+    },
+    {
+      "wallet": "2zz8q3PsYeh8y2FNNb4ESW2HkcthhVvAHzLrhs4AAS7D",
+      "username": "drgraino",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#50",
+        "daily/combined#55",
+        "monthly/unrealized#93"
+      ],
+      "best_pnl_usd": 45419.08692903485,
+      "positions_max": 17
+    },
+    {
+      "wallet": "69L2WTNnoERpAajxRsMudiMRSQf49GQA9JsDncdVBG6M",
+      "username": "MojoDojoBros",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#38",
+        "weekly/realized#97"
+      ],
+      "best_pnl_usd": 43601.78040495673,
+      "positions_max": 16
+    },
+    {
+      "wallet": "7CscJrKVE64TvXXNS3uRQ3aQXmdSfWcrBYBSRcxwCUtw",
+      "username": "Pumpguy0x",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#85",
+        "monthly/unrealized#31"
+      ],
+      "best_pnl_usd": 43591.553210958,
+      "positions_max": 1
+    },
+    {
+      "wallet": "GJA1HEbxGnqBhBifH9uQauzXSB53to5rhDrzmKxhSU65",
+      "username": "Latuche95",
+      "xUsername": "Latuche95",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#75"
+      ],
+      "best_pnl_usd": 43430.37152043288,
+      "positions_max": 29
+    },
+    {
+      "wallet": "7naFFwuEJWeWwWYQUkgAWHsxYKg3KctEuUj42JdAMidP",
+      "username": "moan7",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#25"
+      ],
+      "best_pnl_usd": 43240.57241252807,
+      "positions_max": 0
+    },
+    {
+      "wallet": "sea1BTw9iCNV5TwQkqWPZW2GP1zqwFAqd5R5i5dhmcU",
+      "username": "uncleibbra",
+      "xUsername": "digitalmanul",
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#45"
+      ],
+      "best_pnl_usd": 42953.746102007135,
+      "positions_max": 6
+    },
+    {
+      "wallet": "9M2XsDhrSpdt2xPbPWofm4fYUkLsM3mNbjZP3uYuYDzL",
+      "username": "ponzitrader",
+      "xUsername": "buyerofponzi",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#48",
+        "daily/unrealized#83",
+        "daily/combined#61",
+        "weekly/realized#57"
+      ],
+      "best_pnl_usd": 42788.51925249059,
+      "positions_max": 24
+    },
+    {
+      "wallet": "B1ZMARC6qhJYJrvBJywUYdtf6hq2WBkTgvbbnGuQsQnX",
+      "username": "lastunknown",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/realized#41",
+        "weekly/realized#28"
+      ],
+      "best_pnl_usd": 42043.7840083101,
+      "positions_max": 22
+    },
+    {
+      "wallet": "2wGvJFgAXYghGT1ZySYZHxEppJX8jY9RpH4qGD6dvj4f",
+      "username": "adiosdavid",
+      "xUsername": "adiosdavid",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#59",
+        "daily/combined#63"
+      ],
+      "best_pnl_usd": 41444.49009455635,
+      "positions_max": 48
+    },
+    {
+      "wallet": "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ",
+      "username": "Dior",
+      "xUsername": "Dior100x",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#52",
+        "daily/combined#64"
+      ],
+      "best_pnl_usd": 41221.69002373688,
+      "positions_max": 25
+    },
+    {
+      "wallet": "CuDe51GPh5qGsmYBJDxSsufhQQhA618uDbkaXFZ4pztL",
+      "username": "Henrys0x",
+      "xUsername": "henrys0x",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#6",
+        "weekly/realized#32"
+      ],
+      "best_pnl_usd": 40819.730615354405,
+      "positions_max": 6
+    },
+    {
+      "wallet": "DQJB8FdpydxysoLbYBVKYBq2mnsBHRycG6KEkF7e82bk",
+      "username": "traderjay",
+      "xUsername": "_traderjay",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#65"
+      ],
+      "best_pnl_usd": 40401.46154163032,
+      "positions_max": 9
+    },
+    {
+      "wallet": "G8tY31SK8jm2PXAZSiNYBohwa8MdbgHXJS4yoYiEAjqL",
+      "username": "Valnir",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#97"
+      ],
+      "best_pnl_usd": 40399.40511986939,
+      "positions_max": 6
+    },
+    {
+      "wallet": "DjGrR5QGdXjBD9Yr6REQgCBi4bT4VymX8fnZWFTWkoRw",
+      "username": "miladystonk",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#39"
+      ],
+      "best_pnl_usd": 40068.749720968735,
+      "positions_max": 71
+    },
+    {
+      "wallet": "GccvEcZqMrcNdp3CarCasGdN5dUfdQ4wZ6iQsk5myRzX",
+      "username": "SoloFNF",
+      "xUsername": "SoloFNF",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#4",
+        "daily/combined#69"
+      ],
+      "best_pnl_usd": 39848.39299351498,
+      "positions_max": 22
+    },
+    {
+      "wallet": "3RKEtC8YgRfgruHYriikC6bjhCxDhSwJ59VDyZen1UTv",
+      "username": "WestForkFly",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#64",
+        "monthly/unrealized#82"
+      ],
+      "best_pnl_usd": 39796.22665070721,
+      "positions_max": 13
+    },
+    {
+      "wallet": "8AtQ4ka3dgtrH1z4Uq3Tm4YdMN3cK5RRj1eKuGNnvenm",
+      "username": "peacefuldestroy",
+      "xUsername": "peacefuldestroy",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#99"
+      ],
+      "best_pnl_usd": 39635.64982329405,
+      "positions_max": 9
+    },
+    {
+      "wallet": "8qtXHiU9Cb84Kgz3HsSiJs2Z2kDB5pRadwi4fEuy8jzN",
+      "username": "staticc",
+      "xUsername": "staticctrades",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#66",
+        "daily/combined#70"
+      ],
+      "best_pnl_usd": 39370.34599307788,
+      "positions_max": 2
+    },
+    {
+      "wallet": "5MztePcdvyzJr4Dd1Wj15scXEeddst1sMp759aNWf7gm",
+      "username": "axe",
+      "xUsername": "trading_axe",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#67",
+        "daily/combined#71"
+      ],
+      "best_pnl_usd": 39079.30625753287,
+      "positions_max": 39
+    },
+    {
+      "wallet": "DPiQs7yP5WnBxN7RwttMKkrndmeTzeVZ69sxeAswxm8r",
+      "username": "suggss",
+      "xUsername": "Suggrnaut",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#80",
+        "daily/combined#89",
+        "weekly/unrealized#84"
+      ],
+      "best_pnl_usd": 38804.37384366252,
+      "positions_max": 54
+    },
+    {
+      "wallet": "A8AfZB5P4P8erpFv1ToDcSnawpZPesyXvMbC1u2gHko4",
+      "username": "pumpitloomdart",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#68",
+        "daily/combined#72"
+      ],
+      "best_pnl_usd": 38662.57053585992,
+      "positions_max": 7
+    },
+    {
+      "wallet": "9rA9gENtPu6wT77YVSMY6hdNzcLxfkfnxPePkooWQy9J",
+      "username": "tradesnorter",
+      "xUsername": "topsnorter",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#36",
+        "weekly/realized#36"
+      ],
+      "best_pnl_usd": 38411.77239668369,
+      "positions_max": 2
+    },
+    {
+      "wallet": "mmJDE8zc2BGQmTakxe3SYmZaMbEdR63rLCdDNa3qmnF",
+      "username": "mmjde8",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/unrealized#76"
+      ],
+      "best_pnl_usd": 37219.862541759794,
+      "positions_max": 12
+    },
+    {
+      "wallet": "8gYj3Jk1Ck9LJg9HQanrdzsmjL1ooM8cTqMe7TtgXfe",
+      "username": "FlamantRose",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/unrealized#91"
+      ],
+      "best_pnl_usd": 36377.9337390905,
+      "positions_max": 35
+    },
+    {
+      "wallet": "8k1BPp8pCxq7RJxxBz3BUxvBjsfjhkHKnhr2WSQABGM9",
+      "username": "panic",
+      "xUsername": "panicselling",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#73",
+        "daily/combined#82"
+      ],
+      "best_pnl_usd": 36142.3657569353,
+      "positions_max": 6
+    },
+    {
+      "wallet": "E5UsaLnxiF7zgUCSTuw4HiFERFzFPk69eTr1MQE9nG2k",
+      "username": "CryptoCavallino",
+      "xUsername": "CryptoCavallino",
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#42"
+      ],
+      "best_pnl_usd": 35845.45963039147,
+      "positions_max": 11
+    },
+    {
+      "wallet": "4DVVsMKXT3qPpEYDusxSswF1uciwu1Pxhp2X6dUTyxGj",
+      "username": "fitsquid13447",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#79",
+        "daily/combined#84"
+      ],
+      "best_pnl_usd": 35175.46933120849,
+      "positions_max": 16
+    },
+    {
+      "wallet": "7xKrUFsU2RkJbCvp84HDK5P2MGvCjMRqkdqZXwuyLSsD",
+      "username": "JasonCryptoApe",
+      "xUsername": "JasonCryptoFTW",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#3",
+        "daily/combined#85",
+        "weekly/realized#49"
+      ],
+      "best_pnl_usd": 35157.51008126824,
+      "positions_max": 5
+    },
+    {
+      "wallet": "4JHiEcTBA4JzMNJdVn54tsiCrPxRYhFmVDGMouHm26Af",
+      "username": "gigawhalearidje",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#38"
+      ],
+      "best_pnl_usd": 35009.422910646455,
+      "positions_max": 1
+    },
+    {
+      "wallet": "FtJ4yajd6fPcvFdtEsAoUukcUn6nD1qhEFevSQDcauHz",
+      "username": "cashmaxing",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#85",
+        "daily/combined#88"
+      ],
+      "best_pnl_usd": 34457.76840880227,
+      "positions_max": 60
+    },
+    {
+      "wallet": "387FRwow6MKDhSwuMULhKjqeXuxoBY4BbbaSntdk9LaH",
+      "username": "sh4vwty",
+      "xUsername": "sh4vwty",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#43"
+      ],
+      "best_pnl_usd": 34228.778052278314,
+      "positions_max": 1
+    },
+    {
+      "wallet": "3CPHk5b7SRvAsTsocehAu1bA5YKMXJYMr3qc2SuMFkWY",
+      "username": "runecrypto_",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#41"
+      ],
+      "best_pnl_usd": 33788.12454541309,
+      "positions_max": 6
+    },
+    {
+      "wallet": "AS8n3aCx4pqp1C44f736Ss6hH7LeenSPVP2PGMgVZQEZ",
+      "username": "2cansam007",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#14",
+        "weekly/realized#47"
+      ],
+      "best_pnl_usd": 32973.9599311118,
+      "positions_max": 2
+    },
+    {
+      "wallet": "8uK71GZntrMfbQMUDcgZgZieMM7V6KXkYpALBH2ninFS",
+      "username": "getrekttoshi",
+      "xUsername": "getrekttoshi",
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#88",
+        "daily/combined#93"
+      ],
+      "best_pnl_usd": 32865.1550454674,
+      "positions_max": 12
+    },
+    {
+      "wallet": "Bq8CiLd3RNBHjBnZ1eWfjUK97QA2wDCgFZNrcxdMFVQY",
+      "username": "Useful_Idiot",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#90",
+        "daily/combined#96",
+        "monthly/unrealized#56"
+      ],
+      "best_pnl_usd": 32480.790228494316,
+      "positions_max": 12
+    },
+    {
+      "wallet": "5hAgYC8TJCcEZV7LTXAzkTrm7YL29YXyQQJPCNrG84zM",
+      "username": "schoen",
+      "xUsername": "Schoen_xyz",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#71"
+      ],
+      "best_pnl_usd": 32069.871580939947,
+      "positions_max": 33
+    },
+    {
+      "wallet": "GhCsggL8MtQTMBrpA3YGMvKZc5cvtrDFhDVXfCH5CcUV",
+      "username": "pnlgodsol",
+      "xUsername": "pnlgodsolana",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#51"
+      ],
+      "best_pnl_usd": 31494.793322155234,
+      "positions_max": 4
+    },
+    {
+      "wallet": "8NHJFN7uUoF5c6BT75FKtUZsGgf7XMjpMJvwRZnzBgDa",
+      "username": "Tommy",
+      "xUsername": "CryptoTomYT",
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#53"
+      ],
+      "best_pnl_usd": 31455.90898078945,
+      "positions_max": 1
+    },
+    {
+      "wallet": "4kQeEH3bcN4vqqJypQrgMcgETXYug1iTSUx5MaJSvr9b",
+      "username": "jtradesfomo",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#85",
+        "weekly/realized#52"
+      ],
+      "best_pnl_usd": 31361.820645751133,
+      "positions_max": 3
+    },
+    {
+      "wallet": "7moqFjvm2MwAiMtCZoqYoTAPzRBxxMRT2ddyHThQuWjr",
+      "username": "lebomb",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#54"
+      ],
+      "best_pnl_usd": 31171.7430147297,
+      "positions_max": 2
+    },
+    {
+      "wallet": "B9kJYdzb4gB9AC3aFChReDhJ2D5YDCaR4UrEoen2NcyC",
+      "username": "1017kyro",
+      "xUsername": "kyro10k",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#60",
+        "weekly/realized#58"
+      ],
+      "best_pnl_usd": 30073.59620514522,
+      "positions_max": 16
+    },
+    {
+      "wallet": "Eb7tBAyzQmFNuiDDEh3bYPoDpJaLigGn167YAoMUV1p3",
+      "username": "d1yinxiang",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/combined#100"
+      ],
+      "best_pnl_usd": 29976.17452111822,
+      "positions_max": 322
+    },
+    {
+      "wallet": "At9Lxx6MgJxGzj33RHn57LaSkC7incZ6XpaN3BiMC2k",
+      "username": "aaaaaa777",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/unrealized#97"
+      ],
+      "best_pnl_usd": 29902.286043464424,
+      "positions_max": 118
+    },
+    {
+      "wallet": "8gpipHqkHFuNHM4tu47oTNH1K83gCeszPzZSz3oZ4uDw",
+      "username": "kom3thazine",
+      "xUsername": "kom3thazine",
+      "isVerified": true,
+      "boards": [
+        "daily/unrealized#72",
+        "weekly/unrealized#92"
+      ],
+      "best_pnl_usd": 29883.623674866707,
+      "positions_max": 11
+    },
+    {
+      "wallet": "5FqUo9aBjsp7QeeyN6Vi2ZmF2fjS4H5EU7wnAQwPy17z",
+      "username": "17z",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#61"
+      ],
+      "best_pnl_usd": 28903.747822374928,
+      "positions_max": 1
+    },
+    {
+      "wallet": "6qudAN2kV8mtCcYJxb5QQ6Vr15itdHHdeVbYm99NKMhy",
+      "username": "thedetective",
+      "xUsername": "MemeRetire",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#73",
+        "weekly/realized#69"
+      ],
+      "best_pnl_usd": 28815.636822784465,
+      "positions_max": 99
+    },
+    {
+      "wallet": "HFdG9t2ycQwnveePLVUARGL4tUA6M2X6JBHLetHEUREQ",
+      "username": "prints_sol",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#11",
+        "weekly/realized#77"
+      ],
+      "best_pnl_usd": 28652.173416532925,
+      "positions_max": 4
+    },
+    {
+      "wallet": "5PDsTFdBxCSmwu52FDMdxkdGDfJKLHL5QUi17NS2a7kx",
+      "username": "_Just_a_guy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#69"
+      ],
+      "best_pnl_usd": 26521.14677253088,
+      "positions_max": 39
+    },
+    {
+      "wallet": "H5o7trB6m5WE6jHDp6oGnxxAoj48U49WisPvi6DJM6HA",
+      "username": "PandaWifHat",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#8"
+      ],
+      "best_pnl_usd": 26377.274983800424,
+      "positions_max": 5
+    },
+    {
+      "wallet": "8NVkytV1CtoNBXGFtwXwh4KQdbgVcA6hFmym1gMuRHru",
+      "username": "Icefreezer",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#73"
+      ],
+      "best_pnl_usd": 25671.653089015286,
+      "positions_max": 0
+    },
+    {
+      "wallet": "3idduYUkGUHjsm8EW2aESnHtvfqcTkHLCD1hi7r24i4V",
+      "username": "leave95plz",
+      "xUsername": "Leave95plz",
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#82"
+      ],
+      "best_pnl_usd": 25651.17829090603,
+      "positions_max": 30
+    },
+    {
+      "wallet": "J4hY1wpM6dZCzAbFndKUBZBEEG5yVRdP96zYnPu9dULb",
+      "username": "supersquidspuri",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#76"
+      ],
+      "best_pnl_usd": 25335.662371400696,
+      "positions_max": 12
+    },
+    {
+      "wallet": "2J2rtMBRLxAbFkSLgrsuSNN8N5KMTJVaRTdnGfbZ5Vjw",
+      "username": "pscldev",
+      "xUsername": "DEV_pscl",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#72"
+      ],
+      "best_pnl_usd": 25212.151418956397,
+      "positions_max": 111
+    },
+    {
+      "wallet": "8DgVVtnNZQRKu4Cx6xeAMTukUHMTE3f2Cqb1wMzJ9beU",
+      "username": "solanaswaggy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#78"
+      ],
+      "best_pnl_usd": 24903.200299555323,
+      "positions_max": 3
+    },
+    {
+      "wallet": "GeXNKML1eibW5HLEP7ordsG8D7EWxsS3B85XvFVn7dYu",
+      "username": "Squ33ze",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#13",
+        "weekly/realized#87"
+      ],
+      "best_pnl_usd": 24025.780669794218,
+      "positions_max": 1
+    },
+    {
+      "wallet": "H5yCFHBPNycF7xqnHkHJUHvVbk2anz7MzXzRzSo8eaJZ",
+      "username": "DonCryptonium",
+      "xUsername": "DonCryptonium",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#65"
+      ],
+      "best_pnl_usd": 23659.270885131802,
+      "positions_max": 14
+    },
+    {
+      "wallet": "tBVFi3uhRxDtn4C5Sxy7D6yUQ2qUfp2qkjcoL6ttmFt",
+      "username": "newevo",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#80",
+        "weekly/realized#83"
+      ],
+      "best_pnl_usd": 23597.477947980966,
+      "positions_max": 3
+    },
+    {
+      "wallet": "EgYa22bNrcQGRJny4rGJz8eJe5CSFKtXEqB9qPQQGN9p",
+      "username": "Uncquant",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#85"
+      ],
+      "best_pnl_usd": 23529.76273447122,
+      "positions_max": 3
+    },
+    {
+      "wallet": "HEBov96RdNZC7vrH9taLXwJ3b7MTHBemSee8nuvwDz3P",
+      "username": "develepoor1",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#92"
+      ],
+      "best_pnl_usd": 23205.75881262184,
+      "positions_max": 29
+    },
+    {
+      "wallet": "Epij2QYgr9xpwaLoMwaNBvLbpgbmc1JrfHTLxHJ3Y62C",
+      "username": "mootmarlin50289",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#86"
+      ],
+      "best_pnl_usd": 23135.12427139746,
+      "positions_max": 0
+    },
+    {
+      "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve",
+      "username": "EustazZ",
+      "xUsername": "Eustazzeus",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#88"
+      ],
+      "best_pnl_usd": 22912.739268790916,
+      "positions_max": 1
+    },
+    {
+      "wallet": "2CFywHXDPjDK2iRQsb95vnjgncDUZeQKJ6MceJ4ALpdc",
+      "username": "otsu",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#91"
+      ],
+      "best_pnl_usd": 22476.11869880538,
+      "positions_max": 9
+    },
+    {
+      "wallet": "4unTjmdcxPUq1L3CDvW69UCVvdZ46ZeSMrdtr2L2o8dR",
+      "username": "travism",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#99"
+      ],
+      "best_pnl_usd": 22315.667954756944,
+      "positions_max": 30
+    },
+    {
+      "wallet": "7rnTq4E9bgkYTqMx62142zAFXnyifkDdJgGZc8jNq1xg",
+      "username": "foederatus",
+      "xUsername": "zsecftpov",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#94"
+      ],
+      "best_pnl_usd": 22148.388178356945,
+      "positions_max": 104
+    },
+    {
+      "wallet": "49fAsUF3Nk8qbfpSrQND2sULKXanemwibYLGk5Jpn9bY",
+      "username": "Agent69420",
+      "xUsername": "Agent69420",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#93"
+      ],
+      "best_pnl_usd": 22101.557088835572,
+      "positions_max": 7
+    },
+    {
+      "wallet": "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN",
+      "username": "Putro",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#96"
+      ],
+      "best_pnl_usd": 22051.90604329109,
+      "positions_max": 14
+    },
+    {
+      "wallet": "D5r4WKC9U1S2eGXEAoq4skicE8moTZ8RTCtnhoX4dDLY",
+      "username": "shoheiii",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#95"
+      ],
+      "best_pnl_usd": 21461.63256450688,
+      "positions_max": 0
+    },
+    {
+      "wallet": "FaPWKVMipHRYXAioUc979LypvTuwUan9UiQ7ytsc9rD8",
+      "username": "vibeshift",
+      "xUsername": "vibeshifter",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#12"
+      ],
+      "best_pnl_usd": 20964.02347889053,
+      "positions_max": 17
+    },
+    {
+      "wallet": "HKcsAKGpxnFxz7DGkNYP4X7M34kqj6sSwQoygh4djC98",
+      "username": "notbarrontrump",
+      "xUsername": "Enxgma3",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#15"
+      ],
+      "best_pnl_usd": 20846.44584648962,
+      "positions_max": 5
+    },
+    {
+      "wallet": "tAg2tgyHmkGTsmq8wBSKsGvUUgoH37cxmCfRUZSXdtB",
+      "username": "tAg911",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#18"
+      ],
+      "best_pnl_usd": 19824.58907787245,
+      "positions_max": 23
+    },
+    {
+      "wallet": "J6ZMH3cXtL2UqrkFb6PKV4R5EMjyzbTArnPTnkjejiNr",
+      "username": "AgentZero",
+      "xUsername": "AgentZero",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#19"
+      ],
+      "best_pnl_usd": 19627.079790575775,
+      "positions_max": 1
+    },
+    {
+      "wallet": "HvYK3PHiza8xZh8gEx3io1oUuePRwrazsFjN9F62MspD",
+      "username": "cabal222",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#100"
+      ],
+      "best_pnl_usd": 18520.94262059024,
+      "positions_max": 140
+    },
+    {
+      "wallet": "5LgsMBSnCjC46S2WQwqiE4Ne59BZZp6HAntsqKQDedTJ",
+      "username": "senoxe",
+      "xUsername": "senoxe",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#90"
+      ],
+      "best_pnl_usd": 16850.036790471386,
+      "positions_max": 10
+    },
+    {
+      "wallet": "H8SCYZez6evwJ5m8NJrbmVxLD8mqD2S65SQMGaVzd5Uj",
+      "username": "ruggedbyasian",
+      "xUsername": "CTOGod",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#16"
+      ],
+      "best_pnl_usd": 16224.644073294196,
+      "positions_max": 12
+    },
+    {
+      "wallet": "4y96HLdkD6Bxt7YT8WwKBXoJ9R4sg4W6hjmLdR1ZuQXz",
+      "username": "FearSOLx",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#20"
+      ],
+      "best_pnl_usd": 15235.789176765873,
+      "positions_max": 10
+    },
+    {
+      "wallet": "GZ1yiJKTq8Mc6RiY2WQrzph8wJcizSLGgyhr4RSgnuUo",
+      "username": "badattrading",
+      "xUsername": "badattrading_",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#79"
+      ],
+      "best_pnl_usd": 14898.029407384653,
+      "positions_max": 74
+    },
+    {
+      "wallet": "CZwrwhCRCFgU6pXCD7sw9cb5iugvLpJHFDKWT6Yieosb",
+      "username": "starpumper",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/realized#27"
+      ],
+      "best_pnl_usd": 14515.387923843793,
+      "positions_max": 14
+    },
+    {
+      "wallet": "AK18Ru6UzvbhBWcfnhALuMM4hSXvyDCmvMkrZD3QQqrU",
+      "username": "zinc",
+      "xUsername": "zinceth",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#18"
+      ],
+      "best_pnl_usd": 14433.293060366132,
+      "positions_max": 62
+    },
+    {
+      "wallet": "5zrTC1c77WsuQmXvdzQhGZgNiyqR6b3wEWcSZWwfkebK",
+      "username": "DentedIcyShrimp",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#25"
+      ],
+      "best_pnl_usd": 13697.791301141733,
+      "positions_max": 5
+    },
+    {
+      "wallet": "9tH2zRYdS3X7PEcsPno3GST1EHe8GX8CSNih1pKpamAp",
+      "username": "faceofsol",
+      "xUsername": "faceofsol",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#63"
+      ],
+      "best_pnl_usd": 13625.605802435126,
+      "positions_max": 60
+    },
+    {
+      "wallet": "GBERKNpahPnBGmeUGWQVjGBDBj6CcJKpGz34FqegmTgu",
+      "username": "Kenjew",
+      "xUsername": "kenjutsu",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#29"
+      ],
+      "best_pnl_usd": 13115.086320213984,
+      "positions_max": 37
+    },
+    {
+      "wallet": "88y4qUChRATKVbjXDs5KRwfyaqE9n3onzCsDFCgTmGQr",
+      "username": "Bizzinness",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "weekly/realized#14"
+      ],
+      "best_pnl_usd": 12961.378529175992,
+      "positions_max": 2
+    },
+    {
+      "wallet": "BYGaWBYhk7Ht1vJqoMBgqgMsrhefa9hhQNjL39SLK8yN",
+      "username": "animebtc",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "daily/realized#34"
+      ],
+      "best_pnl_usd": 12905.565278963608,
+      "positions_max": 28
+    },
+    {
+      "wallet": "86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD",
+      "username": "publixplayz",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#30"
+      ],
+      "best_pnl_usd": 12464.459700910287,
+      "positions_max": 8
+    },
+    {
+      "wallet": "AQdBYZNy3BZ1vouGUjA1w9Ay7aq7kH5UQSuh4LQWKotY",
+      "username": "armoski",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#39"
+      ],
+      "best_pnl_usd": 10645.92443027871,
+      "positions_max": 3
+    },
+    {
+      "wallet": "5pUgxQGgX36GyV5BdsBNRAw9JxJ6Br4UVddJmJ3sumhc",
+      "username": "jamal",
+      "xUsername": "whoisjamal1337",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#40"
+      ],
+      "best_pnl_usd": 10421.483095627174,
+      "positions_max": 12
+    },
+    {
+      "wallet": "2fUQ7gzj5JFU8J4J7mzSBLr9RjH8pCiSkywXV6xPKHDo",
+      "username": "RoosterQuant28",
+      "xUsername": "RoosterQuant28",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#42"
+      ],
+      "best_pnl_usd": 10389.45608087443,
+      "positions_max": 6
+    },
+    {
+      "wallet": "JCgiD1wCXThddg7jdv6K1q21pR2f5ift8dc41Lpwasx6",
+      "username": "trenchdevil",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#62"
+      ],
+      "best_pnl_usd": 9700.626100234835,
+      "positions_max": 6
+    },
+    {
+      "wallet": "2MEp1AV5Azg3aXbi9Qf9hYAEGgCCWYxSCz4YhUKNgsFr",
+      "username": "citizen738",
+      "xUsername": "csgoexcel",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#43"
+      ],
+      "best_pnl_usd": 9615.708874849193,
+      "positions_max": 5
+    },
+    {
+      "wallet": "BwBsoGeqN2St2vcurGBSUKXbC2WTZ73eKRcfAYhfgQtK",
+      "username": "tullytubs",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#35"
+      ],
+      "best_pnl_usd": 9198.42573538099,
+      "positions_max": 12
+    },
+    {
+      "wallet": "7n5pmtMfja74ybgbPGZfzop2xM7oBZ2TDn6rr8XhPjEf",
+      "username": "Daemononchain",
+      "xUsername": "daemononchain1",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#96"
+      ],
+      "best_pnl_usd": 9073.344060720337,
+      "positions_max": 38
+    },
+    {
+      "wallet": "6kPn3FEAUxMP5t8Ed5Y65GyZkWMNKwcCMRSqKeMWSfPq",
+      "username": "Gorillapanic",
+      "xUsername": "gorillapanics",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#47"
+      ],
+      "best_pnl_usd": 8963.42608015727,
+      "positions_max": 7
+    },
+    {
+      "wallet": "FRa5xvWrvgYBHEukozdhJPCJRuJZcTn2WKj2u6L75Rmj",
+      "username": "dante",
+      "xUsername": "dddddddddddd100",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#51"
+      ],
+      "best_pnl_usd": 8936.966259779998,
+      "positions_max": 22
+    },
+    {
+      "wallet": "9emXYGUF7cYtX2uyuZavDhhxZ65wHcYZgRv5AHVAHGSp",
+      "username": "cryptogodfather",
+      "xUsername": "CosmoCapy",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#56"
+      ],
+      "best_pnl_usd": 8850.80280270689,
+      "positions_max": 31
+    },
+    {
+      "wallet": "2JptG7VJTuohCNrEE2iVT43UtjTNqRTVMsgNs8xeotbC",
+      "username": "hako99",
+      "xUsername": "hako99",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#49"
+      ],
+      "best_pnl_usd": 8689.968326663009,
+      "positions_max": 1
+    },
+    {
+      "wallet": "NMgfqcn6BoS1k6yZoYfureFGPChTdUAgJAQpuhzdLBZ",
+      "username": "silllystevesol",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#50"
+      ],
+      "best_pnl_usd": 8608.236654119171,
+      "positions_max": 2
+    },
+    {
+      "wallet": "6e6zBynrxYp6UteuYPzf7abCQVjFfSkV6rEmkSezD2J7",
+      "username": "the_conjuror",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#71"
+      ],
+      "best_pnl_usd": 8538.738789254674,
+      "positions_max": 13
+    },
+    {
+      "wallet": "EMr7JziVwVm6LjjeZDcRzEcGQf4cAhH74okb7985m1RV",
+      "username": "opy",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#61"
+      ],
+      "best_pnl_usd": 8371.61170575856,
+      "positions_max": 25
+    },
+    {
+      "wallet": "7wiEWKeG7sFUNh1TgujwCa9cmJtSSE4mNLDde7knjoeE",
+      "username": "washywash",
+      "xUsername": "Zekeb3k",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#57"
+      ],
+      "best_pnl_usd": 7821.452839487516,
+      "positions_max": 10
+    },
+    {
+      "wallet": "86iFnEnDZtFtgvbSoCu1gVTKK82RENNsrFsvVQQ5B1mN",
+      "username": "noodle_guy",
+      "xUsername": "NoodleGuy__",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#59"
+      ],
+      "best_pnl_usd": 7571.361303050209,
+      "positions_max": 3
+    },
+    {
+      "wallet": "7j7AA3HZR2zEjwAQEKPFh2qucLY4fqZpB9iodf39w8xW",
+      "username": "Mazeeee",
+      "xUsername": "MazeCCC",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#63"
+      ],
+      "best_pnl_usd": 7195.570610328837,
+      "positions_max": 5
+    },
+    {
+      "wallet": "As7HjL7dzzvbRbaD3WCun47robib2kmAKRXMvjHkSMB5",
+      "username": "ott4",
+      "xUsername": "ottabag",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#94"
+      ],
+      "best_pnl_usd": 7154.917982918571,
+      "positions_max": 8
+    },
+    {
+      "wallet": "4w7HzF73v6mhd4Jf4Cx6VVNDPJn3aVCiJDV7SfqqaWEk",
+      "username": "cubicmanta24780",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#64"
+      ],
+      "best_pnl_usd": 7054.960450120772,
+      "positions_max": 0
+    },
+    {
+      "wallet": "533rEGRfRCBEdYLMufRUs1aDXRkFppeDmdrEc77Dhfqs",
+      "username": "fence",
+      "xUsername": "f_nc_y",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#58"
+      ],
+      "best_pnl_usd": 6781.754031490813,
+      "positions_max": 23
+    },
+    {
+      "wallet": "GvTXquDAJbfrFrEGTPRPUj3WM5Bzub5yeTFzkLVHpjfD",
+      "username": "brunowsky",
+      "xUsername": "brubowsky",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#70"
+      ],
+      "best_pnl_usd": 6637.814779654974,
+      "positions_max": 3
+    },
+    {
+      "wallet": "7iHNAz4GWdRQFNvt6UFiNU1xJNqvTqxpXEdZdc9fJkL6",
+      "username": "Chuther",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#68"
+      ],
+      "best_pnl_usd": 6635.7484810522155,
+      "positions_max": 2
+    },
+    {
+      "wallet": "HZXdwRRw27kfpYtTqc7bMfrRgK3LSUaiKDFtqoEihik8",
+      "username": "acridtuna55943",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "monthly/realized#39"
+      ],
+      "best_pnl_usd": 6619.075160637876,
+      "positions_max": 712
+    },
+    {
+      "wallet": "6SLicJwxNy597craeRd3zTYryZuR3NHsTTx1akKPvopW",
+      "username": "pigeonion",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#72"
+      ],
+      "best_pnl_usd": 6424.442166577317,
+      "positions_max": 0
+    },
+    {
+      "wallet": "FdSShBiR1nBtxQzhwNMszyRdcvMVLiAeVraJLvERERZL",
+      "username": "element69420",
+      "xUsername": "Element69420",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#75"
+      ],
+      "best_pnl_usd": 6400.8408615983335,
+      "positions_max": 34
+    },
+    {
+      "wallet": "HmUt3Jn46j7c7ANdURmEyjSRj8i3Em6MhjQUi37PZ219",
+      "username": "netvyxe",
+      "xUsername": "netvyxe",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#88"
+      ],
+      "best_pnl_usd": 6165.372798086218,
+      "positions_max": 9
+    },
+    {
+      "wallet": "4YxyRTLsK88uQ83bWoanu1x2FHo312b7JrcRqYPudD4p",
+      "username": "solengineer",
+      "xUsername": "sol_engineer",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#78"
+      ],
+      "best_pnl_usd": 5958.546227057979,
+      "positions_max": 1
+    },
+    {
+      "wallet": "BYRFkxvJw7DcuNYh8MVTW1P1HJix2YBqiCr1FH4oeQn6",
+      "username": "iCakii",
+      "xUsername": "caki043535",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#76"
+      ],
+      "best_pnl_usd": 5502.618794087897,
+      "positions_max": 9
+    },
+    {
+      "wallet": "Dgehc8YMv6dHsiPJVoumvq4pSBkMVvrTgTUg7wdcYJPJ",
+      "username": "maghrebi",
+      "xUsername": "maghrrebi",
+      "isVerified": false,
+      "boards": [
+        "daily/realized#99"
+      ],
+      "best_pnl_usd": 5496.765868778988,
+      "positions_max": 5
+    },
+    {
+      "wallet": "EeXvxkcGqMDZeTaVeawzxm9mbzZwqDUMmfG3bF7uzumH",
+      "username": "allglorybetogod",
+      "xUsername": "fnmilito",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#82"
+      ],
+      "best_pnl_usd": 5465.178487977994,
+      "positions_max": 19
+    },
+    {
+      "wallet": "8MpJbCLZDXTvbDQUPdBGkZD2kqN2qj1mVkFgyaYMrbN5",
+      "username": "sambati",
+      "xUsername": "sambati_",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#92"
+      ],
+      "best_pnl_usd": 5431.72030771033,
+      "positions_max": 3
+    },
+    {
+      "wallet": "BGVobQzqq7B8jFMXSBq25Cn9m4CpZPuD5pHmarm48GXS",
+      "username": "larp4ever8",
+      "xUsername": "larp4ever8",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#84"
+      ],
+      "best_pnl_usd": 5399.021455154021,
+      "positions_max": 1
+    },
+    {
+      "wallet": "3DEqVSoAC4agH8H9451qLGKKh8kQhmAEjq3yHGWdgjFV",
+      "username": "w8rldedit",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#86"
+      ],
+      "best_pnl_usd": 5316.595189748886,
+      "positions_max": 0
+    },
+    {
+      "wallet": "F2pQ7aLeFbTTLbASCMzYEXx3MH3hEjppG89oKp28fvAn",
+      "username": "DeanZuts",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#90"
+      ],
+      "best_pnl_usd": 5311.1874614082035,
+      "positions_max": 8
+    },
+    {
+      "wallet": "BNKLtSitrU8Tp6xtE988He8QbLyrAten4edqNtLymFLd",
+      "username": "rmanss",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#97"
+      ],
+      "best_pnl_usd": 5287.945456854061,
+      "positions_max": 3
+    },
+    {
+      "wallet": "98T65wcMEjoNLDTJszBHGZEX75QRe8QaANXokv4yw3Mp",
+      "username": "Leck",
+      "xUsername": "LeckSol",
+      "isVerified": true,
+      "boards": [
+        "daily/realized#87"
+      ],
+      "best_pnl_usd": 5263.9891491729195,
+      "positions_max": 9
+    },
+    {
+      "wallet": "4Qk1Vc54N8S4FgxrhSWnPD8r287zsLwLbHubLMfvZygv",
+      "username": "Magi",
+      "xUsername": "profitmaxxing",
+      "isVerified": true,
+      "boards": [
+        "weekly/realized#64"
+      ],
+      "best_pnl_usd": 5157.453491186474,
+      "positions_max": 3
+    },
+    {
+      "wallet": "7kDiDMQg6mHD84pZyR8gx5xpC7T7vEVx6mbEYnTstLB5",
+      "username": "ivese",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#95"
+      ],
+      "best_pnl_usd": 2666.277428766072,
+      "positions_max": 16
+    },
+    {
+      "wallet": "79TxhqS6EXM1eTqMMGqMVYwrVTZrcbJonRjYEjheoZAj",
+      "username": "JustOnyxChips",
+      "xUsername": null,
+      "isVerified": false,
+      "boards": [
+        "daily/realized#93"
+      ],
+      "best_pnl_usd": 497.2402557639098,
+      "positions_max": 1
+    },
+    {
+      "wallet": "Be24Gbf5KisDk1LcWWZsBn8dvB816By7YzYF5zWZnRR6",
+      "username": "chairman",
+      "xUsername": "Chairman_DN",
+      "isVerified": true,
+      "boards": [
+        "weekly/unrealized#89"
+      ],
+      "best_pnl_usd": -38142.78376798862,
+      "positions_max": 102
+    },
+    {
+      "wallet": "B5TrL7PsRUwCTL5bVcueieht5QchTw4TWLQDKqEaxEzi",
+      "username": "sapphy",
+      "xUsername": null,
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#33"
+      ],
+      "best_pnl_usd": -42299.972513763234,
+      "positions_max": 149
+    },
+    {
+      "wallet": "F6mEJf6reUh6nUy6pFajWHSz4aKVwMs4BwpsMqs97839",
+      "username": "0xSun",
+      "xUsername": "0xSunNFT",
+      "isVerified": true,
+      "boards": [
+        "monthly/realized#42"
+      ],
+      "best_pnl_usd": -88157.27261112852,
+      "positions_max": 28
+    }
+  ]
+}

@@ -1,0 +1,2240 @@
+{
+  "generated_at": "2026-09-18T10:27:06.176Z",
+  "filters": {
+    "min_mc_usd": 50000,
+    "max_mc_usd": 20000000,
+    "min_holders": 200,
+    "min_age_h": 24
+  },
+  "universe": 377,
+  "qualified": 364,
+  "scanned": 53,
+  "most_holders": [
+    {
+      "symbol": "Noiz",
+      "mint": "3qFdxC9xvb2vqhFijrPLE4Dn5mH7Ndmagjh15Q1dN6Rb",
+      "holders": 1000,
+      "mc_usd": 19323595.63454592,
+      "h24": null
+    },
+    {
+      "symbol": "BAYC",
+      "mint": "ArUyEVWGCzZMtAxcPmNH8nDFZ4kMjxrMbpsQf3NEpump",
+      "holders": 1000,
+      "mc_usd": 17580484,
+      "h24": null
+    },
+    {
+      "symbol": "DANGR",
+      "mint": "DVsLaDtK8B2fLz7Wbv6rfL7i3Z1W3gU1w5MZN8Tpump",
+      "holders": 1000,
+      "mc_usd": 17150723,
+      "h24": 20
+    },
+    {
+      "symbol": "WOTF",
+      "mint": "HaRr1KZg6QdamK7Ua26M6upmbueJPhhd3oW6cCgLpump",
+      "holders": 1000,
+      "mc_usd": 16595208.189766372,
+      "h24": null
+    },
+    {
+      "symbol": "WWR",
+      "mint": "dhBLuz2Qs2CfYSGsSxjfywxgsvot8GwasVMi5Supump",
+      "holders": 1000,
+      "mc_usd": 16110588,
+      "h24": 19.72
+    },
+    {
+      "symbol": "GOAT",
+      "mint": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+      "holders": 1000,
+      "mc_usd": 16209541,
+      "h24": 3.7
+    },
+    {
+      "symbol": "TDOF",
+      "mint": "aJtcV2fKxYKQHGLDrcvZ76GaA8exqrQCcDv7pbzpump",
+      "holders": 1000,
+      "mc_usd": 14808212.090290643,
+      "h24": null
+    },
+    {
+      "symbol": "KIBA",
+      "mint": "E2nKxWD9PZMN2wPcpWSfZ1QTUdoKtXbVVhugA7Tpump",
+      "holders": 1000,
+      "mc_usd": 14703975.21517378,
+      "h24": null
+    },
+    {
+      "symbol": "CIGR",
+      "mint": "3P6WB3hifQ9Z38Ja5qNuaETkgstJUWmP6vf58aYupump",
+      "holders": 1000,
+      "mc_usd": 13816203,
+      "h24": -1.52
+    },
+    {
+      "symbol": "MANIFEST",
+      "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+      "holders": 1000,
+      "mc_usd": 11836728,
+      "h24": 9.96
+    },
+    {
+      "symbol": "CHILLGUY",
+      "mint": "Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump",
+      "holders": 1000,
+      "mc_usd": 12586188,
+      "h24": 3.2
+    },
+    {
+      "symbol": "GOAF",
+      "mint": "tBhaodPqy6g5Gp7TCJjeVPvnpffUddPRrNB7jEApump",
+      "holders": 1000,
+      "mc_usd": 11482398.61711251,
+      "h24": null
+    },
+    {
+      "symbol": "WOFI",
+      "mint": "FYnCZ1nTqommkRzy5ZYyhX9ZX7Ew4XHbCGqAhDvWpump",
+      "holders": 1000,
+      "mc_usd": 11229800.795706524,
+      "h24": null
+    },
+    {
+      "symbol": "FAIR",
+      "mint": "X2CQUNuAhdhXVUydj77LMrjcKz97RiA6akPUfDspump",
+      "holders": 1000,
+      "mc_usd": 9912029,
+      "h24": 18.93
+    },
+    {
+      "symbol": "AVA",
+      "mint": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+      "holders": 1000,
+      "mc_usd": 9678793,
+      "h24": 3.18
+    },
+    {
+      "symbol": "FTFS",
+      "mint": "NWq7Y6UUpkneabRgKqmrHPeGepLZbxw4pFYBi79pump",
+      "holders": 1000,
+      "mc_usd": 9576049,
+      "h24": 18.97
+    },
+    {
+      "symbol": "STRATEGY",
+      "mint": "R5djwmnzNmsytb8BqTohFDW555Q531jRXNeRwigpump",
+      "holders": 1000,
+      "mc_usd": 9433980,
+      "h24": 23.41
+    },
+    {
+      "symbol": "PONS",
+      "mint": "HsW2XDNmw7YpL9pe5UcFjqUbcpHNcDwceyqxtLZpump",
+      "holders": 1000,
+      "mc_usd": 9402675.091817535,
+      "h24": null
+    },
+    {
+      "symbol": "PAID",
+      "mint": "nGo82DFyakENdeo4zEwRbtJh8XFgcLJ3BvkUi7bpump",
+      "holders": 1000,
+      "mc_usd": 9403142.655073544,
+      "h24": null
+    },
+    {
+      "symbol": "ACT",
+      "mint": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+      "holders": 1000,
+      "mc_usd": 9403855,
+      "h24": 3.73
+    },
+    {
+      "symbol": "fomo",
+      "mint": "UNHwuKaSGKP7qmYMFS5aSJdqifHj6CiXWvtoeYNpump",
+      "holders": 1000,
+      "mc_usd": 9013203,
+      "h24": 28.52
+    },
+    {
+      "symbol": "USDF",
+      "mint": "ireZB2cgtfvFcVQGLYRAzaugVapAzsjgJ1cMetQpump",
+      "holders": 1000,
+      "mc_usd": 8671280.03355655,
+      "h24": null
+    },
+    {
+      "symbol": "IQD",
+      "mint": "qLf3mzbGA82LpU5R31K5fRySktbiABHuijjQ3Pepump",
+      "holders": 1000,
+      "mc_usd": 7882361,
+      "h24": 32.81
+    },
+    {
+      "symbol": "NTDA",
+      "mint": "Z2ZA3cMD36rxJUXuHkr6Rf5w5GceCvC2dgpZUPJpump",
+      "holders": 1000,
+      "mc_usd": 7816628,
+      "h24": 21.89
+    },
+    {
+      "symbol": "VINE",
+      "mint": "6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump",
+      "holders": 1000,
+      "mc_usd": 7524270,
+      "h24": 3.65
+    },
+    {
+      "symbol": "USGR",
+      "mint": "1FQBBKgz7BmKxXSwUN9WzGVdrtL9KpQMri5UJEvpump",
+      "holders": 1000,
+      "mc_usd": 7336036.67831379,
+      "h24": null
+    },
+    {
+      "symbol": "UFD",
+      "mint": "eL5fUxj2J4CiQsmW85k5FG9DvuQjjUoBHoQBi2Kpump",
+      "holders": 1000,
+      "mc_usd": 7286598,
+      "h24": 3.61
+    },
+    {
+      "symbol": "swarms",
+      "mint": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump",
+      "holders": 1000,
+      "mc_usd": 7243456,
+      "h24": 3.54
+    },
+    {
+      "symbol": "NTDA",
+      "mint": "vUaJXYFimxYtmmhhsJbwWuo7MdLvJJLHLzuRuJGpump",
+      "holders": 1000,
+      "mc_usd": 7013458.613002581,
+      "h24": null
+    },
+    {
+      "symbol": "WWR",
+      "mint": "2JHrkVb5NwQEKRgLbBu9CyrG7F7SmvJyLW1NkpdP8WWR",
+      "holders": 1000,
+      "mc_usd": 7029380,
+      "h24": 2.74
+    },
+    {
+      "symbol": "ZCAT",
+      "mint": "awwVC85SWQY2HDepbzAQ6rTe7MnckxRuEyCwQFGpump",
+      "holders": 1000,
+      "mc_usd": 6580530.5016853595,
+      "h24": null
+    },
+    {
+      "symbol": "DADDY",
+      "mint": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump",
+      "holders": 1000,
+      "mc_usd": 6502819,
+      "h24": 5.24
+    },
+    {
+      "symbol": "XPXGOLD",
+      "mint": "d2j7wA9Ev418ftAYR2rLZfrru3QdahW8aZurnLcpump",
+      "holders": 1000,
+      "mc_usd": 6241518.845649307,
+      "h24": null
+    },
+    {
+      "symbol": "fone",
+      "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+      "holders": 1000,
+      "mc_usd": 5413193,
+      "h24": 34.51
+    },
+    {
+      "symbol": "ALL",
+      "mint": "9fscf7s5fzNTBM3jMAgS1Bn5PrMoMKVF2Yvb7pDpump",
+      "holders": 1000,
+      "mc_usd": 5271319,
+      "h24": 43.39
+    },
+    {
+      "symbol": "TEXTIT",
+      "mint": "udPEzBjbGMzYZbuLtByqLYhc4TEs6EebG8R7fwdpump",
+      "holders": 1000,
+      "mc_usd": 5169974,
+      "h24": 6.4
+    },
+    {
+      "symbol": "PONYX",
+      "mint": "eWy2TgpUj71fMDThQFQsVhYqd58mRRU1AtLKrw8pump",
+      "holders": 1000,
+      "mc_usd": 4377805.476957167,
+      "h24": null
+    },
+    {
+      "symbol": "$BRAINROT",
+      "mint": "A9eR2GkTPEs3vbQjxMdkdvNJnWiKaBDq1Y9K5LEkpump",
+      "holders": 1000,
+      "mc_usd": 4297518.651628823,
+      "h24": null
+    },
+    {
+      "symbol": "TNT",
+      "mint": "gEdcCfw7F39owePXfoGWW6oim1dQ4jUaC25JmmSpump",
+      "holders": 1000,
+      "mc_usd": 4254268.507489995,
+      "h24": null
+    },
+    {
+      "symbol": "ELON",
+      "mint": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+      "holders": 1000,
+      "mc_usd": 3869741,
+      "h24": 20.83
+    },
+    {
+      "symbol": "AROS",
+      "mint": "qx8wveCdmcwAwGdnNDxZhkqDnkKwVZKyKzuPxsQpump",
+      "holders": 1000,
+      "mc_usd": 3802730.9745321036,
+      "h24": null
+    },
+    {
+      "symbol": "ANSEM",
+      "mint": "vAnocW8MmKbeAos33s6SZxG3deP7fXPumqNda8mpump",
+      "holders": 1000,
+      "mc_usd": 3496657.174332276,
+      "h24": null
+    },
+    {
+      "symbol": "NTDA",
+      "mint": "wieciKLgMMduPtzekzKr4n4uwWWKdPR54ovGTAmpump",
+      "holders": 1000,
+      "mc_usd": 3324453.214859319,
+      "h24": null
+    },
+    {
+      "symbol": "KRA",
+      "mint": "AY2Qidgrky4TFymeJKe36w5buY7QWK7TSd7obQLupump",
+      "holders": 1000,
+      "mc_usd": 3003965.643252,
+      "h24": null
+    },
+    {
+      "symbol": "DJI6930",
+      "mint": "DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
+      "holders": 1000,
+      "mc_usd": 4067618,
+      "h24": 3.64
+    },
+    {
+      "symbol": "MDOR",
+      "mint": "wPktHiifvRwpjEQJsbBk9tAx75qJoYnzZAnmDV6pump",
+      "holders": 1000,
+      "mc_usd": 2924913,
+      "h24": 11.54
+    },
+    {
+      "symbol": "dreams",
+      "mint": "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump",
+      "holders": 1000,
+      "mc_usd": 3322182,
+      "h24": -8.72
+    },
+    {
+      "symbol": "FRIED",
+      "mint": "3LaXmnVQxMMArywUBJjGA5EKbUdJ17PFor3M5oeupump",
+      "holders": 1000,
+      "mc_usd": 2750888,
+      "h24": 5.12
+    },
+    {
+      "symbol": "CAR",
+      "mint": "7oBYdEhV4GkXC19ZfgAvXpJWp2Rn9pm1Bx2cVNxFpump",
+      "holders": 1000,
+      "mc_usd": 2775858,
+      "h24": 4.59
+    },
+    {
+      "symbol": "IF",
+      "mint": "P88RXaDXRa9GY4h7HvVLgRnt3mxEBWJQYchieEVpump",
+      "holders": 1000,
+      "mc_usd": 2766808,
+      "h24": 38.3
+    },
+    {
+      "symbol": "ALLINDOGE",
+      "mint": "HyDKNdnhZNVYQMruBevbNsUWruA9STmAQrS4srXApump",
+      "holders": 1000,
+      "mc_usd": 2788186.320149168,
+      "h24": null
+    },
+    {
+      "symbol": "$NRG",
+      "mint": "9f52wiW2zrt2497HroMHtZtuj7VzWu4AsEusmW3pump",
+      "holders": 1000,
+      "mc_usd": 2262185,
+      "h24": 1.1
+    },
+    {
+      "symbol": "V2EX",
+      "mint": "9raUVuzeWUk53co63M4WXLWPWE4Xc6Lpn7RS9dnkpump",
+      "holders": 1000,
+      "mc_usd": 2379060,
+      "h24": 4.81
+    },
+    {
+      "symbol": "BP",
+      "mint": "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
+      "holders": 1000,
+      "mc_usd": 2310126,
+      "h24": 11.61
+    },
+    {
+      "symbol": "YzY",
+      "mint": "4NBTf8PfLH4oLFnwf3knv46FY9i5oXjDxffCetXRpump",
+      "holders": 1000,
+      "mc_usd": 2403604,
+      "h24": -1.32
+    },
+    {
+      "symbol": "retire",
+      "mint": "zGh48JtNHVBb5evgoZLXwgPD2Qu4MhkWdJLGDAupump",
+      "holders": 1000,
+      "mc_usd": 2362616,
+      "h24": 7.89
+    },
+    {
+      "symbol": "USDF",
+      "mint": "DRMnFyekQiCTMrajtgsTycqp4ie6r1tZnh6qpAGjpump",
+      "holders": 1000,
+      "mc_usd": 2256858,
+      "h24": 73.52
+    },
+    {
+      "symbol": "PONYX",
+      "mint": "BLmaMbYNfErSMboj1mUmT6Ng1uNZ1JKbjMTGvGdKpump",
+      "holders": 1000,
+      "mc_usd": 2294275,
+      "h24": -1.51
+    },
+    {
+      "symbol": "NOVALUE",
+      "mint": "DVxaAXi3L2NMgqpBqYmuVJkSK4bVJ1JgjvTmQgTpump",
+      "holders": 1000,
+      "mc_usd": 2217670,
+      "h24": -28.68
+    },
+    {
+      "symbol": "EPIK",
+      "mint": "3BgwJ8b7b9hHX4sgfZ2KJhv9496CoVfsMK2YePevsBRw",
+      "holders": 1000,
+      "mc_usd": 2115869,
+      "h24": 5.24
+    },
+    {
+      "symbol": "GOJIPOWER",
+      "mint": "DYCLLejhtfyCDUY8ygBx7YuwfcdaRzLo7nHHVGdApump",
+      "holders": 1000,
+      "mc_usd": 1939730,
+      "h24": 1.91
+    },
+    {
+      "symbol": "TOESCOIN",
+      "mint": "6ehEcTMCc85aNF4x9CWx8HuvWGhxQtvKdhKVf2HDpump",
+      "holders": 1000,
+      "mc_usd": 1989068.778383132,
+      "h24": null
+    },
+    {
+      "symbol": "Amiko",
+      "mint": "AY1Ww6MxwC3cCiyrandHqLrp4FXvzgcwQTZpJ2FEpump",
+      "holders": 1000,
+      "mc_usd": 2047787,
+      "h24": 5.29
+    },
+    {
+      "symbol": "YES",
+      "mint": "VzqFToxrHqs7BFtfWvwmGAn6nv7p9W3zdmW95iTpump",
+      "holders": 1000,
+      "mc_usd": 1814071,
+      "h24": 6.31
+    },
+    {
+      "symbol": "AIWS",
+      "mint": "hMqjUNgePRaRaFcvMh7WxMbmuBMBKQEubmruxwopump",
+      "holders": 1000,
+      "mc_usd": 1711607.0885488035,
+      "h24": null
+    },
+    {
+      "symbol": "A47",
+      "mint": "CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump",
+      "holders": 1000,
+      "mc_usd": 1731860,
+      "h24": 0.41
+    },
+    {
+      "symbol": "$WHISKEY",
+      "mint": "9UNqoPEXXxEnEphmyYsZYdL5dnmAUtdiKRUchpnUF5Ph",
+      "holders": 1000,
+      "mc_usd": 1701520,
+      "h24": 4.64
+    },
+    {
+      "symbol": "CABAL",
+      "mint": "2URzn4j6SYXUQVZ8DqxsrSVPbpNP8xRQPbGBLtm1BV47",
+      "holders": 1000,
+      "mc_usd": 1412406.608534576,
+      "h24": null
+    },
+    {
+      "symbol": "BBT",
+      "mint": "3s4AK2x2nGkKP8ZADbcKuhdPr3coSuh1XnwZEzWgpump",
+      "holders": 1000,
+      "mc_usd": 1532221.541067,
+      "h24": null
+    },
+    {
+      "symbol": "RWA",
+      "mint": "G8aVC4nk5oPWzTHp4PDm3kAuixCebv9WRQMD93h9pump",
+      "holders": 1000,
+      "mc_usd": 1509878,
+      "h24": 3.45
+    },
+    {
+      "symbol": "RICHDEBT",
+      "mint": "GiUHYs5Hsv94P8bR9m26DsXsX8E786rQsFsPK6spump",
+      "holders": 1000,
+      "mc_usd": 1470224,
+      "h24": -30.48
+    },
+    {
+      "symbol": "XPT ",
+      "mint": "DmxDBXTxEnNXVNNVVZe9QhgoKnr8anjE1b49dpZapump",
+      "holders": 1000,
+      "mc_usd": 1394270,
+      "h24": -3.55
+    },
+    {
+      "symbol": "WSOLP",
+      "mint": "GvUCjmWSXA5hrTh9smmNA1AU55YCtP9mDLQcrKA1pump",
+      "holders": 1000,
+      "mc_usd": 1390438,
+      "h24": -0.03
+    },
+    {
+      "symbol": "stkr",
+      "mint": "3DFnwGLJUfxc4eMxDgQwW6oWaeKBrJ1iwA26YjTfpump",
+      "holders": 1000,
+      "mc_usd": 1405022,
+      "h24": 7.13
+    },
+    {
+      "symbol": "tomochi",
+      "mint": "6mJoQqcPEjiQ1hFya9oH6NBCQLhvS3mwVQWV9EcTHg9u",
+      "holders": 1000,
+      "mc_usd": 1275103,
+      "h24": 19.83
+    },
+    {
+      "symbol": "MOBY",
+      "mint": "Cy1GS2FqefgaMbi45UunrUzin1rfEmTUYnomddzBpump",
+      "holders": 1000,
+      "mc_usd": 1288170,
+      "h24": 35.6
+    },
+    {
+      "symbol": "Coinomi",
+      "mint": "EHmZM5QD7NFpu6hm3o8yYSA6EhYYunHL21fzN2ucpump",
+      "holders": 1000,
+      "mc_usd": 1250599,
+      "h24": 3.77
+    },
+    {
+      "symbol": "GTA 6 Coin",
+      "mint": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
+      "holders": 1000,
+      "mc_usd": 1252096,
+      "h24": 12.72
+    },
+    {
+      "symbol": "NORMIE",
+      "mint": "4MrsXQzaosYNyFd4wKDvgnC5xRtRqgXRrijFTGj9pump",
+      "holders": 1000,
+      "mc_usd": 1228219,
+      "h24": 6.93
+    },
+    {
+      "symbol": "WhiteWhale",
+      "mint": "a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump",
+      "holders": 1000,
+      "mc_usd": 1166568,
+      "h24": 3.7
+    },
+    {
+      "symbol": "PYTHIA",
+      "mint": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+      "holders": 1000,
+      "mc_usd": 1203245,
+      "h24": 81.72
+    },
+    {
+      "symbol": "OTC",
+      "mint": "AUc7hszwXTyRXAkHjjrytyT7sB7r85sc3FxPW5tepump",
+      "holders": 1000,
+      "mc_usd": 1191104,
+      "h24": 4.38
+    },
+    {
+      "symbol": "SIGMA",
+      "mint": "5SVG3T9CNQsm2kEwzbRq6hASqh1oGfjqTtLXYUibpump",
+      "holders": 1000,
+      "mc_usd": 1195220,
+      "h24": 7.47
+    },
+    {
+      "symbol": "jailstool",
+      "mint": "AxriehR6Xw3adzHopnvMn7GcpRFcD41ddpiTWMg6pump",
+      "holders": 1000,
+      "mc_usd": 1193503,
+      "h24": 3.93
+    },
+    {
+      "symbol": "FORK",
+      "mint": "EiQFPuw5zgXQpLk5XSqvMtKTWjf5xiLRZdHftseDpump",
+      "holders": 1000,
+      "mc_usd": 1147263,
+      "h24": -9.33
+    },
+    {
+      "symbol": "CEZ",
+      "mint": "DWrrbYP65oo33Fk83iaQVHQhytntFM1uooyJHjaxpump",
+      "holders": 1000,
+      "mc_usd": 1001140,
+      "h24": 4.06
+    },
+    {
+      "symbol": "MADE",
+      "mint": "EpXtn6xGoZ4Y45vRjiDUHSCGbBoJD5FaEqZbF98YswH1",
+      "holders": 1000,
+      "mc_usd": 958698,
+      "h24": 4.77
+    },
+    {
+      "symbol": "CAPYL",
+      "mint": "C7AEUE3MJ8siPxwM6C2ysth4ZqhpeTJnS8oXiRqTpump",
+      "holders": 1000,
+      "mc_usd": 797237.0988599301,
+      "h24": null
+    },
+    {
+      "symbol": "BEBE",
+      "mint": "B5npKQVxAJc3ojyFbfPwxFXxmpdqfssqRNHnk39xpump",
+      "holders": 1000,
+      "mc_usd": 854149,
+      "h24": -0.41
+    },
+    {
+      "symbol": "mini",
+      "mint": "2JcXacFwt9mVAwBQ5nZkYwCyXQkRcdsYrDXn6hj22SbP",
+      "holders": 1000,
+      "mc_usd": 856244,
+      "h24": 5.74
+    },
+    {
+      "symbol": "TJR",
+      "mint": "4U4U8oXwDyVXGeTffMXds4NAgBgLFwq3wNvTCRTSpump",
+      "holders": 1000,
+      "mc_usd": 812390,
+      "h24": 10.37
+    },
+    {
+      "symbol": "NLINK",
+      "mint": "vuus1Ucw2nfEpZwUzofLr9Kd6ugieNPkjXz3Aqgpump",
+      "holders": 1000,
+      "mc_usd": 804964,
+      "h24": 6.2
+    },
+    {
+      "symbol": "three",
+      "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+      "holders": 1000,
+      "mc_usd": 791106,
+      "h24": -2.23
+    },
+    {
+      "symbol": "MISTAKE",
+      "mint": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+      "holders": 1000,
+      "mc_usd": 742297,
+      "h24": -25.39
+    },
+    {
+      "symbol": "PENGUIN",
+      "mint": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+      "holders": 1000,
+      "mc_usd": 735511,
+      "h24": -0.37
+    },
+    {
+      "symbol": "BULLISH",
+      "mint": "C2omVhcvt3DDY77S2KZzawFJQeETZofgZ4eNWWkXpump",
+      "holders": 1000,
+      "mc_usd": 704258,
+      "h24": 0.32
+    },
+    {
+      "symbol": "XSPA",
+      "mint": "8Hg96R1AGDe5vKABwniVPT2LHdhZHmCTFijZAXXZpump",
+      "holders": 1000,
+      "mc_usd": 713399,
+      "h24": 2.43
+    },
+    {
+      "symbol": "Elon4AfD",
+      "mint": "BkYAUVMar1gLwuFLv2n5cmB6HhcNtvd86kU3gqAypump",
+      "holders": 1000,
+      "mc_usd": 705723,
+      "h24": 1.42
+    },
+    {
+      "symbol": "memecoin",
+      "mint": "Bb4jR951QtVjeFAYFLBYXDSMKjbTDroCLPbFLdd7pump",
+      "holders": 1000,
+      "mc_usd": 677836,
+      "h24": 11.5
+    },
+    {
+      "symbol": "COMAT",
+      "mint": "4bY7N2hPq4aHQJwbhawceNqS5ksyQAayiLEsjNMwpump",
+      "holders": 1000,
+      "mc_usd": 470911,
+      "h24": 4.17
+    }
+  ],
+  "movers": [
+    {
+      "symbol": "RLUSD",
+      "mint": "FMHpvrXeNPZieGVQTELkvVPRZRXMNgpMoSSW8wBc2v31",
+      "holders": 998,
+      "mc_usd": 362299,
+      "h24": 357
+    },
+    {
+      "symbol": "PUMPCAT",
+      "mint": "G4vqe8KAcRGTb7Kc55n9sz43aR4ugTPdSeUnAXZhpump",
+      "holders": 998,
+      "mc_usd": 962044,
+      "h24": 141
+    },
+    {
+      "symbol": "PVE",
+      "mint": "55VWo7QQpqfYwratKUZHhSSnSghyTVCJx54yNoWVpump",
+      "holders": 925,
+      "mc_usd": 507500,
+      "h24": 118
+    },
+    {
+      "symbol": "Pepe",
+      "mint": "B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B",
+      "holders": 995,
+      "mc_usd": 1357749,
+      "h24": 93.39
+    },
+    {
+      "symbol": "LONGCAT",
+      "mint": "GKaYkXHF6n5mKQ9htxWjN1SaXw7nTXQT4Y8S8vMYpump",
+      "holders": 687,
+      "mc_usd": 262861,
+      "h24": 86.77
+    },
+    {
+      "symbol": "PYTHIA",
+      "mint": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+      "holders": 1000,
+      "mc_usd": 1203245,
+      "h24": 81.72
+    },
+    {
+      "symbol": "world",
+      "mint": "FMqh9mqR6drPZqqW6wPqLHxX4rqNDWGhYLaMfoaJpump",
+      "holders": 994,
+      "mc_usd": 466471,
+      "h24": 78.13
+    },
+    {
+      "symbol": "USDF",
+      "mint": "DRMnFyekQiCTMrajtgsTycqp4ie6r1tZnh6qpAGjpump",
+      "holders": 1000,
+      "mc_usd": 2256858,
+      "h24": 73.52
+    },
+    {
+      "symbol": "CLAW",
+      "mint": "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
+      "holders": 999,
+      "mc_usd": 7349806,
+      "h24": 72.91
+    },
+    {
+      "symbol": "FIRECAT",
+      "mint": "6kif8CJPCNAM2S1cydQoELGejdiXmSkVpvqwR7njpump",
+      "holders": 998,
+      "mc_usd": 785983,
+      "h24": 63.86
+    },
+    {
+      "symbol": "Chonketha",
+      "mint": "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump",
+      "holders": 999,
+      "mc_usd": 4478907,
+      "h24": 51.01
+    },
+    {
+      "symbol": "Leafy",
+      "mint": "DD3AC2Cmr5rXzJ6ErRHeryx3ASLVMhSBALiUqeKcpump",
+      "holders": 999,
+      "mc_usd": 1233217,
+      "h24": 46.57
+    },
+    {
+      "symbol": "ALL",
+      "mint": "9fscf7s5fzNTBM3jMAgS1Bn5PrMoMKVF2Yvb7pDpump",
+      "holders": 1000,
+      "mc_usd": 5271319,
+      "h24": 43.39
+    },
+    {
+      "symbol": "TCG",
+      "mint": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+      "holders": 995,
+      "mc_usd": 1193149,
+      "h24": 41.24
+    },
+    {
+      "symbol": "Pistacio",
+      "mint": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
+      "holders": 999,
+      "mc_usd": 325299,
+      "h24": 39.16
+    },
+    {
+      "symbol": "IF",
+      "mint": "P88RXaDXRa9GY4h7HvVLgRnt3mxEBWJQYchieEVpump",
+      "holders": 1000,
+      "mc_usd": 2766808,
+      "h24": 38.3
+    },
+    {
+      "symbol": "$TAP",
+      "mint": "ADcF26nFGKMuRZ7va5361H2PCHCDRi2FmeJBkX3Spump",
+      "holders": 337,
+      "mc_usd": 972639,
+      "h24": 38.23
+    },
+    {
+      "symbol": "MENSA",
+      "mint": "CFPkPq1eYPR8GLzEo59wUbbMioX4bshaTQiSGzTSpump",
+      "holders": 999,
+      "mc_usd": 427318,
+      "h24": 36.32
+    },
+    {
+      "symbol": "PUMPCADE",
+      "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+      "holders": 993,
+      "mc_usd": 12736855,
+      "h24": 35.63
+    },
+    {
+      "symbol": "MOBY",
+      "mint": "Cy1GS2FqefgaMbi45UunrUzin1rfEmTUYnomddzBpump",
+      "holders": 1000,
+      "mc_usd": 1288170,
+      "h24": 35.6
+    },
+    {
+      "symbol": "BULLSHIT",
+      "mint": "zj1jpp7QMveWHLs61vL9KMZf254KvW7j4AAmBF8ry2k",
+      "holders": 994,
+      "mc_usd": 575132,
+      "h24": 35.15
+    },
+    {
+      "symbol": "fone",
+      "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+      "holders": 1000,
+      "mc_usd": 5413193,
+      "h24": 34.51
+    },
+    {
+      "symbol": "IQD",
+      "mint": "qLf3mzbGA82LpU5R31K5fRySktbiABHuijjQ3Pepump",
+      "holders": 1000,
+      "mc_usd": 7882361,
+      "h24": 32.81
+    },
+    {
+      "symbol": "ZERO",
+      "mint": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
+      "holders": 996,
+      "mc_usd": 435042,
+      "h24": 28.77
+    },
+    {
+      "symbol": "fomo",
+      "mint": "UNHwuKaSGKP7qmYMFS5aSJdqifHj6CiXWvtoeYNpump",
+      "holders": 1000,
+      "mc_usd": 9013203,
+      "h24": 28.52
+    },
+    {
+      "symbol": "LOA",
+      "mint": "EhHyfjRwj2jhmSE7GW5uJfizaLcNDa5C4HWPiSqjpump",
+      "holders": 995,
+      "mc_usd": 458846,
+      "h24": 28.08
+    },
+    {
+      "symbol": "Jotchua",
+      "mint": "BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump",
+      "holders": 999,
+      "mc_usd": 1497524,
+      "h24": 27.22
+    },
+    {
+      "symbol": "pSOQ",
+      "mint": "6NX2MWBuJM2Fn63K4hUgMPivLXHV8pwsU1yTdmjKpump",
+      "holders": 853,
+      "mc_usd": 350456,
+      "h24": 26.42
+    },
+    {
+      "symbol": "STABLE",
+      "mint": "4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump",
+      "holders": 999,
+      "mc_usd": 421021,
+      "h24": 25.48
+    },
+    {
+      "symbol": "STRATEGY",
+      "mint": "R5djwmnzNmsytb8BqTohFDW555Q531jRXNeRwigpump",
+      "holders": 1000,
+      "mc_usd": 9433980,
+      "h24": 23.41
+    },
+    {
+      "symbol": "pill",
+      "mint": "DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump",
+      "holders": 998,
+      "mc_usd": 3309874,
+      "h24": 23.17
+    },
+    {
+      "symbol": "DUSD",
+      "mint": "B8RHrVBxSjBGKqAbn1tXo6CWjvt5jFkkqjbCZtuDpump",
+      "holders": 966,
+      "mc_usd": 239663,
+      "h24": 22.09
+    },
+    {
+      "symbol": "NTDA",
+      "mint": "Z2ZA3cMD36rxJUXuHkr6Rf5w5GceCvC2dgpZUPJpump",
+      "holders": 1000,
+      "mc_usd": 7816628,
+      "h24": 21.89
+    },
+    {
+      "symbol": "GBACK",
+      "mint": "Fh7mLxtPAysdvHcMcJ37A3vc6WvBVh7JVDwxmwk6pump",
+      "holders": 996,
+      "mc_usd": 6264004,
+      "h24": 21.61
+    },
+    {
+      "symbol": "ELON",
+      "mint": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+      "holders": 1000,
+      "mc_usd": 3869741,
+      "h24": 20.83
+    },
+    {
+      "symbol": "AgenC",
+      "mint": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+      "holders": 998,
+      "mc_usd": 539921,
+      "h24": 20.52
+    },
+    {
+      "symbol": "DANGR",
+      "mint": "DVsLaDtK8B2fLz7Wbv6rfL7i3Z1W3gU1w5MZN8Tpump",
+      "holders": 1000,
+      "mc_usd": 17150723,
+      "h24": 20
+    },
+    {
+      "symbol": "tomochi",
+      "mint": "6mJoQqcPEjiQ1hFya9oH6NBCQLhvS3mwVQWV9EcTHg9u",
+      "holders": 1000,
+      "mc_usd": 1275103,
+      "h24": 19.83
+    },
+    {
+      "symbol": "WWR",
+      "mint": "dhBLuz2Qs2CfYSGsSxjfywxgsvot8GwasVMi5Supump",
+      "holders": 1000,
+      "mc_usd": 16110588,
+      "h24": 19.72
+    },
+    {
+      "symbol": "EAI",
+      "mint": "7a8JSTTMnynE689y1AvxHTywdQVFdpfdE61rPvgzpump",
+      "holders": 1000,
+      "mc_usd": 458261,
+      "h24": 19.6
+    },
+    {
+      "symbol": "CLANKER",
+      "mint": "3qq54YqAKG3TcrwNHXFSpMCWoL8gmMuPceJ4FG9npump",
+      "holders": 997,
+      "mc_usd": 712045,
+      "h24": 19.56
+    },
+    {
+      "symbol": "FTFS",
+      "mint": "NWq7Y6UUpkneabRgKqmrHPeGepLZbxw4pFYBi79pump",
+      "holders": 1000,
+      "mc_usd": 9576049,
+      "h24": 18.97
+    },
+    {
+      "symbol": "FAIR",
+      "mint": "X2CQUNuAhdhXVUydj77LMrjcKz97RiA6akPUfDspump",
+      "holders": 1000,
+      "mc_usd": 9912029,
+      "h24": 18.93
+    },
+    {
+      "symbol": "VEIL",
+      "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+      "holders": 999,
+      "mc_usd": 1077325,
+      "h24": 18.4
+    },
+    {
+      "symbol": "RAGEGUY",
+      "mint": "GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump",
+      "holders": 999,
+      "mc_usd": 1407440,
+      "h24": 17.85
+    },
+    {
+      "symbol": "Butthole",
+      "mint": "CboMcTUYUcy9E6B3yGdFn6aEsGUnYV6yWeoeukw6pump",
+      "holders": 1000,
+      "mc_usd": 581093,
+      "h24": 17.02
+    },
+    {
+      "symbol": "BURNIE",
+      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
+      "holders": 999,
+      "mc_usd": 1501567,
+      "h24": 16.49
+    },
+    {
+      "symbol": "Joby",
+      "mint": "4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump",
+      "holders": 997,
+      "mc_usd": 732775,
+      "h24": 16.01
+    },
+    {
+      "symbol": "$1",
+      "mint": "GHichsGq8aPnqJyz6Jp1ASTK4PNLpB5KrD6XrfDjpump",
+      "holders": 1000,
+      "mc_usd": 665418,
+      "h24": 15.61
+    },
+    {
+      "symbol": "Cupsey",
+      "mint": "6NwarBvDkXhByqVp2Qkq5i9XbtA2B3Bwe8SWGu9vpump",
+      "holders": 998,
+      "mc_usd": 6772322,
+      "h24": 15.15
+    },
+    {
+      "symbol": "CATS",
+      "mint": "DyidQqHQvWv9r76bWY7H11uB5qnDE7GyDT7Hq1QCpump",
+      "holders": 421,
+      "mc_usd": 734410,
+      "h24": 14.91
+    },
+    {
+      "symbol": "GOLD",
+      "mint": "LRxbtkvPfpctgR6MS52MAwtobrCCY9KiJgKMmpPpump",
+      "holders": 613,
+      "mc_usd": 9378625,
+      "h24": 14.86
+    },
+    {
+      "symbol": "GTA",
+      "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+      "holders": 997,
+      "mc_usd": 451919,
+      "h24": 14.74
+    },
+    {
+      "symbol": "hehe",
+      "mint": "BreuhVohXX5fv6q41uyb3sojtAuGoGaiAhKBMtcrpump",
+      "holders": 999,
+      "mc_usd": 884619,
+      "h24": 13.96
+    },
+    {
+      "symbol": "RKC",
+      "mint": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+      "holders": 992,
+      "mc_usd": 1632964,
+      "h24": 13.7
+    },
+    {
+      "symbol": "ZAUTH",
+      "mint": "DNhQZ1CE9qZ2FNrVhsCXwQJ2vZG8ufZkcYakTS5Jpump",
+      "holders": 990,
+      "mc_usd": 1565438,
+      "h24": 13.06
+    },
+    {
+      "symbol": "GTA 6 Coin",
+      "mint": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
+      "holders": 1000,
+      "mc_usd": 1252096,
+      "h24": 12.72
+    },
+    {
+      "symbol": "BELIEVE",
+      "mint": "HeC2xWqGT9gPfdvaMuqxPo2bUQ1XgY5wRtnrwTEHpump",
+      "holders": 997,
+      "mc_usd": 412282,
+      "h24": 12.53
+    },
+    {
+      "symbol": "Mansion",
+      "mint": "3srdiFxca22oK1g7qdbGGe9qXy4aS9QGVdTETCBFpump",
+      "holders": 812,
+      "mc_usd": 1583407,
+      "h24": 12.49
+    },
+    {
+      "symbol": "meowl",
+      "mint": "8ryRQD6jWfxnSdvvVbQ8Tzwo1NgGP7w1X1nQPpb4pump",
+      "holders": 870,
+      "mc_usd": 394103,
+      "h24": 12.43
+    },
+    {
+      "symbol": "supercycle",
+      "mint": "2G8LH53fcr3aCrEsmAo73eunbZRbyjKrGH5qmur6pump",
+      "holders": 1000,
+      "mc_usd": 383370,
+      "h24": 11.94
+    },
+    {
+      "symbol": "OGDOGE",
+      "mint": "utLyQQCPvjuCc6zeaXdsFeEC3JNdxKS3vxaZWoGdoge",
+      "holders": 994,
+      "mc_usd": 2263898,
+      "h24": 11.61
+    },
+    {
+      "symbol": "BP",
+      "mint": "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
+      "holders": 1000,
+      "mc_usd": 2310126,
+      "h24": 11.61
+    },
+    {
+      "symbol": "MDOR",
+      "mint": "wPktHiifvRwpjEQJsbBk9tAx75qJoYnzZAnmDV6pump",
+      "holders": 1000,
+      "mc_usd": 2924913,
+      "h24": 11.54
+    },
+    {
+      "symbol": "memecoin",
+      "mint": "Bb4jR951QtVjeFAYFLBYXDSMKjbTDroCLPbFLdd7pump",
+      "holders": 1000,
+      "mc_usd": 677836,
+      "h24": 11.5
+    },
+    {
+      "symbol": "testicle",
+      "mint": "4TyZGqRLG3VcHTGMcLBoPUmqYitMVojXinAmkL8xpump",
+      "holders": 992,
+      "mc_usd": 364405,
+      "h24": 10.82
+    },
+    {
+      "symbol": "CHOP",
+      "mint": "GH37DfLYgT9wPNzzE1TSvBKH4cCRndJwT1M2pRrPpump",
+      "holders": 439,
+      "mc_usd": 369497,
+      "h24": 10.49
+    },
+    {
+      "symbol": "LARP",
+      "mint": "EygStH4gHv1h4E8w4raYv6NGsrDiij3nbfCc26iTpump",
+      "holders": 998,
+      "mc_usd": 388231,
+      "h24": 10.44
+    },
+    {
+      "symbol": "Buttcoin",
+      "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+      "holders": 997,
+      "mc_usd": 10897223,
+      "h24": 10.39
+    },
+    {
+      "symbol": "TJR",
+      "mint": "4U4U8oXwDyVXGeTffMXds4NAgBgLFwq3wNvTCRTSpump",
+      "holders": 1000,
+      "mc_usd": 812390,
+      "h24": 10.37
+    },
+    {
+      "symbol": "MANIFEST",
+      "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+      "holders": 1000,
+      "mc_usd": 11836728,
+      "h24": 9.96
+    },
+    {
+      "symbol": "SAAR",
+      "mint": "8H5yfL1GoDETLDaLYZzrgQuZs37eiKJjdfP21b6ypump",
+      "holders": 999,
+      "mc_usd": 1929084,
+      "h24": 9.84
+    },
+    {
+      "symbol": "pwease",
+      "mint": "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump",
+      "holders": 999,
+      "mc_usd": 1778391,
+      "h24": 9.56
+    },
+    {
+      "symbol": "FatCat",
+      "mint": "63EM76z3TqZt92DhzhmmaAgcjSkX7Eg1X65jWiocpump",
+      "holders": 295,
+      "mc_usd": 550105,
+      "h24": 9.46
+    },
+    {
+      "symbol": "BAYLA",
+      "mint": "7hmVkPXmVagxoptAEpx4jBzZVHwGLdFj6c1y42qxpump",
+      "holders": 905,
+      "mc_usd": 373083,
+      "h24": 9.24
+    },
+    {
+      "symbol": "OPAL",
+      "mint": "2PzS5SYYWjUFvzXNFaMmRkpjkxGX6R5v8DnKYtdcpump",
+      "holders": 1000,
+      "mc_usd": 381286,
+      "h24": 9.15
+    },
+    {
+      "symbol": "$COLLAT",
+      "mint": "C7heQqfNzdMbUFQwcHkL9FvdwsFsDRBnfwZDDyWYCLTZ",
+      "holders": 998,
+      "mc_usd": 780875,
+      "h24": 8.33
+    },
+    {
+      "symbol": "TRENCHER",
+      "mint": "8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f",
+      "holders": 999,
+      "mc_usd": 840095,
+      "h24": 8.31
+    },
+    {
+      "symbol": "HEEHEE",
+      "mint": "9dLuVbJMd4ZpTpFgmaFHAGSsFwVjtcnzFWaLAA1expHg",
+      "holders": 999,
+      "mc_usd": 995431,
+      "h24": 8.19
+    },
+    {
+      "symbol": "BOBO",
+      "mint": "4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
+      "holders": 998,
+      "mc_usd": 6059160,
+      "h24": 8.08
+    },
+    {
+      "symbol": "retire",
+      "mint": "zGh48JtNHVBb5evgoZLXwgPD2Qu4MhkWdJLGDAupump",
+      "holders": 1000,
+      "mc_usd": 2362616,
+      "h24": 7.89
+    },
+    {
+      "symbol": "gork",
+      "mint": "76EDL5qNcte2ZH29quTaFzagXjWAEY83CATEjyA6pump",
+      "holders": 994,
+      "mc_usd": 1401728,
+      "h24": 7.78
+    },
+    {
+      "symbol": "SIGMA",
+      "mint": "5SVG3T9CNQsm2kEwzbRq6hASqh1oGfjqTtLXYUibpump",
+      "holders": 1000,
+      "mc_usd": 1195220,
+      "h24": 7.47
+    },
+    {
+      "symbol": "CHILLHOUSE",
+      "mint": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+      "holders": 996,
+      "mc_usd": 1986004,
+      "h24": 7.46
+    },
+    {
+      "symbol": "GOLDINU",
+      "mint": "2LYTMGch89RabgQsCnzgMRiFLuzXi8rrnYqQRnZMe7mx",
+      "holders": 997,
+      "mc_usd": 440189,
+      "h24": 7.46
+    },
+    {
+      "symbol": "NYAN",
+      "mint": "9BVn3Y8tPghbnGuuuxoj2mGekqgSQV1M7nALF7brpump",
+      "holders": 996,
+      "mc_usd": 539278,
+      "h24": 7.38
+    },
+    {
+      "symbol": "tradebot",
+      "mint": "GaRph5BcLZZ4sRh6EXKS6V7dicVanhcwa5iWEE6AbEYR",
+      "holders": 586,
+      "mc_usd": 643903,
+      "h24": 7.35
+    },
+    {
+      "symbol": "WAGMI",
+      "mint": "GnM6XZ7DN9KSPW2ZVMNqCggsxjnxHMGb2t4kiWrUpump",
+      "holders": 986,
+      "mc_usd": 676748,
+      "h24": 7.32
+    },
+    {
+      "symbol": "ALON",
+      "mint": "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS",
+      "holders": 999,
+      "mc_usd": 3678061,
+      "h24": 7.18
+    },
+    {
+      "symbol": "stkr",
+      "mint": "3DFnwGLJUfxc4eMxDgQwW6oWaeKBrJ1iwA26YjTfpump",
+      "holders": 1000,
+      "mc_usd": 1405022,
+      "h24": 7.13
+    },
+    {
+      "symbol": "BEB1M",
+      "mint": "EGedTSu2zdFNT1k7phURksCpcwHNyxepLzSMYGApump",
+      "holders": 1000,
+      "mc_usd": 672156,
+      "h24": 7.11
+    },
+    {
+      "symbol": "KET",
+      "mint": "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump",
+      "holders": 994,
+      "mc_usd": 2960130,
+      "h24": 7.05
+    },
+    {
+      "symbol": "DCF",
+      "mint": "Di1wqKQZ41v2ibMMStZrMbjyX29bWeMtbkcc2qrWpump",
+      "holders": 387,
+      "mc_usd": 668485,
+      "h24": 7.01
+    },
+    {
+      "symbol": "🟥🟩",
+      "mint": "HwPtbFpd3VTe3tfyosoVtPf9WPuSk5gAKkN5xp6Npump",
+      "holders": 999,
+      "mc_usd": 410483,
+      "h24": 7.01
+    },
+    {
+      "symbol": "MCV",
+      "mint": "76vtyUXAedrSAWJetcdQx4tZmKK9GfmhnCXQq55rpump",
+      "holders": 341,
+      "mc_usd": 1311750,
+      "h24": 6.97
+    },
+    {
+      "symbol": "FRIC",
+      "mint": "EsP4kJfKUDLfX274WoBSiiEy74Sh4tZKUCDjfULHpump",
+      "holders": 1000,
+      "mc_usd": 541196,
+      "h24": 6.94
+    },
+    {
+      "symbol": "NORMIE",
+      "mint": "4MrsXQzaosYNyFd4wKDvgnC5xRtRqgXRrijFTGj9pump",
+      "holders": 1000,
+      "mc_usd": 1228219,
+      "h24": 6.93
+    },
+    {
+      "symbol": "CURB",
+      "mint": "6UGNg119LV6YjSCQ5K6Z6jsLLLetpMJ1vPdhiU8qpump",
+      "holders": 741,
+      "mc_usd": 326806,
+      "h24": 6.92
+    },
+    {
+      "symbol": "SOLT",
+      "mint": "sSL6JinMaeG11UunQkKfaB2W5JYGLCCiSztLMLepump",
+      "holders": 272,
+      "mc_usd": 437930,
+      "h24": 6.82
+    },
+    {
+      "symbol": "SSR",
+      "mint": "BpdHpqznEgYPXZNrJVRZvBhdWoafYLVVuLxTQo34pump",
+      "holders": 343,
+      "mc_usd": 822579,
+      "h24": 6.78
+    }
+  ],
+  "ca_karma": [
+    {
+      "mint": "3qFdxC9xvb2vqhFijrPLE4Dn5mH7Ndmagjh15Q1dN6Rb",
+      "symbol": "Noiz",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 36.362899999999996,
+        "pct_infra_excluded": 0.9841,
+        "verdict": "no known bad actors in the top 50; 36.4% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "DVsLaDtK8B2fLz7Wbv6rfL7i3Z1W3gU1w5MZN8Tpump",
+      "symbol": "DANGR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 49.374999999999964,
+        "pct_infra_excluded": 1.045,
+        "verdict": "no known bad actors in the top 50; 49.4% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "HaRr1KZg6QdamK7Ua26M6upmbueJPhhd3oW6cCgLpump",
+      "symbol": "WOTF",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 49.315,
+        "pct_bundled": 49.315,
+        "pct_unknown": 0,
+        "pct_infra_excluded": 1.0612,
+        "verdict": "50 fresh wallets created together hold 49.3%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "dhBLuz2Qs2CfYSGsSxjfywxgsvot8GwasVMi5Supump",
+      "symbol": "WWR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 46.78499999999997,
+        "pct_infra_excluded": 1.0798,
+        "verdict": "no known bad actors in the top 50; 46.8% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+      "symbol": "GOAT",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 61.253600000000006,
+        "pct_infra_excluded": 4.813899999999999,
+        "verdict": "no known bad actors in the top 50; 61.3% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "aJtcV2fKxYKQHGLDrcvZ76GaA8exqrQCcDv7pbzpump",
+      "symbol": "TDOF",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 48.959999999999965,
+        "pct_bundled": 48.959999999999965,
+        "pct_unknown": 0,
+        "pct_infra_excluded": 1.1228,
+        "verdict": "50 fresh wallets created together hold 49.0%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "E2nKxWD9PZMN2wPcpWSfZ1QTUdoKtXbVVhugA7Tpump",
+      "symbol": "KIBA",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 48.959999999999965,
+        "pct_bundled": 48.959999999999965,
+        "pct_unknown": 0,
+        "pct_infra_excluded": 1.1269,
+        "verdict": "50 fresh wallets created together hold 49.0%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "3P6WB3hifQ9Z38Ja5qNuaETkgstJUWmP6vf58aYupump",
+      "symbol": "CIGR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 20.533400000000004,
+        "pct_infra_excluded": 1.2939,
+        "verdict": "no known bad actors in the top 50; 20.5% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+      "symbol": "MANIFEST",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 3.2647,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0.39940000000000003,
+        "pct_bundled": 0,
+        "pct_unknown": 25.4615,
+        "pct_infra_excluded": 2.2772,
+        "verdict": "fresh wallets (<7d old) hold 0.4%."
+      },
+      "known_holders": [
+        {
+          "wallet": "AAcnkt8u8NgZBAPY5eUTSSc4oeHZNfB6dXsV1yWf8YSC",
+          "pct_supply": 3.2647,
+          "kind": "kol",
+          "handle": "CryptoGodJohn",
+          "verified": false,
+          "source_url": "https://x.com/CryptoGodJohn",
+          "grade": "C",
+          "title": "Coinflip",
+          "wallet_age_days": null,
+          "bundle_id": null
+        }
+      ]
+    },
+    {
+      "mint": "Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump",
+      "symbol": "CHILLGUY",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 57.454,
+        "pct_infra_excluded": 5.7568,
+        "verdict": "no known bad actors in the top 50; 57.5% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "tBhaodPqy6g5Gp7TCJjeVPvnpffUddPRrNB7jEApump",
+      "symbol": "GOAF",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 49.174999999999976,
+        "pct_infra_excluded": 1.2749,
+        "verdict": "no known bad actors in the top 50; 49.2% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "FYnCZ1nTqommkRzy5ZYyhX9ZX7Ew4XHbCGqAhDvWpump",
+      "symbol": "WOFI",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 24.103100000000012,
+        "pct_bundled": 24.103100000000012,
+        "pct_unknown": 0.792,
+        "pct_infra_excluded": 1.2896,
+        "verdict": "49 fresh wallets created together hold 24.1%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "X2CQUNuAhdhXVUydj77LMrjcKz97RiA6akPUfDspump",
+      "symbol": "FAIR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 23.55360000000001,
+        "pct_bundled": 23.55360000000001,
+        "pct_unknown": 25.51640000000001,
+        "pct_infra_excluded": 1.3778,
+        "verdict": "24 fresh wallets created together hold 23.6%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+      "symbol": "AVA",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 62.99839999999999,
+        "pct_infra_excluded": 23.0743,
+        "verdict": "no known bad actors in the top 50; 63.0% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "NWq7Y6UUpkneabRgKqmrHPeGepLZbxw4pFYBi79pump",
+      "symbol": "FTFS",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 46.63000000000003,
+        "pct_infra_excluded": 1.4011,
+        "verdict": "no known bad actors in the top 50; 46.6% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "R5djwmnzNmsytb8BqTohFDW555Q531jRXNeRwigpump",
+      "symbol": "STRATEGY",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 49.009999999999934,
+        "pct_infra_excluded": 1.4114,
+        "verdict": "no known bad actors in the top 50; 49.0% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "HsW2XDNmw7YpL9pe5UcFjqUbcpHNcDwceyqxtLZpump",
+      "symbol": "PONS",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 48.959999999999965,
+        "pct_bundled": 48.959999999999965,
+        "pct_unknown": 0,
+        "pct_infra_excluded": 1.4102,
+        "verdict": "50 fresh wallets created together hold 49.0%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "nGo82DFyakENdeo4zEwRbtJh8XFgcLJ3BvkUi7bpump",
+      "symbol": "PAID",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 48.97510000000005,
+        "pct_infra_excluded": 1.4088,
+        "verdict": "no known bad actors in the top 50; 49.0% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+      "symbol": "ACT",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 82.16499999999998,
+        "pct_infra_excluded": 7.5806000000000004,
+        "verdict": "no known bad actors in the top 50; 82.2% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "UNHwuKaSGKP7qmYMFS5aSJdqifHj6CiXWvtoeYNpump",
+      "symbol": "fomo",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 46.52500000000001,
+        "pct_infra_excluded": 1.4495,
+        "verdict": "no known bad actors in the top 50; 46.5% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "ireZB2cgtfvFcVQGLYRAzaugVapAzsjgJ1cMetQpump",
+      "symbol": "USDF",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 49.009999999999934,
+        "pct_infra_excluded": 1.4748,
+        "verdict": "no known bad actors in the top 50; 49.0% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "qLf3mzbGA82LpU5R31K5fRySktbiABHuijjQ3Pepump",
+      "symbol": "IQD",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 49.009999999999934,
+        "pct_infra_excluded": 1.5428,
+        "verdict": "no known bad actors in the top 50; 49.0% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "Z2ZA3cMD36rxJUXuHkr6Rf5w5GceCvC2dgpZUPJpump",
+      "symbol": "NTDA",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 46.36500000000002,
+        "pct_infra_excluded": 1.5522,
+        "verdict": "no known bad actors in the top 50; 46.4% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump",
+      "symbol": "VINE",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 47.123900000000006,
+        "pct_infra_excluded": 10.318999999999999,
+        "verdict": "no known bad actors in the top 50; 47.1% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "1FQBBKgz7BmKxXSwUN9WzGVdrtL9KpQMri5UJEvpump",
+      "symbol": "USGR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 32.280600000000014,
+        "pct_bundled": 32.280600000000014,
+        "pct_unknown": 16.629399999999997,
+        "pct_infra_excluded": 1.6046,
+        "verdict": "33 fresh wallets created together hold 32.3%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "eL5fUxj2J4CiQsmW85k5FG9DvuQjjUoBHoQBi2Kpump",
+      "symbol": "UFD",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 37.57959999999999,
+        "pct_infra_excluded": 8.0231,
+        "verdict": "no known bad actors in the top 50; 37.6% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump",
+      "symbol": "swarms",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 66.91499999999999,
+        "pct_infra_excluded": 10.6609,
+        "verdict": "no known bad actors in the top 50; 66.9% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "vUaJXYFimxYtmmhhsJbwWuo7MdLvJJLHLzuRuJGpump",
+      "symbol": "NTDA",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 27.51000000000001,
+        "pct_infra_excluded": 1.9045,
+        "verdict": "no known bad actors in the top 50; 27.5% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "2JHrkVb5NwQEKRgLbBu9CyrG7F7SmvJyLW1NkpdP8WWR",
+      "symbol": "WWR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 67.877,
+        "pct_infra_excluded": 1.765,
+        "verdict": "no known bad actors in the top 50; 67.9% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "awwVC85SWQY2HDepbzAQ6rTe7MnckxRuEyCwQFGpump",
+      "symbol": "ZCAT",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 46.49,
+        "pct_infra_excluded": 1.6897,
+        "verdict": "no known bad actors in the top 50; 46.5% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump",
+      "symbol": "DADDY",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 20.2193,
+        "pct_infra_excluded": 7.0403,
+        "verdict": "no known bad actors in the top 50; 20.2% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "d2j7wA9Ev418ftAYR2rLZfrru3QdahW8aZurnLcpump",
+      "symbol": "XPXGOLD",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 1.2475,
+        "pct_bundled": 0,
+        "pct_unknown": 26.9647,
+        "pct_infra_excluded": 2.0191,
+        "verdict": "fresh wallets (<7d old) hold 1.2%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+      "symbol": "fone",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 3.4278,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0.4124,
+        "pct_bundled": 0,
+        "pct_unknown": 30.460299999999993,
+        "pct_infra_excluded": 6.0717,
+        "verdict": "fresh wallets (<7d old) hold 0.4%."
+      },
+      "known_holders": [
+        {
+          "wallet": "4y2T1ghykCTq4EddoXjptZamk4qAsqcZw6eKxS8jdvE1",
+          "pct_supply": 3.4278,
+          "kind": "kol",
+          "handle": "hdegrootvan",
+          "verified": false,
+          "source_url": "https://x.com/hdegrootvan",
+          "grade": "C",
+          "title": "Coinflip",
+          "wallet_age_days": null,
+          "bundle_id": null
+        }
+      ]
+    },
+    {
+      "mint": "9fscf7s5fzNTBM3jMAgS1Bn5PrMoMKVF2Yvb7pDpump",
+      "symbol": "ALL",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 2.9476000000000044,
+        "pct_infra_excluded": 1.8984,
+        "verdict": "no known bad actors in the top 50; 2.9% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "udPEzBjbGMzYZbuLtByqLYhc4TEs6EebG8R7fwdpump",
+      "symbol": "TEXTIT",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0.47550000000000003,
+        "pct_bundled": 0,
+        "pct_unknown": 6.153200000000001,
+        "pct_infra_excluded": 2.23,
+        "verdict": "fresh wallets (<7d old) hold 0.5%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "eWy2TgpUj71fMDThQFQsVhYqd58mRRU1AtLKrw8pump",
+      "symbol": "PONYX",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 48.71000000000005,
+        "pct_infra_excluded": 2.074,
+        "verdict": "no known bad actors in the top 50; 48.7% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "gEdcCfw7F39owePXfoGWW6oim1dQ4jUaC25JmmSpump",
+      "symbol": "TNT",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 1.7300999999999986,
+        "pct_infra_excluded": 2.1025,
+        "verdict": "no known bad actors in the top 50; 1.7% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+      "symbol": "ELON",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 4.468299999999999,
+        "pct_bundled": 0,
+        "pct_unknown": 29.838800000000006,
+        "pct_infra_excluded": 3.5797,
+        "verdict": "fresh wallets (<7d old) hold 4.5%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "qx8wveCdmcwAwGdnNDxZhkqDnkKwVZKyKzuPxsQpump",
+      "symbol": "AROS",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 48.71499999999998,
+        "pct_infra_excluded": 2.2216,
+        "verdict": "no known bad actors in the top 50; 48.7% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "wieciKLgMMduPtzekzKr4n4uwWWKdPR54ovGTAmpump",
+      "symbol": "NTDA",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 48.705,
+        "pct_infra_excluded": 2.3777,
+        "verdict": "no known bad actors in the top 50; 48.7% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
+      "symbol": "DJI6930",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 29.294200000000007,
+        "pct_infra_excluded": 3.8789,
+        "verdict": "no known bad actors in the top 50; 29.3% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "wPktHiifvRwpjEQJsbBk9tAx75qJoYnzZAnmDV6pump",
+      "symbol": "MDOR",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 3.2848,
+        "pct_bundled": 0,
+        "pct_unknown": 48.8434,
+        "pct_infra_excluded": 2.5427,
+        "verdict": "fresh wallets (<7d old) hold 3.3%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump",
+      "symbol": "dreams",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 1.0068,
+        "pct_bundled": 0,
+        "pct_unknown": 49.71570000000001,
+        "pct_infra_excluded": 12.868299999999998,
+        "verdict": "fresh wallets (<7d old) hold 1.0%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "3LaXmnVQxMMArywUBJjGA5EKbUdJ17PFor3M5oeupump",
+      "symbol": "FRIED",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 42.174,
+        "pct_infra_excluded": 3.9577,
+        "verdict": "no known bad actors in the top 50; 42.2% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "P88RXaDXRa9GY4h7HvVLgRnt3mxEBWJQYchieEVpump",
+      "symbol": "IF",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 48.29000000000005,
+        "pct_infra_excluded": 2.6039,
+        "verdict": "no known bad actors in the top 50; 48.3% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "HyDKNdnhZNVYQMruBevbNsUWruA9STmAQrS4srXApump",
+      "symbol": "ALLINDOGE",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 22.9702,
+        "pct_infra_excluded": 7.3692,
+        "verdict": "no known bad actors in the top 50; 23.0% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
+      "symbol": "BP",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 44.42989999999998,
+        "pct_infra_excluded": 6.6703,
+        "verdict": "no known bad actors in the top 50; 44.4% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "4NBTf8PfLH4oLFnwf3knv46FY9i5oXjDxffCetXRpump",
+      "symbol": "YzY",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 34.91739999999999,
+        "pct_infra_excluded": 9.921800000000001,
+        "verdict": "no known bad actors in the top 50; 34.9% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "zGh48JtNHVBb5evgoZLXwgPD2Qu4MhkWdJLGDAupump",
+      "symbol": "retire",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 1.6254,
+        "pct_bundled": 0,
+        "pct_unknown": 26.068000000000005,
+        "pct_infra_excluded": 11.9023,
+        "verdict": "fresh wallets (<7d old) hold 1.6%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "DRMnFyekQiCTMrajtgsTycqp4ie6r1tZnh6qpAGjpump",
+      "symbol": "USDF",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 21.7272,
+        "pct_bundled": 21.7272,
+        "pct_unknown": 16.380799999999997,
+        "pct_infra_excluded": 2.9433,
+        "verdict": "30 fresh wallets created together hold 21.7%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "BLmaMbYNfErSMboj1mUmT6Ng1uNZ1JKbjMTGvGdKpump",
+      "symbol": "PONYX",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0,
+        "pct_bundled": 0,
+        "pct_unknown": 55.245000000000026,
+        "pct_infra_excluded": 2.8715,
+        "verdict": "no known bad actors in the top 50; 55.2% is held by unknown wallets."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "DVxaAXi3L2NMgqpBqYmuVJkSK4bVJ1JgjvTmQgTpump",
+      "symbol": "NOVALUE",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0.7558,
+        "pct_bundled": 0.3331,
+        "pct_unknown": 4.514099999999999,
+        "pct_infra_excluded": 3.4155,
+        "verdict": "3 fresh wallets created together hold 0.3%."
+      },
+      "known_holders": []
+    },
+    {
+      "mint": "3BgwJ8b7b9hHX4sgfZ2KJhv9496CoVfsMK2YePevsBRw",
+      "symbol": "EPIK",
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0.1699,
+        "pct_bundled": 0,
+        "pct_unknown": 65.977,
+        "pct_infra_excluded": 9.3337,
+        "verdict": "fresh wallets (<7d old) hold 0.2%."
+      },
+      "known_holders": []
+    }
+  ],
+  "new_caller_candidates": []
+}

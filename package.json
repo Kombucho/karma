@@ -1,0 +1,52 @@
+{
+  "name": "karma",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "score": "tsx scripts/score-wallet.ts",
+    "call-times": "tsx scripts/fetch-call-times.ts",
+    "score-callouts": "tsx scripts/score-from-callouts.ts",
+    "harvest-pnl": "tsx scripts/harvest-pnl-leaderboard.ts",
+    "fingerprint": "tsx scripts/trade-fingerprint.ts",
+    "scan-coins": "tsx scripts/scan-top-coins.ts",
+    "sweep-pump": "tsx scripts/sweep-pumpfun.ts",
+    "leaderboard": "tsx scripts/leaderboard.ts",
+    "recompute": "tsx scripts/recompute.ts",
+    "avatars": "tsx scripts/make-avatars.ts",
+    "typecheck": "tsc --noEmit",
+    "calibrate": "tsx scripts/calibrate.ts",
+    "test": "tsx scripts/test-rules.ts",
+    "rescore": "tsx scripts/rescore.ts",
+    "design-check": "tsx scripts/design-check.ts",
+    "fingerprint-uncovered": "tsx scripts/fingerprint-uncovered.ts",
+    "verify-claims": "tsx scripts/verify-claims.ts",
+    "enrich": "tsx scripts/enrich-identities.ts",
+    "enrich-sybil": "tsx scripts/enrich-sybil-clusters.ts",
+    "harvest-cex": "tsx scripts/harvest-cex-funders.ts"
+  },
+  "dependencies": {
+    "@solana/kit": "^8.3.0",
+    "@supabase/supabase-js": "^2.117.1",
+    "@vercel/analytics": "^2.0.1",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@browserbasehq/sdk": "^2.20.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "playwright": "^1.63.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.13",
+    "typescript": "^5"
+  }
+}

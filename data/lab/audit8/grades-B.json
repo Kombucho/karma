@@ -1,0 +1,63 @@
+[
+  {"image": "accumulation.png", "panel": 1, "title": "PONKE 2025-02-14 → target", "verdict": "VALID", "why": "Decline then ~2wk band, low early not revisited"},
+  {"image": "accumulation.png", "panel": 2, "title": "ACT 2025-04-23 → neither", "verdict": "VALID", "why": "Sharp decline, ~2wk flat band, low early"},
+  {"image": "accumulation.png", "panel": 3, "title": "MOODENG 2025-01-02 → stop", "verdict": "VALID", "why": "Decline then sideways band near lows, low early"},
+
+  {"image": "asc_triangle.png", "panel": 1, "title": "BONK 2024-05-20 → target", "verdict": "VALID", "why": "Flat resistance, clearly rising lows, narrowing range"},
+
+  {"image": "bear_flag.png", "panel": 1, "title": "BAN 2026-03-22 → neither", "verdict": "VALID", "why": "Steep pole down, short shallow up-drift flag"},
+
+  {"image": "desc_triangle.png", "panel": 1, "title": "TROLL 2025-11-02 → target", "verdict": "VALID", "why": "Flat support, descending peaks, contained narrowing"},
+  {"image": "desc_triangle.png", "panel": 2, "title": "MEW 2025-08-26 → neither", "verdict": "VALID", "why": "Flat support ~equal troughs, clearly descending highs"},
+  {"image": "desc_triangle.png", "panel": 3, "title": "MEW 2026-02-28 → stop", "verdict": "VALID", "why": "Flat support, descending highs, narrowing range"},
+  {"image": "desc_triangle.png", "panel": 4, "title": "TROLL 2026-08-11 → stop", "verdict": "VALID", "why": "Flat support, descending peaks, contained narrowing"},
+  {"image": "desc_triangle.png", "panel": 5, "title": "TROLL 2026-06-24 → neither", "verdict": "VALID", "why": "Roughly flat lows, gently descending highs"},
+  {"image": "desc_triangle.png", "panel": 6, "title": "WIF 2025-02-24 → stop", "verdict": "VALID", "why": "Flat-ish support, descending peaks, narrowing range"},
+
+  {"image": "distribution.png", "panel": 1, "title": "BONK 2024-11-29 → neither", "verdict": "VALID", "why": "Big advance, sideways band, high early not revisited"},
+  {"image": "distribution.png", "panel": 2, "title": "BONK 2024-03-16 → neither", "verdict": "VALID", "why": "Sharp advance, brief band near highs, high early"},
+  {"image": "distribution.png", "panel": 3, "title": "MYRO 2025-05-06 → stop", "verdict": "INVALID", "why": "Band sits well below true spike high, not near highs"},
+
+  {"image": "double_top.png", "panel": 1, "title": "ACT 2025-08-25 → neither", "verdict": "VALID", "why": "Two similar peaks, clear valley, decline after"},
+  {"image": "double_top.png", "panel": 2, "title": "POPCAT 2026-07-08 → neither", "verdict": "VALID", "why": "Two equal-height peaks with clear valley between"},
+  {"image": "double_top.png", "panel": 3, "title": "BOME 2024-05-13 → stop", "verdict": "VALID", "why": "Advance into two roughly equal dominant peaks"},
+  {"image": "double_top.png", "panel": 4, "title": "GRIFFAIN 2025-07-27 → target", "verdict": "VALID", "why": "Clean two equal peaks, clear valley, decline after"},
+  {"image": "double_top.png", "panel": 5, "title": "MOODENG 2025-06-07 → neither", "verdict": "VALID", "why": "Peaks close in height, clear valley, decline after"},
+
+  {"image": "double_bottom_1.png", "panel": 1, "title": "MYRO 2024-05-06 → neither", "verdict": "VALID", "why": "Decline into two equal troughs, strong peak between"},
+  {"image": "double_bottom_1.png", "panel": 2, "title": "MEW 2024-06-27 → stop", "verdict": "VALID", "why": "Two matching troughs, clear peak, prior decline"},
+  {"image": "double_bottom_1.png", "panel": 3, "title": "USELESS 2026-03-16 → stop", "verdict": "VALID", "why": "Two roughly equal deep troughs, clear peak between"},
+  {"image": "double_bottom_1.png", "panel": 4, "title": "CHILLGUY 2026-06-28 → target", "verdict": "VALID", "why": "Decline, two equal troughs, clear peak between"},
+  {"image": "double_bottom_1.png", "panel": 5, "title": "TROLL 2025-10-13 → stop", "verdict": "VALID", "why": "Two nearly identical deep troughs, tall peak between"},
+  {"image": "double_bottom_1.png", "panel": 6, "title": "POPCAT 2026-02-25 → stop", "verdict": "VALID", "why": "Decline into two close troughs, clear peak"},
+  {"image": "double_bottom_1.png", "panel": 7, "title": "MEW 2025-08-22 → stop", "verdict": "VALID", "why": "Two roughly equal troughs, clear rally between"},
+  {"image": "double_bottom_1.png", "panel": 8, "title": "CHILLGUY 2026-03-16 → stop", "verdict": "VALID", "why": "Decline into two matched troughs, peak between"},
+  {"image": "double_bottom_1.png", "panel": 9, "title": "MELANIA 2025-05-22 → stop", "verdict": "VALID", "why": "Decline, two similar-height troughs, clear peak"},
+  {"image": "double_bottom_1.png", "panel": 10, "title": "PONKE 2025-08-23 → stop", "verdict": "VALID", "why": "Two roughly equal troughs, clear dominant peak"},
+  {"image": "double_bottom_1.png", "panel": 11, "title": "MEW 2026-02-25 → neither", "verdict": "VALID", "why": "Two matching troughs with clear peak between"},
+  {"image": "double_bottom_1.png", "panel": 12, "title": "TROLL 2026-06-09 → stop", "verdict": "VALID", "why": "Decline, higher second trough, clear peak between"},
+
+  {"image": "double_bottom_2.png", "panel": 1, "title": "CHILLGUY 2026-03-04 → stop", "verdict": "VALID", "why": "Decline into two equal troughs, clear peak"},
+  {"image": "double_bottom_2.png", "panel": 2, "title": "PONKE 2025-03-02 → stop", "verdict": "VALID", "why": "Two equal troughs, sharp clear peak between"},
+  {"image": "double_bottom_2.png", "panel": 3, "title": "WIF 2025-08-23 → stop", "verdict": "INVALID", "why": "Second trough a new low in ongoing downtrend"},
+  {"image": "double_bottom_2.png", "panel": 4, "title": "TROLL 2026-08-11 → stop", "verdict": "VALID", "why": "Decline into two matched troughs, peak between"},
+  {"image": "double_bottom_2.png", "panel": 5, "title": "MOODENG 2025-06-10 → stop", "verdict": "VALID", "why": "Deep decline, near-equal troughs, near-full retrace peak"},
+  {"image": "double_bottom_2.png", "panel": 6, "title": "WIF 2024-07-07 → neither", "verdict": "VALID", "why": "Two matching dominant troughs, strong peak between"},
+  {"image": "double_bottom_2.png", "panel": 7, "title": "BONK 2024-04-08 → stop", "verdict": "VALID", "why": "Decline into roughly equal troughs, clear peak"},
+  {"image": "double_bottom_2.png", "panel": 8, "title": "PNUT 2026-02-25 → stop", "verdict": "INVALID", "why": "Small bounce inside a continuing downtrend, lower low"},
+  {"image": "double_bottom_2.png", "panel": 9, "title": "WIF 2024-05-08 → neither", "verdict": "VALID", "why": "Two matching dominant troughs, clear peak between"},
+  {"image": "double_bottom_2.png", "panel": 10, "title": "MYRO 2025-03-20 → stop", "verdict": "VALID", "why": "Two equal-level troughs, clear peak between"},
+  {"image": "double_bottom_2.png", "panel": 11, "title": "FARTCOIN 2025-11-20 → stop", "verdict": "VALID", "why": "Decline into two close troughs, clear peak"},
+  {"image": "double_bottom_2.png", "panel": 12, "title": "GIGA 2026-07-01 → neither", "verdict": "VALID", "why": "Decline into two matched troughs, clear peak"},
+
+  {"image": "double_bottom_3.png", "panel": 1, "title": "PONKE 2025-10-26 → stop", "verdict": "VALID", "why": "Sharp drop, two close troughs, peak between"},
+  {"image": "double_bottom_3.png", "panel": 2, "title": "ZEREBRO 2026-07-20 → neither", "verdict": "VALID", "why": "Two equal troughs, clear peak, decline before"},
+  {"image": "double_bottom_3.png", "panel": 3, "title": "ZEREBRO 2025-03-19 → neither", "verdict": "VALID", "why": "Two roughly equal low troughs, tall peak between"},
+  {"image": "double_bottom_3.png", "panel": 4, "title": "MYRO 2025-04-01 → stop", "verdict": "INVALID", "why": "Second trough a new dominant low, weak peak"},
+  {"image": "double_bottom_3.png", "panel": 5, "title": "BOME 2026-06-29 → neither", "verdict": "VALID", "why": "Decline into near-equal troughs, modest peak between"},
+
+  {"image": "head_shoulders.png", "panel": 1, "title": "USELESS 2025-08-31 → neither", "verdict": "VALID", "why": "Head clearly above similar shoulders, two troughs"},
+  {"image": "head_shoulders.png", "panel": 2, "title": "MEW 2024-06-24 → neither", "verdict": "VALID", "why": "Head clearly higher, shoulders roughly equal, neckline"},
+
+  {"image": "inv_head_shoulders.png", "panel": 1, "title": "GIGA 2025-04-22 → neither", "verdict": "VALID", "why": "Head clearly below similar shoulders, neckline breakout"}
+]

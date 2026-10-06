@@ -1,0 +1,758 @@
+[
+ {
+  "image": "ascending_triangle.png",
+  "panel": 1,
+  "title": "WIF 2024-03-03",
+  "verdict": "INVALID",
+  "why": "tiny cluster of wiggles atop rally, no triangle"
+ },
+ {
+  "image": "ascending_triangle.png",
+  "panel": 2,
+  "title": "WEN 2024-06-12",
+  "verdict": "INVALID",
+  "why": "zigzag in downtrend, no rising lows"
+ },
+ {
+  "image": "ascending_triangle.png",
+  "panel": 3,
+  "title": "GOAT 2026-09-07",
+  "verdict": "INVALID",
+  "why": "two highs, one low; no rising support line"
+ },
+ {
+  "image": "ascending_triangle.png",
+  "panel": 4,
+  "title": "MEW 2025-10-06",
+  "verdict": "INVALID",
+  "why": "tiny few-bar cluster, no structure"
+ },
+ {
+  "image": "ascending_triangle.png",
+  "panel": 5,
+  "title": "GRIFFAIN 2025-09-06",
+  "verdict": "VALID",
+  "why": "flat highs near 0.035, higher lows, narrowing"
+ },
+ {
+  "image": "ascending_triangle.png",
+  "panel": 6,
+  "title": "FARTCOIN 2026-07-11",
+  "verdict": "INVALID",
+  "why": "small wiggle, highs not flat, lows not rising"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 1,
+  "title": "WEN 2025-02-22",
+  "verdict": "INVALID",
+  "why": "only a drop marked; no flag consolidation"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 2,
+  "title": "USELESS 2025-10-17",
+  "verdict": "INVALID",
+  "why": "only pole down from peak; no flag"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 3,
+  "title": "WIF 2025-05-13",
+  "verdict": "INVALID",
+  "why": "drop off spike after advance; no flag"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 4,
+  "title": "GIGA 2025-08-25",
+  "verdict": "INVALID",
+  "why": "small drop, no flag formed"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 5,
+  "title": "POPCAT 2024-11-28",
+  "verdict": "INVALID",
+  "why": "small drop at lows, no flag"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 6,
+  "title": "WEN 2024-09-07",
+  "verdict": "INVALID",
+  "why": "small drop at lows, no flag"
+ },
+ {
+  "image": "blow_off_top.png",
+  "panel": 1,
+  "title": "PONKE 2026-06-26",
+  "verdict": "INVALID",
+  "why": "bounce after decline, not parabolic advance"
+ },
+ {
+  "image": "blow_off_top.png",
+  "panel": 2,
+  "title": "ZEREBRO 2026-08-20",
+  "verdict": "INVALID",
+  "why": "modest rise, no parabolic acceleration or reversal"
+ },
+ {
+  "image": "blow_off_top.png",
+  "panel": 3,
+  "title": "GIGA 2025-05-21",
+  "verdict": "INVALID",
+  "why": "small rise inside range"
+ },
+ {
+  "image": "blow_off_top.png",
+  "panel": 4,
+  "title": "WIF 2024-02-21",
+  "verdict": "INVALID",
+  "why": "rebound from dip, not parabolic top"
+ },
+ {
+  "image": "blow_off_top.png",
+  "panel": 5,
+  "title": "GOAT 2025-02-22",
+  "verdict": "INVALID",
+  "why": "bounce within downtrend, not parabolic"
+ },
+ {
+  "image": "blow_off_top.png",
+  "panel": 6,
+  "title": "PENGU 2026-09-03",
+  "verdict": "INVALID",
+  "why": "rise off lows, no parabolic advance"
+ },
+ {
+  "image": "breakdown.png",
+  "panel": 1,
+  "title": "GRIFFAIN 2025-01-07",
+  "verdict": "INVALID",
+  "why": "detection at highs, no support broken"
+ },
+ {
+  "image": "breakdown.png",
+  "panel": 2,
+  "title": "POPCAT 2024-09-04",
+  "verdict": "INVALID",
+  "why": "not decisively below prior tested lows"
+ },
+ {
+  "image": "breakdown.png",
+  "panel": 3,
+  "title": "CHILLGUY 2024-12-10",
+  "verdict": "VALID",
+  "why": "decisive close below tested ~0.37 support"
+ },
+ {
+  "image": "breakdown.png",
+  "panel": 4,
+  "title": "MOODENG 2024-10-09",
+  "verdict": "INVALID",
+  "why": "drop within range, prior lows untouched"
+ },
+ {
+  "image": "breakdown.png",
+  "panel": 5,
+  "title": "MYRO 2024-01-16",
+  "verdict": "VALID",
+  "why": "closes below repeatedly tested range low"
+ },
+ {
+  "image": "breakdown.png",
+  "panel": 6,
+  "title": "WIF 2024-02-01",
+  "verdict": "INVALID",
+  "why": "still above prior tested low, no break"
+ },
+ {
+  "image": "breakout.png",
+  "panel": 1,
+  "title": "ACT 2024-11-29",
+  "verdict": "VALID",
+  "why": "decisive close above repeatedly tested range highs"
+ },
+ {
+  "image": "breakout.png",
+  "panel": 2,
+  "title": "TROLL 2025-05-09",
+  "verdict": "INVALID",
+  "why": "small rise within range, no clear level"
+ },
+ {
+  "image": "breakout.png",
+  "panel": 3,
+  "title": "USELESS 2025-06-01",
+  "verdict": "INVALID",
+  "why": "tiny pop in downtrend, no tested level"
+ },
+ {
+  "image": "breakout.png",
+  "panel": 4,
+  "title": "MELANIA 2025-02-04",
+  "verdict": "INVALID",
+  "why": "bounce, no prior resistance cleared"
+ },
+ {
+  "image": "breakout.png",
+  "panel": 5,
+  "title": "GOAT 2024-11-07",
+  "verdict": "INVALID",
+  "why": "rally, no clear repeatedly tested resistance"
+ },
+ {
+  "image": "breakout.png",
+  "panel": 6,
+  "title": "MOODENG 2024-10-11",
+  "verdict": "INVALID",
+  "why": "small pop, below prior resistance"
+ },
+ {
+  "image": "bull_flag.png",
+  "panel": 1,
+  "title": "FARTCOIN 2025-04-05",
+  "verdict": "INVALID",
+  "why": "only pole marked, no flag"
+ },
+ {
+  "image": "bull_flag.png",
+  "panel": 2,
+  "title": "PENGU 2026-04-16",
+  "verdict": "INVALID",
+  "why": "small rise, no pole-plus-flag"
+ },
+ {
+  "image": "bull_flag.png",
+  "panel": 3,
+  "title": "BONK 2024-10-11",
+  "verdict": "INVALID",
+  "why": "rise off lows only, no flag"
+ },
+ {
+  "image": "bull_flag.png",
+  "panel": 4,
+  "title": "ACT 2026-05-25",
+  "verdict": "INVALID",
+  "why": "tiny move, no pole or flag"
+ },
+ {
+  "image": "bull_flag.png",
+  "panel": 5,
+  "title": "WIF 2025-06-23",
+  "verdict": "INVALID",
+  "why": "bounce off low, no flag"
+ },
+ {
+  "image": "bull_flag.png",
+  "panel": 6,
+  "title": "MEW 2025-06-07",
+  "verdict": "INVALID",
+  "why": "tiny rise, no flag"
+ },
+ {
+  "image": "channel_down.png",
+  "panel": 1,
+  "title": "ACT 2024-12-26",
+  "verdict": "INVALID",
+  "why": "few points, no parallel channel touches"
+ },
+ {
+  "image": "channel_down.png",
+  "panel": 2,
+  "title": "GOAT 2026-08-28",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no channel"
+ },
+ {
+  "image": "channel_down.png",
+  "panel": 3,
+  "title": "WIF 2025-04-03",
+  "verdict": "INVALID",
+  "why": "volatile wiggle after drop, not channel"
+ },
+ {
+  "image": "channel_down.png",
+  "panel": 4,
+  "title": "PONKE 2026-05-26",
+  "verdict": "INVALID",
+  "why": "choppy points, lines not parallel/touched"
+ },
+ {
+  "image": "channel_down.png",
+  "panel": 5,
+  "title": "WEN 2024-10-06",
+  "verdict": "INVALID",
+  "why": "up-down zigzag, not descending channel"
+ },
+ {
+  "image": "channel_down.png",
+  "panel": 6,
+  "title": "PONKE 2026-03-26",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no channel"
+ },
+ {
+  "image": "channel_up.png",
+  "panel": 1,
+  "title": "GIGA 2026-06-22",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no channel"
+ },
+ {
+  "image": "channel_up.png",
+  "panel": 2,
+  "title": "BAN 2025-09-18",
+  "verdict": "INVALID",
+  "why": "tiny cluster in downtrend"
+ },
+ {
+  "image": "channel_up.png",
+  "panel": 3,
+  "title": "GRIFFAIN 2025-07-05",
+  "verdict": "INVALID",
+  "why": "big zigzag, not rising parallel lines"
+ },
+ {
+  "image": "channel_up.png",
+  "panel": 4,
+  "title": "GRIFFAIN 2025-12-31",
+  "verdict": "VALID",
+  "why": "higher highs and lows in parallel rising band"
+ },
+ {
+  "image": "channel_up.png",
+  "panel": 5,
+  "title": "GOAT 2025-05-09",
+  "verdict": "INVALID",
+  "why": "single rally leg, no channel bounces"
+ },
+ {
+  "image": "channel_up.png",
+  "panel": 6,
+  "title": "CHILLGUY 2025-09-13",
+  "verdict": "INVALID",
+  "why": "tiny cluster at top, no channel"
+ },
+ {
+  "image": "descending_triangle.png",
+  "panel": 1,
+  "title": "MOODENG 2026-02-25",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no triangle"
+ },
+ {
+  "image": "descending_triangle.png",
+  "panel": 2,
+  "title": "MYRO 2025-05-10",
+  "verdict": "INVALID",
+  "why": "few-bar spike wiggle atop rally"
+ },
+ {
+  "image": "descending_triangle.png",
+  "panel": 3,
+  "title": "PONKE 2025-10-04",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no structure"
+ },
+ {
+  "image": "descending_triangle.png",
+  "panel": 4,
+  "title": "PONKE 2026-04-26",
+  "verdict": "INVALID",
+  "why": "spike wiggle, no triangle"
+ },
+ {
+  "image": "descending_triangle.png",
+  "panel": 5,
+  "title": "POPCAT 2024-10-23",
+  "verdict": "VALID",
+  "why": "flat lows ~1.37, lower highs, narrowing"
+ },
+ {
+  "image": "descending_triangle.png",
+  "panel": 6,
+  "title": "BOME 2024-08-02",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no triangle"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 1,
+  "title": "WIF 2024-09-15",
+  "verdict": "INVALID",
+  "why": "tiny ripple, not dominant lows"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 2,
+  "title": "WEN 2025-01-31",
+  "verdict": "INVALID",
+  "why": "tiny ripple in sideways drift"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 3,
+  "title": "FARTCOIN 2026-01-12",
+  "verdict": "VALID",
+  "why": "equal troughs, clear peak, after pullback"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 4,
+  "title": "CHILLGUY 2025-07-01",
+  "verdict": "INVALID",
+  "why": "after rally, not after decline"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 5,
+  "title": "BOME 2024-04-24",
+  "verdict": "INVALID",
+  "why": "after advance; spike not double bottom"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 6,
+  "title": "ACT 2026-04-21",
+  "verdict": "INVALID",
+  "why": "tiny ripple, negligible middle peak"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 1,
+  "title": "USELESS 2025-06-10",
+  "verdict": "VALID",
+  "why": "two equal peaks atop advance, clear valley"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 2,
+  "title": "WEN 2025-03-14",
+  "verdict": "INVALID",
+  "why": "tiny ripple at lows"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 3,
+  "title": "PNUT 2026-06-06",
+  "verdict": "INVALID",
+  "why": "after decline; V dip not double top"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 4,
+  "title": "PNUT 2025-01-14",
+  "verdict": "INVALID",
+  "why": "after decline; deep V, not top"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 5,
+  "title": "FWOG 2026-06-21",
+  "verdict": "INVALID",
+  "why": "flat tiny ripple, no peaks"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 6,
+  "title": "PENGU 2026-01-07",
+  "verdict": "VALID",
+  "why": "equal peaks at top of advance, clear valley"
+ },
+ {
+  "image": "falling_wedge.png",
+  "panel": 1,
+  "title": "BOME 2025-03-21",
+  "verdict": "INVALID",
+  "why": "tiny zigzag, no wedge"
+ },
+ {
+  "image": "falling_wedge.png",
+  "panel": 2,
+  "title": "WEN 2024-09-06",
+  "verdict": "INVALID",
+  "why": "small drift, no converging lines"
+ },
+ {
+  "image": "falling_wedge.png",
+  "panel": 3,
+  "title": "ZEREBRO 2025-12-19",
+  "verdict": "INVALID",
+  "why": "single drop leg, no wedge"
+ },
+ {
+  "image": "falling_wedge.png",
+  "panel": 4,
+  "title": "GOAT 2026-03-14",
+  "verdict": "INVALID",
+  "why": "spike and chop, not converging wedge"
+ },
+ {
+  "image": "falling_wedge.png",
+  "panel": 5,
+  "title": "MELANIA 2026-01-08",
+  "verdict": "INVALID",
+  "why": "pullback leg after rally, no wedge"
+ },
+ {
+  "image": "falling_wedge.png",
+  "panel": 6,
+  "title": "WEN 2026-08-28",
+  "verdict": "INVALID",
+  "why": "choppy drop, no clear convergence"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 1,
+  "title": "PENGU 2025-05-15",
+  "verdict": "VALID",
+  "why": "spike head above similar shoulders after advance"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 2,
+  "title": "FARTCOIN 2025-03-27",
+  "verdict": "VALID",
+  "why": "head above similar shoulders at top of advance"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 3,
+  "title": "GIGA 2025-05-09",
+  "verdict": "INVALID",
+  "why": "tiny cluster mid-rally"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 4,
+  "title": "MYRO 2025-11-07",
+  "verdict": "INVALID",
+  "why": "peaks equal, no higher head; at lows"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 5,
+  "title": "GRIFFAIN 2025-08-14",
+  "verdict": "INVALID",
+  "why": "head barely higher, below prior spike"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 6,
+  "title": "BOME 2026-01-24",
+  "verdict": "INVALID",
+  "why": "tiny cluster in downtrend"
+ },
+ {
+  "image": "inverse_head_shoulders.png",
+  "panel": 1,
+  "title": "GRIFFAIN 2026-02-20",
+  "verdict": "INVALID",
+  "why": "tiny cluster, no structure"
+ },
+ {
+  "image": "inverse_head_shoulders.png",
+  "panel": 2,
+  "title": "GOAT 2024-11-29",
+  "verdict": "INVALID",
+  "why": "no right shoulder formed"
+ },
+ {
+  "image": "inverse_head_shoulders.png",
+  "panel": 3,
+  "title": "TROLL 2025-06-06",
+  "verdict": "VALID",
+  "why": "lower head, similar shoulders, after decline"
+ },
+ {
+  "image": "inverse_head_shoulders.png",
+  "panel": 4,
+  "title": "WIF 2024-04-06",
+  "verdict": "INVALID",
+  "why": "small wiggle, head not clearly lower"
+ },
+ {
+  "image": "inverse_head_shoulders.png",
+  "panel": 5,
+  "title": "PONKE 2025-03-01",
+  "verdict": "INVALID",
+  "why": "head barely below left shoulder"
+ },
+ {
+  "image": "inverse_head_shoulders.png",
+  "panel": 6,
+  "title": "ACT 2025-12-27",
+  "verdict": "INVALID",
+  "why": "at highs after advance, tiny"
+ },
+ {
+  "image": "inverted_v.png",
+  "panel": 1,
+  "title": "MYRO 2026-07-11",
+  "verdict": "INVALID",
+  "why": "only a rise leg, no sharp decline"
+ },
+ {
+  "image": "inverted_v.png",
+  "panel": 2,
+  "title": "POPCAT 2025-01-12",
+  "verdict": "INVALID",
+  "why": "small rise only"
+ },
+ {
+  "image": "inverted_v.png",
+  "panel": 3,
+  "title": "MOODENG 2025-09-29",
+  "verdict": "INVALID",
+  "why": "rise only, no reversal"
+ },
+ {
+  "image": "inverted_v.png",
+  "panel": 4,
+  "title": "WIF 2026-08-16",
+  "verdict": "INVALID",
+  "why": "rise only, no reversal"
+ },
+ {
+  "image": "inverted_v.png",
+  "panel": 5,
+  "title": "MEW 2024-05-18",
+  "verdict": "INVALID",
+  "why": "sharp rise but no decline yet"
+ },
+ {
+  "image": "inverted_v.png",
+  "panel": 6,
+  "title": "BONK 2026-04-18",
+  "verdict": "INVALID",
+  "why": "rise only after prior drop"
+ },
+ {
+  "image": "rising_wedge.png",
+  "panel": 1,
+  "title": "PNUT 2025-10-19",
+  "verdict": "INVALID",
+  "why": "flat drift, no converging rising lines"
+ },
+ {
+  "image": "rising_wedge.png",
+  "panel": 2,
+  "title": "MELANIA 2026-02-01",
+  "verdict": "INVALID",
+  "why": "spike down, no wedge"
+ },
+ {
+  "image": "rising_wedge.png",
+  "panel": 3,
+  "title": "PENGU 2026-05-30",
+  "verdict": "INVALID",
+  "why": "tiny zigzag in downtrend"
+ },
+ {
+  "image": "rising_wedge.png",
+  "panel": 4,
+  "title": "CHILLGUY 2026-05-06",
+  "verdict": "INVALID",
+  "why": "zigzag, no converging lines"
+ },
+ {
+  "image": "rising_wedge.png",
+  "panel": 5,
+  "title": "MEW 2024-11-11",
+  "verdict": "INVALID",
+  "why": "vertical spikes, no wedge"
+ },
+ {
+  "image": "rising_wedge.png",
+  "panel": 6,
+  "title": "ACT 2025-07-08",
+  "verdict": "INVALID",
+  "why": "tiny vertical cluster"
+ },
+ {
+  "image": "symmetric_triangle.png",
+  "panel": 1,
+  "title": "ZEREBRO 2025-02-08",
+  "verdict": "INVALID",
+  "why": "weak, few points after drop"
+ },
+ {
+  "image": "symmetric_triangle.png",
+  "panel": 2,
+  "title": "MYRO 2024-11-27",
+  "verdict": "INVALID",
+  "why": "decline with small bounce"
+ },
+ {
+  "image": "symmetric_triangle.png",
+  "panel": 3,
+  "title": "PONKE 2025-12-22",
+  "verdict": "INVALID",
+  "why": "three points, no triangle"
+ },
+ {
+  "image": "symmetric_triangle.png",
+  "panel": 4,
+  "title": "PONKE 2026-04-21",
+  "verdict": "INVALID",
+  "why": "tiny wiggle inside larger range"
+ },
+ {
+  "image": "symmetric_triangle.png",
+  "panel": 5,
+  "title": "BOME 2025-09-18",
+  "verdict": "INVALID",
+  "why": "spike chop, not converging"
+ },
+ {
+  "image": "symmetric_triangle.png",
+  "panel": 6,
+  "title": "GOAT 2025-08-16",
+  "verdict": "INVALID",
+  "why": "three points in decline"
+ },
+ {
+  "image": "v_reversal.png",
+  "panel": 1,
+  "title": "CHILLGUY 2025-06-07",
+  "verdict": "INVALID",
+  "why": "only decline leg marked, no recovery"
+ },
+ {
+  "image": "v_reversal.png",
+  "panel": 2,
+  "title": "BOME 2025-04-26",
+  "verdict": "INVALID",
+  "why": "drop from peak only"
+ },
+ {
+  "image": "v_reversal.png",
+  "panel": 3,
+  "title": "PNUT 2025-05-13",
+  "verdict": "INVALID",
+  "why": "drop only, no recovery"
+ },
+ {
+  "image": "v_reversal.png",
+  "panel": 4,
+  "title": "MELANIA 2025-10-14",
+  "verdict": "INVALID",
+  "why": "small drop only"
+ },
+ {
+  "image": "v_reversal.png",
+  "panel": 5,
+  "title": "BONK 2025-02-08",
+  "verdict": "INVALID",
+  "why": "drop only"
+ },
+ {
+  "image": "v_reversal.png",
+  "panel": 6,
+  "title": "MOODENG 2026-02-07",
+  "verdict": "INVALID",
+  "why": "drop only"
+ }
+]

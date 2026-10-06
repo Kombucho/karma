@@ -1,0 +1,35 @@
+[
+  {"image": "12h_accumulation.png", "panel": 1, "title": "ACT 2025-03-01 → stop", "verdict": "VALID", "why": "sideways base after decline, early low not undercut again"},
+
+  {"image": "12h_bear_flag.png", "panel": 1, "title": "BAN 2026-03-31 → stop", "verdict": "VALID", "why": "sharp pole then short shallow up-drift, <50% retrace"},
+
+  {"image": "12h_desc_triangle.png", "panel": 1, "title": "MOODENG 2026-01-20 → target", "verdict": "VALID", "why": "flat support, clearly lower highs, narrowing range"},
+
+  {"image": "12h_double_bottom.png", "panel": 1, "title": "USELESS 2025-11-09 → stop", "verdict": "VALID", "why": "two equal troughs, clear peak between, prior decline"},
+  {"image": "12h_double_bottom.png", "panel": 2, "title": "WIF 2024-07-16 → stop", "verdict": "VALID", "why": "matching troughs after big decline, clear separating peak"},
+  {"image": "12h_double_bottom.png", "panel": 3, "title": "BAN 2025-12-02 → target", "verdict": "VALID", "why": "equal dominant troughs, clear peak, prior decline"},
+  {"image": "12h_double_bottom.png", "panel": 4, "title": "BONK 2025-05-07 → target", "verdict": "VALID", "why": "dominant equal lows with clear peak between"},
+  {"image": "12h_double_bottom.png", "panel": 5, "title": "GRIFFAIN 2025-08-17 → stop", "verdict": "VALID", "why": "clean double bottom after deep prior decline"},
+  {"image": "12h_double_bottom.png", "panel": 6, "title": "MOODENG 2026-01-02 → stop", "verdict": "VALID", "why": "equal troughs, clear peak, dominant lows"},
+  {"image": "12h_double_bottom.png", "panel": 7, "title": "GIGA 2026-01-04 → stop", "verdict": "VALID", "why": "sharp equal troughs with clear peak between"},
+  {"image": "12h_double_bottom.png", "panel": 8, "title": "BOME 2024-06-27 → stop", "verdict": "VALID", "why": "equal troughs, clear rally between, prior decline"},
+
+  {"image": "12h_double_top.png", "panel": 1, "title": "MOODENG 2025-01-22 → target", "verdict": "VALID", "why": "peaks within tolerance, clear valley, prior advance"},
+  {"image": "12h_double_top.png", "panel": 2, "title": "ZEREBRO 2026-09-13 → None", "verdict": "VALID", "why": "two dominant equal peaks, clear valley below both"},
+  {"image": "12h_double_top.png", "panel": 3, "title": "USELESS 2026-07-27 → stop", "verdict": "VALID", "why": "peaks within tolerance, deep clear valley between"},
+
+  {"image": "12h_head_shoulders.png", "panel": 1, "title": "WEN 2024-05-13 → target", "verdict": "VALID", "why": "head clearly higher, shoulders roughly equal, after advance"},
+  {"image": "12h_head_shoulders.png", "panel": 2, "title": "FWOG 2025-06-28 → neither", "verdict": "VALID", "why": "head dominant, shoulders roughly similar, neckline troughs"},
+
+  {"image": "12h_inv_head_shoulders.png", "panel": 1, "title": "MEW 2025-08-09 → neither", "verdict": "VALID", "why": "head clearly lower, shoulders roughly equal, after decline"},
+
+  {"image": "1d_accumulation.png", "panel": 1, "title": "FARTCOIN 2026-01-18 → stop", "verdict": "INVALID", "why": "price undercuts marked low mid-band, low is revisited"},
+  {"image": "1d_accumulation.png", "panel": 2, "title": "BAN 2026-08-18 → None", "verdict": "VALID", "why": "decline into tight range, low held, not undercut"},
+
+  {"image": "1d_asc_triangle.png", "panel": 1, "title": "MEW 2025-09-13 → stop", "verdict": "VALID", "why": "flat resistance, clearly rising higher lows"},
+
+  {"image": "1d_double_bottom.png", "panel": 1, "title": "MOODENG 2026-05-06 → stop", "verdict": "VALID", "why": "equal troughs after decline, clear peak between"},
+  {"image": "1d_double_bottom.png", "panel": 2, "title": "BAN 2025-12-13 → target", "verdict": "VALID", "why": "equal troughs, clear peak, prior decline"},
+  {"image": "1d_double_bottom.png", "panel": 3, "title": "ACT 2026-09-13 → None", "verdict": "INVALID", "why": "tiny unequal blip inside ongoing chop, not dominant lows"},
+  {"image": "1d_double_bottom.png", "panel": 4, "title": "GRIFFAIN 2026-07-18 → None", "verdict": "VALID", "why": "equal troughs bracketing one clear large peak"}
+]

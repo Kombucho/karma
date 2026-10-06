@@ -1,0 +1,348 @@
+{
+  "generated_at": "2026-09-18T08:12:26.880Z",
+  "filters": {
+    "min_fdv_usd": 50000,
+    "min_holders": 200,
+    "min_age_hours": 24
+  },
+  "coins_scanned": 4,
+  "coins_with_known_holder": 1,
+  "scans": [
+    {
+      "symbol": "ELON",
+      "mint": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+      "fdv_usd": 4305554.694,
+      "holders": 1000,
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 4.468299999999999,
+        "pct_bundled": 0,
+        "pct_unknown": 29.730200000000004,
+        "pct_infra_excluded": 3.5489,
+        "verdict": "fresh wallets (<7d old) hold 4.5%."
+      },
+      "known_holders": []
+    },
+    {
+      "symbol": "PERPSPAD",
+      "mint": "PerPsCe2SJ7Q25CN4R5TTX4fmBdmknE2hQmqCt96fHL",
+      "fdv_usd": 4150403.78643537,
+      "holders": 990,
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0.7473,
+        "pct_bad_kol": 0,
+        "pct_fresh": 4.3529,
+        "pct_bundled": 0,
+        "pct_unknown": 57.5721,
+        "pct_infra_excluded": 1.2822,
+        "verdict": "fresh wallets (<7d old) hold 4.4%."
+      },
+      "known_holders": [
+        {
+          "wallet": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "pct_supply": 0.7473,
+          "kind": "kol",
+          "handle": "Ga__ke",
+          "verified": false,
+          "source_url": "https://kolscan.io/account/DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "grade": null,
+          "title": null,
+          "wallet_age_days": null,
+          "bundle_id": null
+        }
+      ]
+    },
+    {
+      "symbol": "PEPENOM",
+      "mint": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
+      "fdv_usd": 112250.039030222,
+      "holders": 934,
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 0.35240000000000005,
+        "pct_bundled": 0,
+        "pct_unknown": 43.18219999999999,
+        "pct_infra_excluded": 47.6821,
+        "verdict": "fresh wallets (<7d old) hold 0.4%."
+      },
+      "known_holders": []
+    },
+    {
+      "symbol": "WANG",
+      "mint": "JoBxYVvPhPSkiZNiUjZdty1uR6TaNneuQvE3zZ2pump",
+      "fdv_usd": 64731.72477,
+      "holders": 1000,
+      "summary": {
+        "top_n": 50,
+        "pct_kol": 0,
+        "pct_bad_kol": 0,
+        "pct_fresh": 8.1297,
+        "pct_bundled": 0,
+        "pct_unknown": 40.48329999999999,
+        "pct_infra_excluded": 22.2369,
+        "verdict": "fresh wallets (<7d old) hold 8.1%."
+      },
+      "known_holders": []
+    }
+  ],
+  "refused": [
+    {
+      "symbol": "META",
+      "mint": "72nMpdNLP3LZBqhewQsSSG1aF2BLW98ZVuznWrzwjDb8",
+      "why": "50 holders < 200"
+    },
+    {
+      "symbol": "ON",
+      "mint": "Acc1VDsNcM57wPi8uHKVmTWcLE8yEXMdqkUK4R9K6Vgt",
+      "why": "29 holders < 200"
+    },
+    {
+      "symbol": "APM",
+      "mint": "6zZuyRexFtiCKFXv8q5KoqYUdy55VGsycfMa6BT81ZWZ",
+      "why": "79 holders < 200"
+    },
+    {
+      "symbol": "GNOT",
+      "mint": "6ZdSN9ZnR3CuSdemq5j6jYWThr4mr5zLMzKZugXKRkku",
+      "why": "116 holders < 200"
+    },
+    {
+      "symbol": "GNOT",
+      "mint": "ECjkr1NCp6TYbMcC8N2qd4VwDw6rFdmJ3tS2dTUSp728",
+      "why": "79 holders < 200"
+    },
+    {
+      "symbol": "AXIS",
+      "mint": "6ZApme6hW3iNL5zj5SQYTHbysEXSX452yf6nGLeZxde6",
+      "why": "86 holders < 200"
+    },
+    {
+      "symbol": "Claude",
+      "mint": "AEUYZvD6s8WwE9EdtTBnw627AxNDxhMvmhr4PLmW41Km",
+      "why": "43 holders < 200"
+    },
+    {
+      "symbol": "HOOD",
+      "mint": "DxheAjSkyEFLfbZeSYgtmcRNmPxASARRaM4b6b3wfRSQ",
+      "why": "36 holders < 200"
+    },
+    {
+      "symbol": "APM",
+      "mint": "36v7rhgDL4bkNwKwifrGKuA1pdHoz5dY7DfDzuKmGQb3",
+      "why": "74 holders < 200"
+    },
+    {
+      "symbol": "AXIS",
+      "mint": "GpaknsVvBELSSzg2GoXAWvWrcea8zrSg8qchhMdvjdQk",
+      "why": "72 holders < 200"
+    },
+    {
+      "symbol": "Arc",
+      "mint": "4bR3X1z4RPC2oqp6RCR2x872ik3r8HVTJdAM81GGVAeN",
+      "why": "36 holders < 200"
+    },
+    {
+      "symbol": "TSLA",
+      "mint": "6UoKie75B6FakpePhRA9CRvPu7LnMr8rW1RkvnxtKfLv",
+      "why": "30 holders < 200"
+    },
+    {
+      "symbol": "APM",
+      "mint": "Gkx8Q6Q44DZDAQhJXycoJMWKxFrJJCHnd8N652zpKcP",
+      "why": "91 holders < 200"
+    },
+    {
+      "symbol": "Tilcayo",
+      "mint": "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto",
+      "why": "token is younger than 24h — too early for holder history to mean anything"
+    },
+    {
+      "symbol": "Anthropic",
+      "mint": "GE4EfPtjfYfA8AmFsfJ6GBE7XAtxHSWsfwmaiQQLh2YS",
+      "why": "33 holders < 200"
+    },
+    {
+      "symbol": "MUSEBOOK",
+      "mint": "8xg5icqnnCS8W525d1tnLskV4w6i26JpC2jW1An1ZPg9",
+      "why": "35 holders < 200"
+    },
+    {
+      "symbol": "AAPL",
+      "mint": "6YRbop6wkkqUxeSAvDn6mdCJReQNRApQTozWtwgMaxa",
+      "why": "53 holders < 200"
+    },
+    {
+      "symbol": "$1",
+      "mint": "DQWqNn3e9Hsbw7uMNumHDRStKs29fvJXcr1zQkM3DcxK",
+      "why": "31 holders < 200"
+    },
+    {
+      "symbol": "AXIS",
+      "mint": "4oNQBpRDy58mZP7fEbCLG5b9D8wECnCCy4Sit9CVq75f",
+      "why": "83 holders < 200"
+    },
+    {
+      "symbol": "AXIS",
+      "mint": "BmB6YNM3pNbRDcRZYeGBnBYFqqtDxw4zwPJHGa7HSavZ",
+      "why": "78 holders < 200"
+    },
+    {
+      "symbol": "GOOGL",
+      "mint": "CXXctK3LEmyJ2ZzCcK7TgtsxbrP1XFD7mZ4vpDAGyogW",
+      "why": "34 holders < 200"
+    },
+    {
+      "symbol": "Tilcayo",
+      "mint": "CSbL5AURkVQSUt96Vai3R2WYJDzj1EjVpcgswXSt4phG",
+      "why": "26 holders < 200"
+    },
+    {
+      "symbol": "Anthropic",
+      "mint": "6AaAPtTwrnfvN32wCG1Nio3vbApLJxSShTJG7rh3wmX7",
+      "why": "37 holders < 200"
+    },
+    {
+      "symbol": "Anthropic",
+      "mint": "8HtD2bedDf8Yn4k1DHsaSAfzZoNciK1D98aj8naZBv1z",
+      "why": "69 holders < 200"
+    },
+    {
+      "symbol": "DPONS",
+      "mint": "9yCkLfvbDfLjz6EKAh61Vwnf2YLXF2apVmt7QzTmCETf",
+      "why": "30 holders < 200"
+    },
+    {
+      "symbol": "CYBERLEEK",
+      "mint": "2NKqUcp4cNAmKiXNPGNEmXbgnFKrA6khDF3J7URb2wf4",
+      "why": "31 holders < 200"
+    },
+    {
+      "symbol": "SOLCAT",
+      "mint": "9U1f18idDeySFnYrurxqT1f5n5nE4g4Uk5LLzP69bh1",
+      "why": "token is younger than 24h — too early for holder history to mean anything"
+    },
+    {
+      "symbol": "WANG",
+      "mint": "D1uhjgE283bPU6vhrWjna98wHNdohxRMN29b9LTc6YNY",
+      "why": "22 holders < 200"
+    },
+    {
+      "symbol": "ARGUS",
+      "mint": "CG8ohzuCiMVAPwVQ7wYVSpQDv4AxJNaYYVk23TNJDUrN",
+      "why": "30 holders < 200"
+    },
+    {
+      "symbol": "ARGUS",
+      "mint": "5HHtVnnJ5fjSWhXc7KjiLdM2jRy7gXRRqFZ9y6ecyEXm",
+      "why": "33 holders < 200"
+    },
+    {
+      "symbol": "GP",
+      "mint": "akQTQLBKL4JPuZ5RqWEkqyLn5ndwJq5gS5YG1uy9RNS",
+      "why": "30 holders < 200"
+    },
+    {
+      "symbol": "TNT",
+      "mint": "GBRwW3nVR8Pn633CyoBvZc8s4FkB3RtGRsnrBbVtfUCF",
+      "why": "70 holders < 200"
+    },
+    {
+      "symbol": "MUSEBOOK",
+      "mint": "9TbFPsaPA8F77sZB2MeXQCgf7ozgWn4rgo1vsMfyLRDG",
+      "why": "49 holders < 200"
+    },
+    {
+      "symbol": "FLY",
+      "mint": "EVKaUT9td2o1wENEJDVUj86DWqwpTovuQqyUzVSmzh5d",
+      "why": "29 holders < 200"
+    },
+    {
+      "symbol": "SUUB",
+      "mint": "KLYs9ukoVwjZAWCBRLby6XPTRBXAfaw9xGyYTXPuHVm",
+      "why": "14 holders < 200"
+    },
+    {
+      "symbol": "GROKBOOK",
+      "mint": "P9T7ooUT3p7vdHx3HPcYeNRVuhK3FmyUH9qexroxVLx",
+      "why": "8 holders < 200"
+    },
+    {
+      "symbol": "tit",
+      "mint": "ChsZawPhmfjLsKDNqyDmWTqABX5TUxCNZAA5FDhTR69C",
+      "why": "10 holders < 200"
+    },
+    {
+      "symbol": "CPU",
+      "mint": "ENxrWFFPu6m31sMRxaUR1MTQEkRM8Fn4jE6YQ9hf8L1",
+      "why": "21 holders < 200"
+    },
+    {
+      "symbol": "Tilcayo",
+      "mint": "HLk1sCM6vLedVCBW5vxbRvwQmmjy1bjGj3v9dy2miaQi",
+      "why": "13 holders < 200"
+    },
+    {
+      "symbol": "PAID",
+      "mint": "DRzSq9xhLjAEgttUf6Cr8A99sHUfP8LeijWyf3XzhJKf",
+      "why": "31 holders < 200"
+    },
+    {
+      "symbol": "APM",
+      "mint": "GWVpjEmzU3A98kasvixNxUYx8HaQgEcJWxb9wrZGUZ8m",
+      "why": "30 holders < 200"
+    },
+    {
+      "symbol": "MEME",
+      "mint": "3vJ2D5N3uhqa79ZKabnpqJP1i9GAR4XwhAF4nrM2ZjnK",
+      "why": "18 holders < 200"
+    },
+    {
+      "symbol": "PAIDCAT",
+      "mint": "9n8rBV1L917EUSVDa9KTX2uMxvPfKZxLLtwKnYs8pump",
+      "why": "token is younger than 24h — too early for holder history to mean anything"
+    }
+  ],
+  "gem_candidates": [
+    {
+      "wallet": "B57KoeTNWMTB87Sg28PaWjSGXeYAuk4n613VL1VCarRq",
+      "handle": "seanlippel",
+      "callouts": 49,
+      "alreadyScored": false,
+      "coins": [
+        {
+          "symbol": "ELON",
+          "mint": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+          "pct_supply": 0.9126
+        },
+        {
+          "symbol": "PERPSPAD",
+          "mint": "PerPsCe2SJ7Q25CN4R5TTX4fmBdmknE2hQmqCt96fHL",
+          "pct_supply": 0.9606
+        },
+        {
+          "symbol": "WANG",
+          "mint": "JoBxYVvPhPSkiZNiUjZdty1uR6TaNneuQvE3zZ2pump",
+          "pct_supply": 0.6781
+        }
+      ]
+    },
+    {
+      "wallet": "5LgsMBSnCjC46S2WQwqiE4Ne59BZZp6HAntsqKQDedTJ",
+      "handle": "senoxe",
+      "callouts": 34,
+      "alreadyScored": false,
+      "coins": [
+        {
+          "symbol": "ELON",
+          "mint": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+          "pct_supply": 0.3248
+        }
+      ]
+    }
+  ]
+}

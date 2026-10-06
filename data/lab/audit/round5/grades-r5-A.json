@@ -1,0 +1,436 @@
+[
+ {
+  "image": "accumulation.png",
+  "panel": 1,
+  "title": "BAN 2026-04-10 → target",
+  "verdict": "INVALID",
+  "why": "early crash low retested by mid-band dip"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 2,
+  "title": "MYRO 2025-01-02 → stop",
+  "verdict": "VALID",
+  "why": "flat band at lows after large decline, low early"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 3,
+  "title": "PONKE 2025-02-14 → target",
+  "verdict": "VALID",
+  "why": "post-decline band, early low not revisited"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 4,
+  "title": "BAN 2026-03-31 → stop",
+  "verdict": "VALID",
+  "why": "flat band after crash, crash low not revisited"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 5,
+  "title": "MOODENG 2025-01-01 → stop",
+  "verdict": "VALID",
+  "why": "two-week band at lows, low early"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 6,
+  "title": "BAN 2025-03-22 → neither",
+  "verdict": "INVALID",
+  "why": "band low set mid-band; decline is pump reversal"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 7,
+  "title": "ACT 2025-04-23 → neither",
+  "verdict": "INVALID",
+  "why": "mid-band spike undercuts the early low"
+ },
+ {
+  "image": "accumulation.png",
+  "panel": 8,
+  "title": "WIF 2025-02-21 → stop",
+  "verdict": "INVALID",
+  "why": "band still drifting down, lows made mid-band"
+ },
+ {
+  "image": "asc_triangle.png",
+  "panel": 1,
+  "title": "PONKE 2026-05-24 → stop",
+  "verdict": "INVALID",
+  "why": "support anchored at pre-pump base; spike highs"
+ },
+ {
+  "image": "asc_triangle.png",
+  "panel": 2,
+  "title": "PNUT 2026-03-19 → stop",
+  "verdict": "VALID",
+  "why": "flat highs, higher lows, contained"
+ },
+ {
+  "image": "asc_triangle.png",
+  "panel": 3,
+  "title": "GRIFFAIN 2025-07-08 → stop",
+  "verdict": "VALID",
+  "why": "flat resistance with rising lows, narrowing"
+ },
+ {
+  "image": "asc_triangle.png",
+  "panel": 4,
+  "title": "USELESS 2025-12-06 → stop",
+  "verdict": "VALID",
+  "why": "three equal highs, higher lows"
+ },
+ {
+  "image": "asc_triangle.png",
+  "panel": 5,
+  "title": "POPCAT 2025-07-02 → target",
+  "verdict": "VALID",
+  "why": "rising lows under roughly flat highs"
+ },
+ {
+  "image": "asc_triangle.png",
+  "panel": 6,
+  "title": "BONK 2024-05-16 → neither",
+  "verdict": "INVALID",
+  "why": "first low is rally base; late leg is drift down"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 1,
+  "title": "BOME 2024-12-13 → neither",
+  "verdict": "VALID",
+  "why": "sharp drop then shallow upward drift"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 2,
+  "title": "WIF 2024-12-15 → target",
+  "verdict": "VALID",
+  "why": "steep pole, modest sideways-up flag"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 3,
+  "title": "BOME 2025-02-06 → stop",
+  "verdict": "VALID",
+  "why": "sharp drop, flat short flag"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 4,
+  "title": "MYRO 2024-12-14 → neither",
+  "verdict": "VALID",
+  "why": "steep pole, shallow retrace under half"
+ },
+ {
+  "image": "bear_flag.png",
+  "panel": 5,
+  "title": "BAN 2026-03-22 → neither",
+  "verdict": "VALID",
+  "why": "crash then flat tight consolidation"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 1,
+  "title": "MEW 2026-03-01 → stop",
+  "verdict": "VALID",
+  "why": "flat lows, lower highs, narrowing"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 2,
+  "title": "PNUT 2026-03-01 → stop",
+  "verdict": "VALID",
+  "why": "lower highs over roughly flat support"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 3,
+  "title": "FARTCOIN 2025-10-31 → neither",
+  "verdict": "VALID",
+  "why": "post-crash flat lows with lower highs"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 4,
+  "title": "POPCAT 2026-02-28 → stop",
+  "verdict": "VALID",
+  "why": "falling highs, flat lows"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 5,
+  "title": "GOAT 2026-09-13 → None",
+  "verdict": "VALID",
+  "why": "three equal lows, lower highs"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 6,
+  "title": "MOODENG 2025-10-30 → neither",
+  "verdict": "VALID",
+  "why": "flat support, descending highs, contained"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 7,
+  "title": "TROLL 2026-08-12 → stop",
+  "verdict": "VALID",
+  "why": "lower highs on flat support"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 8,
+  "title": "MEW 2025-08-25 → neither",
+  "verdict": "VALID",
+  "why": "descending highs, flat lows, narrowing"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 9,
+  "title": "ZEREBRO 2026-06-08 → stop",
+  "verdict": "VALID",
+  "why": "flat base with lower highs"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 10,
+  "title": "BONK 2026-02-28 → neither",
+  "verdict": "VALID",
+  "why": "clean lower highs over flat lows"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 11,
+  "title": "PNUT 2025-12-13 → neither",
+  "verdict": "VALID",
+  "why": "lower highs, equal lows"
+ },
+ {
+  "image": "desc_triangle.png",
+  "panel": 12,
+  "title": "PONKE 2025-10-23 → stop",
+  "verdict": "VALID",
+  "why": "flat support, lower highs after drop"
+ },
+ {
+  "image": "distribution.png",
+  "panel": 1,
+  "title": "BONK 2024-11-29 → neither",
+  "verdict": "VALID",
+  "why": "sideways near highs after big advance, high early"
+ },
+ {
+  "image": "distribution.png",
+  "panel": 2,
+  "title": "BONK 2024-03-15 → neither",
+  "verdict": "VALID",
+  "why": "range near highs after advance, early high"
+ },
+ {
+  "image": "distribution.png",
+  "panel": 3,
+  "title": "MYRO 2025-05-06 → stop",
+  "verdict": "INVALID",
+  "why": "steady pullback from high, not sideways band"
+ },
+ {
+  "image": "distribution.png",
+  "panel": 4,
+  "title": "TROLL 2026-05-25 → target",
+  "verdict": "VALID",
+  "why": "tight band at highs after large advance"
+ },
+ {
+  "image": "distribution.png",
+  "panel": 5,
+  "title": "BONK 2025-07-30 → neither",
+  "verdict": "VALID",
+  "why": "high at band start, sideways near highs"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 1,
+  "title": "WEN 2025-09-12 → target",
+  "verdict": "VALID",
+  "why": "equal troughs after decline, clear peak"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 2,
+  "title": "ZEREBRO 2026-03-04 → target",
+  "verdict": "VALID",
+  "why": "two similar lows, clear middle peak"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 3,
+  "title": "GIGA 2026-07-15 → stop",
+  "verdict": "VALID",
+  "why": "equal lows after decline, clear peak"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 4,
+  "title": "WIF 2025-06-10 → stop",
+  "verdict": "VALID",
+  "why": "matched troughs after decline"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 5,
+  "title": "GIGA 2025-09-27 → stop",
+  "verdict": "INVALID",
+  "why": "no prior decline; just a hump in range"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 6,
+  "title": "USELESS 2026-03-17 → stop",
+  "verdict": "VALID",
+  "why": "equal troughs, strong middle peak"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 7,
+  "title": "WIF 2024-07-15 → target",
+  "verdict": "VALID",
+  "why": "two equal lows with clear peak"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 8,
+  "title": "PONKE 2025-03-02 → stop",
+  "verdict": "INVALID",
+  "why": "troughs not dominant lows; earlier low deeper"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 9,
+  "title": "WEN 2024-07-07 → neither",
+  "verdict": "VALID",
+  "why": "clean W after long decline"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 10,
+  "title": "CHILLGUY 2026-03-16 → stop",
+  "verdict": "VALID",
+  "why": "equal lows after decline, clear bounce"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 11,
+  "title": "GIGA 2026-04-18 → neither",
+  "verdict": "INVALID",
+  "why": "spike wick low and spike peak, no decline"
+ },
+ {
+  "image": "double_bottom.png",
+  "panel": 12,
+  "title": "WIF 2024-07-06 → neither",
+  "verdict": "VALID",
+  "why": "equal troughs after big decline"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 1,
+  "title": "ZEREBRO 2025-04-05 → target",
+  "verdict": "INVALID",
+  "why": "one-bar spike peak, no prior advance"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 2,
+  "title": "BOME 2026-05-25 → target",
+  "verdict": "VALID",
+  "why": "equal peaks after advance, clear valley"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 3,
+  "title": "WEN 2026-05-20 → neither",
+  "verdict": "VALID",
+  "why": "equal peaks after advance, deep valley"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 4,
+  "title": "MYRO 2024-09-02 → neither",
+  "verdict": "VALID",
+  "why": "two matched highs, clear valley"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 5,
+  "title": "FARTCOIN 2025-09-21 → target",
+  "verdict": "VALID",
+  "why": "equal peaks after rally, clear valley"
+ },
+ {
+  "image": "double_top.png",
+  "panel": 6,
+  "title": "GOAT 2026-08-28 → stop",
+  "verdict": "INVALID",
+  "why": "two spikes and one-bar dip in 3 days"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 1,
+  "title": "WIF 2024-11-01 → stop",
+  "verdict": "VALID",
+  "why": "head above similar shoulders after advance"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 2,
+  "title": "WEN 2024-11-28 → neither",
+  "verdict": "INVALID",
+  "why": "left shoulder is a blip on the rally"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 3,
+  "title": "PONKE 2025-05-25 → neither",
+  "verdict": "VALID",
+  "why": "clear head, matched shoulders after advance"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 4,
+  "title": "USELESS 2025-08-31 → neither",
+  "verdict": "VALID",
+  "why": "tall head, similar shoulders, neckline troughs"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 5,
+  "title": "MYRO 2026-01-16 → neither",
+  "verdict": "INVALID",
+  "why": "spike from flat base, then decay; no advance"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 6,
+  "title": "GIGA 2025-04-05 → neither",
+  "verdict": "INVALID",
+  "why": "follows a decline; shoulders unequal"
+ },
+ {
+  "image": "head_shoulders.png",
+  "panel": 7,
+  "title": "PONKE 2024-12-08 → neither",
+  "verdict": "VALID",
+  "why": "clear head, similar shoulders"
+ },
+ {
+  "image": "inv_head_shoulders.png",
+  "panel": 1,
+  "title": "BONK 2025-04-22 → target",
+  "verdict": "VALID",
+  "why": "deeper head, similar shoulders after decline"
+ }
+]

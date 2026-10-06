@@ -1,0 +1,1782 @@
+{
+  "swept_at": "2026-09-17",
+  "method": "pump.fun callout/list per seed wallet, >=5 callouts with price in last 90d",
+  "callers": {
+    "5YRgrP3mjGzrzirYYN5HAQH19cTYREYwGxW6XRJQUzij": {
+      "handle": "slingoorio",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "CAPn1yH4oSywsxGU456jfgTrSSUidf9jgeAnHceNUJdw": {
+      "handle": "himothy",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 56
+    },
+    "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT": {
+      "handle": "trunoest",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 93
+    },
+    "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9": {
+      "handle": "notdecu",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 25
+    },
+    "4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh": {
+      "handle": "TheMisterFrog",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "E7gozEiAPNhpJsdS52amhhN2XCAqLZa7WPrhyR6C8o4S": {
+      "handle": "eveningbtc",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 40
+    },
+    "4yo9CUuTBbds9NFhZd4MzPiZZkUvveXdTnAH8qMsE8ku": {
+      "handle": "G_free9",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 86
+    },
+    "J9TYAsWWidbrcZybmLSfrLzryANf4CgJBLdvwdGuC8MB": {
+      "handle": "johnsoncooks101",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 44
+    },
+    "iPUp3qkm39ycMGbywWFMUyvaDhiiPGXeWXaDtmHNe6C": {
+      "handle": "ArcNikolas",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 12
+    },
+    "8MaVa9kdt3NW4Q5HyNAm1X5LbR8PQRVDc1W8NMVK88D5": {
+      "handle": "daumenxyz",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 47
+    },
+    "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve": {
+      "handle": "Eustazzeus",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "9St6ETbe3CFitw6UNSd8kg7kZ6STXy71wEGiERqQj89U": {
+      "handle": "trenchguerilla",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 55
+    },
+    "57rXqaQsvgyBKwebP2StfqQeCBjBS4jsrZFJN5aU2V9b": {
+      "handle": "ramonos",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 83
+    },
+    "EDXHdSFdadFbYFFjxPXBqMe1kCEDFqpPu552uvp48HR8": {
+      "handle": "ClownsTrenches",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 82
+    },
+    "FzVQSzj8JJr6WMGqbUHzx2XH1KkrfxRrRPv6WcbbZmND": {
+      "handle": "DustNukes",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 52
+    },
+    "89HbgWduLwoxcofWpmn1EiF9wEdpgkNDEyPjzZ72mkDi": {
+      "handle": "AlxCooks_off",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 40
+    },
+    "363sqMFaxZgvCoGzxKjXe1BqMGYkSVoCwmghZUndXuaT": {
+      "handle": "NADGEMS",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 86
+    },
+    "4fZFcK8ms3bFMpo1ACzEUz8bH741fQW4zhAMGd5yZMHu": {
+      "handle": "CryptoRilsio",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 34
+    },
+    "5dzH7gh5FjtrxUwtfBufJyTBA4fyCUGheZsdYQsE9vag": {
+      "handle": "coinsolmaxi",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 80
+    },
+    "41uh7g1DxYaYXdtjBiYCHcgBniV9Wx57b7HU7RXmx1Gg": {
+      "handle": "Lowskii_gg",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 76
+    },
+    "GfXQesPe3Zuwg8JhAt6Cg8euJDTVx751enp9EQQmhzPH": {
+      "handle": "spunosounds",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 24
+    },
+    "215nhcAHjQQGgwpQSJQ7zR26etbjjtVdW74NLzwEgQjP": {
+      "handle": "0GAntD",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 48
+    },
+    "CyaE1VxvBrahnPWkqm5VsdCvyS2QmNht2UFrKJHga54o": {
+      "handle": "Cented7",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 24
+    },
+    "DrJ6SnDXkEsPeGdmSs93v5rwWumv5QMvAGSZjAyWSd5o": {
+      "handle": "IcedKnife",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 94
+    },
+    "2T5NgDDidkvhJQg8AHDi74uCFwgp25pYFMRZXBaCUNBH": {
+      "handle": "untaxxable",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "BQVz7fQ1WsQmSTMY3umdPEPPTm1sdcBcX9sP7o6kPRmB": {
+      "handle": "Limfork",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 68
+    },
+    "Be24Gbf5KisDk1LcWWZsBn8dvB816By7YzYF5zWZnRR6": {
+      "handle": "Chairman_DN",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 53
+    },
+    "JDd3hy3gQn2V982mi1zqhNqUw1GfV2UL6g76STojCJPN": {
+      "handle": "ratwizardx",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 21
+    },
+    "5hAgYC8TJCcEZV7LTXAzkTrm7YL29YXyQQJPCNrG84zM": {
+      "handle": "Schoen_xyz",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 45
+    },
+    "6HJetMbdHBuk3mLUainxAPpBpWzDgYbHGTS2TqDAUSX2": {
+      "handle": "OnlyLJC",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 18
+    },
+    "BHREKFkPQgAtDs8Vb1UfLkUpjG6ScidTjHaCWFuG2AtX": {
+      "handle": "risk100x",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 30
+    },
+    "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb": {
+      "handle": "Ban_Val",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "GJA1HEbxGnqBhBifH9uQauzXSB53to5rhDrzmKxhSU65": {
+      "handle": "Latuche95",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 22
+    },
+    "HYSq1KBAvqWpEv1pCbV31muKM1za5A1WSHGdiVLUoNhb": {
+      "handle": "xApex0",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 24
+    },
+    "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ": {
+      "handle": "Dior100x",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 16
+    },
+    "BAr5csYtpWoNpwhUjixX7ZPHXkUciFZzjBp9uNxZXJPh": {
+      "handle": "jackduval",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 14
+    },
+    "6vbrTLsWy76TxDQAUKLqZrPohQuq6EVaJgfGzR82paFa": {
+      "handle": "MarcellxMarcell",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 43
+    },
+    "BSzpGGB3AMwtW126RT3Z27STSBrVjKV5A96H4BsUKdtD": {
+      "handle": "FerreWeb3",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG": {
+      "handle": null,
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "DdM1tyCdoEyoxYYmGMjdf5rRPcpmj3UzZTpE7ScuTf7d": {
+      "handle": "Flippingprofits",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 19
+    },
+    "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6": {
+      "handle": "CookerFlips",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "2ksQ77e9e5SS6VA6poanRGWfkU3R4R5wZnptbJHb2nx9": {
+      "handle": "anglio",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "HmUt3Jn46j7c7ANdURmEyjSRj8i3Em6MhjQUi37PZ219": {
+      "handle": "netvyxe",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "6qudAN2kV8mtCcYJxb5QQ6Vr15itdHHdeVbYm99NKMhy": {
+      "handle": "MemeRetire",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 19
+    },
+    "3JQvkiF2GKfca3ggMPRwTHmzvnj6emReuSFwSrBBonp5": {
+      "handle": "ChrisKogias",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "AkK5BtfBhj3cJi1f9LVXodbBLxRiePqffm5uiQYpDYQr": {
+      "handle": "MartinShkreli",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1": {
+      "handle": "runitbackghost",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 84
+    },
+    "7YndBV5gp3VvAiBbSfv8M7CoyMhFsiKeGYWkwee49fTg": {
+      "handle": "poe_real69",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 8
+    },
+    "FZ8pXNZLxGNiyhMXgzS2ZeMzkxiFYse16WVS8XoJeBeZ": {
+      "handle": "SerConnorr",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 42
+    },
+    "3NbL2gNYoZ2fXnpsxNwMWdpHhw2f9tfbSxBR5JwcWpKY": {
+      "handle": "traderpow",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 34
+    },
+    "HVaeUPbAwFhZnY8T3MrUzTWqpHiAbTU1NACmCQdJrqZp": {
+      "handle": "RoaringKitty",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 22
+    },
+    "BY58Z7N5Adarkx5ed78AzKvR7Kxrq795aa1boZsYyVBT": {
+      "handle": "quantJB",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "5t9xBNuDdGTGpjaPTx6hKd7sdRJbvtKS8Mhq6qVbo8Qz": {
+      "handle": "SmokezXBT",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 72
+    },
+    "GccvEcZqMrcNdp3CarCasGdN5dUfdQ4wZ6iQsk5myRzX": {
+      "handle": "SoloFNF",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 67
+    },
+    "AH39BneW9UeWxQysUcwogQrYFdPvJuRVZ5w4ccq9SKfL": {
+      "handle": "_logjam",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 23
+    },
+    "DieowDJ137xDRyCDn3YZYfAe4qzeGmdQJvryyqdWhtuc": {
+      "handle": "appiesol_",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "2VKv5Kc2mwWVsANnHdLRuESoxgkSkgCBcrrjenYv6tyw": {
+      "handle": "igndex",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 7
+    },
+    "2X4H5Y9C4Fy6Pf3wpq8Q4gMvLcWvfrrwDv2bdR8AAwQv": {
+      "handle": "OrangeSBS",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 12
+    },
+    "2kv8X2a9bxnBM8NKLc6BBTX2z13GFNRL4oRotMUJRva9": {
+      "handle": "gh0stee",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "CE44oKS3wpUerx8afyeii56u5oQjBLZknzm4Q2CYHUz9": {
+      "handle": "ProofOfEly",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 63
+    },
+    "7yuqR9JAgohMibPrB8rpryCzTrQSU9Fprrsuj2Z5VRf7": {
+      "handle": "PUNISHEDJINGTAO",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 39
+    },
+    "3LUfv2u5yzsDtUzPdsSJ7ygPBuqwfycMkjpNreRR2Yww": {
+      "handle": "domyxbt",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 60
+    },
+    "D1H83ueSw5Nxy5okxH7VBfV4jRnqAK5Mm1tm3JAj3m5t": {
+      "handle": "ieatjeets",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 8
+    },
+    "4UrFSCrGxgoCtCUBAEZq7ZmPK3Pczkxx7PwYnkBMi1KR": {
+      "handle": "J777Crypto",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 18
+    },
+    "C4Svaa7djC8d3CVxaohrsedccaKqimNoJrWe9iNPdix5": {
+      "handle": "jeetassassin",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "C7Ds4FQ1H9EnQrhNayFcs9wDb5t7HS8jrCh37Me9eYVy": {
+      "handle": "0xMistBlade",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "BFmgjdgepMxNnEyndQZC68Db3ajPdD3V8is1bQbdj4h4": {
+      "handle": "0xkgc",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 41
+    },
+    "DAEdBmTPEKM6xkwfzC3d411QUe6coKpkND6UURa4CvHC": {
+      "handle": "_fox09",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 23
+    },
+    "FNcrF6nt9BXswJrHom4hNmXCeW9no2C8wKh5UqdP8ueu": {
+      "handle": "berdushsol",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "BvgE1K46Hd4g5vbeoy1GXfDdvvLZUmELa4WASKjG8skm": {
+      "handle": "magiccaller",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 59
+    },
+    "6FWhUybWmnjsQ933v2r6o7bhEG5yH9g9XsV7NVWKj5EW": {
+      "handle": "WheresLodo01",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "CuDe51GPh5qGsmYBJDxSsufhQQhA618uDbkaXFZ4pztL": {
+      "handle": "henrys0x",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "72cCbFbLXhP3Ye4RYNZ1KLumBGvBD1QbKEL4ovC2gSUj": {
+      "handle": "HopiumPapi",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 30
+    },
+    "3BLjRcxWGtR7WRshJ3hL25U3RjWr5Ud98wMcczQqk4Ei": {
+      "handle": "Saint_pablo123",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 29
+    },
+    "9emXYGUF7cYtX2uyuZavDhhxZ65wHcYZgRv5AHVAHGSp": {
+      "handle": "CosmoCapy",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "7fEXteaTtmX1uR8fpChEXsevM4icH5vq8LNL9dzDupX2": {
+      "handle": "croakie_",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "GyqxVNvrGXZzi23ardvfiajEaQdstD9rMNoLqy3kbMWE": {
+      "handle": "Pattyice",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 14
+    },
+    "DYAn4XpAkN5mhiXkRB7dGq4Jadnx6XYgu8L5b3WGhbrt": {
+      "handle": "KayTheDoc",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 18
+    },
+    "EnPjBjzy6zaufzpZ2m3Q8nPS3KpyiRxNLKtcSiMYwWCa": {
+      "handle": "collectible",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 33
+    },
+    "CKB1XYgbEmfEE3FJev7gFwEVtoqEvmsX6GhnbuFvuN5d": {
+      "handle": "doloxbt",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "CjbR3XxCw3LmBF3X1uDC1ynsk1rhd1gGtuMkLHF6AT6L": {
+      "handle": "XScharo",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 58
+    },
+    "DNsh1UfJdxmze6T6GV9QK5SoFm7HsM5TRNxVuwVgo8Zj": {
+      "handle": "Hashbergers",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 27
+    },
+    "79nMjs72wH4wDJXrHMK71UnfKPSaBmNHJ21kfh3KCDV3": {
+      "handle": "undercoverwhale",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 33
+    },
+    "78N177fzNJpp8pG49xDv1efYcTMSzo9tPTKEA9mAVkh2": {
+      "handle": "imsheepsol",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 51
+    },
+    "7xwDKXNG9dxMsBSCmiAThp7PyDaUXbm23irLr7iPeh7w": {
+      "handle": "shahh",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 24
+    },
+    "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": {
+      "handle": "wastemanagem3nt",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 96
+    },
+    "H9TMtTxBL84rqpX8uqC3TpTgM9BmE3bJDPzStFk8U1Th": {
+      "handle": "imblankface",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "3fePC1HPWuWKtt1nUHg3xbEF5SfjuyJoG4Y2EpCbQhoi": {
+      "handle": "Bancrypto__",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 38
+    },
+    "8oQoMhfBQnRspn7QtNAq2aPThRE4q94kLSTwaaFQvRgs": {
+      "handle": "bigbagsbobby",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 24
+    },
+    "5ZuV8eqkvzYFVEKbLvGBdexL2tFv7E5BCd2HZpjqbdg": {
+      "handle": "Humanevolvd",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 58
+    },
+    "9Vk7pkBZ9KFJmzaPzNYjGedyz8qoKMQtnYyYi2AehNMT": {
+      "handle": "ImmortalXelf",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 69
+    },
+    "3VUNtVtjjx5ckUojT7UocJ5fbuAJRsNUXNfTBnPte9vC": {
+      "handle": "mofo_chad",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "69aiAKU3uJMxMLRkUEGFNt6nQ43PiVimE4ZbErJ7VSM1": {
+      "handle": "asdfhgdev_pf",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 66
+    },
+    "BErefQbhNNxVSNwArhAr5NzsjUEwh9YrpnbsXyxMjbxg": {
+      "handle": "Nxive100x",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 12
+    },
+    "HrCPnDvDgbpbFxKxer6Pw3qEcfAQQNNjb6aJNFWgTEng": {
+      "handle": "0xExorcized",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 28
+    },
+    "H1TLERBQyQzSd5gbvbWwP97GjeL9txzWoN5BK4UG7xYm": {
+      "handle": "0xWarlord",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 16
+    },
+    "4AHgEkTsGqY77qtde4UJn9yZCrbGcM7UM3vjT3qM4G5H": {
+      "handle": "BagCalls",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 73
+    },
+    "6TAHDM5Tod7dBTZdYQxzgJZKxxPfiNV9udPHMiUNumyK": {
+      "handle": "Blueycryp",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 8
+    },
+    "4xHGhy4r41XNEgeHpKSC725aZjy6tR5E92xNjs4odBPR": {
+      "handle": "onchainscammer",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 13
+    },
+    "FqojC24nUn3x6oMQC2ypBHmtH7rFAnKS6DvwsJoCMaiv": {
+      "handle": "CoCoCookerr",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 34
+    },
+    "GDoG4tdbx8qkpECQKF5MebbEDpFJn6H739psqgoTG3aN": {
+      "handle": "CrayohlaEU",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 48
+    },
+    "AEeJUPCiGR3yCoukTh1G58o4LYsUEyzrXtfmfMc2kJMX": {
+      "handle": "DamianProsa",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 31
+    },
+    "AVmFMbuehLbCWB6sPdZGComwyrHtxJETZVktdA65j3Gq": {
+      "handle": "dyorwgmi",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 51
+    },
+    "9FEHWFjgbYnFCRRHkesJNq6znHjc5Aaq7TiKi1rCVSnH": {
+      "handle": "fomomofosol",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 26
+    },
+    "G2mgnzpr59vYjKpwU9q5zVfS9yQ9HezMwjuqF7LACvR4": {
+      "handle": "fz7trades",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 48
+    },
+    "2JptG7VJTuohCNrEE2iVT43UtjTNqRTVMsgNs8xeotbC": {
+      "handle": "KriptoHako99",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 54
+    },
+    "91sP85Ds9A4EXJ3gU3iHyLtUNJimxz8LrxRb2qhBNod9": {
+      "handle": "hoodscall",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "EvhNmcXCZX6AMzzA9SLZ4Nuf4qkiJvwgFE67m4ukQoWk": {
+      "handle": "notjessix",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 61
+    },
+    "4s2WzRLa35FB58bZY1i4CN3WoywJeuYrGYHnTKFsT23z": {
+      "handle": "thejester",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 32
+    },
+    "4z3WtX32eehkmnaNNstZWyAuVBhj6cgpk5JtkdTa4m4A": {
+      "handle": "JSpizzleCrypto",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 66
+    },
+    "3j5c4aD1aznxQXJ3DWw1b7UD8kKuaqXVbpaVeWPR83TG": {
+      "handle": "xKaaox",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 9
+    },
+    "72YiE4crBv2UhxRgRYKs4GaTGT2avbacfL4HNCfQLqsm": {
+      "handle": "kyzenill",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 55
+    },
+    "9iaawVBEsFG35PSwd4PahwT8fYNQe9XYuRdWm872dUqY": {
+      "handle": "973Meech",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 64
+    },
+    "3ZqnSJisaCptQN6csgmRCuHbgLHHkaFbJexB8cpYSPJF": {
+      "handle": "mrsamo",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 25
+    },
+    "2RyUYqX1VFoGdDSKm3brWV5c2bY4thXx1Wctz22uYS1p": {
+      "handle": "Niners",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 59
+    },
+    "8AtQ4ka3dgtrH1z4Uq3Tm4YdMN3cK5RRj1eKuGNnvenm": {
+      "handle": "peacefuldestroy",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 44
+    },
+    "9cdZg6xR4c9kZiqKSzqjn4QHCXNQuC9HEWBzzMJ3mzqw": {
+      "handle": "pikalosi",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 51
+    },
+    "9RrKUhRpbPDNxR7x88ZsCgdtqPHUfwYPjj4JdpV4FBj9": {
+      "handle": "pockethitlers",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 7
+    },
+    "4EsY8HQB4Ak65diFrSHjwWhKSGC8sKmnzyusM993gk2w": {
+      "handle": "prosciuttosol",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 44
+    },
+    "GBERKNpahPnBGmeUGWQVjGBDBj6CcJKpGz34FqegmTgu": {
+      "handle": "mircs",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 44
+    },
+    "23Ltopfensg1rSsCdoc1M8rcp5cB5bkqbmogMGmH63yW": {
+      "handle": "solsnatchinfr",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 11
+    },
+    "8RrMaJXYwANd4zEskfPQuSYE35dTzaYtuwyKz3ewcZQx": {
+      "handle": "TeTheGamer",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 37
+    },
+    "DU323DieHUGPmYamp6A4Ai1V4YSYgRi35mGpzJGrjf7k": {
+      "handle": "Toxic_weast",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 68
+    },
+    "Hw5UKBU5k3YudnGwaykj5E8cYUidNMPuEewRRar5Xoc7": {
+      "handle": "trenchmanjames",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 15
+    },
+    "5T229oePmJGE5Cefys8jE9Jq8C7qfGNNWy3RVA7SmwEP": {
+      "handle": "tuults69",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 15
+    },
+    "DYmsQudNqJyyDvq86XmzAvrU9T7xwfQEwh6gPQw9TPNF": {
+      "handle": "exitliquid1ty",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 34
+    },
+    "2W14ahXD3XBfWJchQ4K5NLXmguWWcTTUTuHDhEzeuvP3": {
+      "handle": "VeloceSVJ",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 54
+    },
+    "DwCp9GZw3ueoXPykHSPUkRZEwcTVbJH2i9Sf1cXYicWf": {
+      "handle": "w1zar9",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 52
+    },
+    "922VvmmYDHV9KMTJJ71Y5Yd3Vn7cfJuFasLNSsZPygrG": {
+      "handle": "zukiweb3",
+      "verified": false,
+      "callouts_90d": 100,
+      "callouts_7d": 100
+    },
+    "991Mi3sGxGCxVsBnRTYBGwxKxNXxMksyMFo85cqxsuML": {
+      "handle": "Betmoreee",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 76
+    },
+    "12aV8MEJPqbfbGEf894Top9mBk6tCAm7W4qSPvdmonke": {
+      "handle": "downsin",
+      "verified": true,
+      "callouts_90d": 100,
+      "callouts_7d": 46
+    },
+    "5f1AoBaqeBZ3sQhNVQp7xYANb7ykj4xzYBh8eW5RYyFE": {
+      "handle": "CryptoDevinL",
+      "verified": false,
+      "callouts_90d": 98,
+      "callouts_7d": 23
+    },
+    "4ESzFZUWUdr2GsgHBVeQKuzAmBWS5sRSaXw6PZH2EAau": {
+      "handle": "dashcrypto_",
+      "verified": false,
+      "callouts_90d": 98,
+      "callouts_7d": 24
+    },
+    "FC3nyVqdufVfrgXiRJEqgST1JdJSEBEz6a9KoBfFP7c4": {
+      "handle": "psykogem",
+      "verified": false,
+      "callouts_90d": 98,
+      "callouts_7d": 28
+    },
+    "6DQAGJT7VZPVBsuG4kn3AvpyHCEi7B2RFFvMZdbqQqqP": {
+      "handle": "Cupseyy",
+      "verified": false,
+      "callouts_90d": 95,
+      "callouts_7d": 22
+    },
+    "Cv5GgkpXvtXcsrMcKCJvx46BpMjiM61mpPU1j8RbbbVL": {
+      "handle": "r4yancore",
+      "verified": false,
+      "callouts_90d": 95,
+      "callouts_7d": 28
+    },
+    "5ruP877fu8sBshx9inDeHsVLjnJtgVBTbjnbupeDHYHH": {
+      "handle": "Sanity100x",
+      "verified": true,
+      "callouts_90d": 94,
+      "callouts_7d": 43
+    },
+    "8Fxc1gYmuR1fvQsnCXHnFCmimNpUZ4r5gopuVoM1pjvg": {
+      "handle": "0xUmbreon",
+      "verified": true,
+      "callouts_90d": 90,
+      "callouts_7d": 2
+    },
+    "7s98K37yqAc22rxNJK5YwaDkcDsHFKMqNH1EnG8fJBVW": {
+      "handle": "Moneymike_813",
+      "verified": false,
+      "callouts_90d": 89,
+      "callouts_7d": 8
+    },
+    "3pfqebV65sHMbF5z86HsPKSiTxwpNhCzjK5X7GUqCbtK": {
+      "handle": "yeaitsrem",
+      "verified": false,
+      "callouts_90d": 86,
+      "callouts_7d": 44
+    },
+    "2k7Mnf2K3GhpB7hEVN1CFFeV4oNzzuCS5Q6SmcfAoLHd": {
+      "handle": "Setsu2k",
+      "verified": false,
+      "callouts_90d": 84,
+      "callouts_7d": 23
+    },
+    "CM1dn5LZ21o6PQv3NQpQeEFPGGo9dNpSQ4eWQctmp17g": {
+      "handle": "rackstm_",
+      "verified": false,
+      "callouts_90d": 82,
+      "callouts_7d": 27
+    },
+    "719sfKUjiMThumTt2u39VMGn612BZyCcwbM5Pe8SqFYz": {
+      "handle": "FASHRCrypto",
+      "verified": false,
+      "callouts_90d": 81,
+      "callouts_7d": 1
+    },
+    "EjtQrPTbcMevStBkpnjsH23NfUCMhGHusTYsHuGVQZp2": {
+      "handle": "zefwashere",
+      "verified": false,
+      "callouts_90d": 81,
+      "callouts_7d": 30
+    },
+    "8T1HF5gr2fcULHv3j3nu4koGALCmc8puGGonggmwfg55": {
+      "handle": "bukasphere",
+      "verified": false,
+      "callouts_90d": 76,
+      "callouts_7d": 37
+    },
+    "gangJEP5geDHjPVRhDS5dTF5e6GtRvtNogMEEVs91RV": {
+      "handle": "Qavecc",
+      "verified": false,
+      "callouts_90d": 76,
+      "callouts_7d": 8
+    },
+    "AK18Ru6UzvbhBWcfnhALuMM4hSXvyDCmvMkrZD3QQqrU": {
+      "handle": "zinceth",
+      "verified": false,
+      "callouts_90d": 75,
+      "callouts_7d": 4
+    },
+    "A8i6J8B1DgVdQaoeyrCmc18473EzYocEtZGavHT4sXzw": {
+      "handle": "mike8pump",
+      "verified": false,
+      "callouts_90d": 75,
+      "callouts_7d": 5
+    },
+    "As7HjL7dzzvbRbaD3WCun47robib2kmAKRXMvjHkSMB5": {
+      "handle": "ottabag",
+      "verified": false,
+      "callouts_90d": 74,
+      "callouts_7d": 19
+    },
+    "7tiRXPM4wwBMRMYzmywRAE6jveS3gDbNyxgRrEoU6RLA": {
+      "handle": "qtdegen",
+      "verified": false,
+      "callouts_90d": 74,
+      "callouts_7d": 9
+    },
+    "FRbUNvGxYNC1eFngpn7AD3f14aKKTJVC6zSMtvj2dyCS": {
+      "handle": "henn100x",
+      "verified": false,
+      "callouts_90d": 73,
+      "callouts_7d": 38
+    },
+    "GvTXquDAJbfrFrEGTPRPUj3WM5Bzub5yeTFzkLVHpjfD": {
+      "handle": "brubowsky",
+      "verified": false,
+      "callouts_90d": 72,
+      "callouts_7d": 26
+    },
+    "zhYnXqK3MNSmwS3yxSvPmY5kUa1n2WUaCJgYUDrAHkL": {
+      "handle": "onlyzhynx",
+      "verified": true,
+      "callouts_90d": 71,
+      "callouts_7d": 17
+    },
+    "ASVzakePP6GNg9r95d4LPZHJDMXun6L6E4um4pu5ybJk": {
+      "handle": "0xNaruza",
+      "verified": false,
+      "callouts_90d": 71,
+      "callouts_7d": 10
+    },
+    "4Ff9dbi9L93qMvevpESY4YLHtdqTd8Yj8jXj3VwCNY4g": {
+      "handle": "PadrePrints",
+      "verified": false,
+      "callouts_90d": 70,
+      "callouts_7d": 57
+    },
+    "6mrqa4cDaqBCD9UrUiUyoK78e4AJ8XzRaF8uTbcuTVae": {
+      "handle": "cousincrypt0",
+      "verified": false,
+      "callouts_90d": 69,
+      "callouts_7d": 8
+    },
+    "BGSecfpdtCSa5xLfjYkmXKtzJgaUxpdLAsCiNkbxVm8o": {
+      "handle": "punter_punts",
+      "verified": false,
+      "callouts_90d": 69,
+      "callouts_7d": 8
+    },
+    "DuGezKLZp8UL2aQMHthoUibEC7WSbpNiKFJLTtK1QHjx": {
+      "handle": "EddyMetaX",
+      "verified": false,
+      "callouts_90d": 69,
+      "callouts_7d": 11
+    },
+    "EgjCS3ULUCU5JN83XumirPr6171zvN5i6wc12SDiVGX3": {
+      "handle": "legend_calls",
+      "verified": false,
+      "callouts_90d": 69,
+      "callouts_7d": 14
+    },
+    "4ZdCpHJrSn4E9GmfP8jjfsAExHGja2TEn4JmXfEeNtyT": {
+      "handle": "roboPBOC",
+      "verified": false,
+      "callouts_90d": 69,
+      "callouts_7d": 8
+    },
+    "J23qr98GjGJJqKq9CBEnyRhHbmkaVxtTJNNxKu597wsA": {
+      "handle": "gr3gor14n",
+      "verified": true,
+      "callouts_90d": 67,
+      "callouts_7d": 8
+    },
+    "GRcAsAnvZc6cX2Jx2yYFzWV62yqCoU74eV4Nfq36vqxQ": {
+      "handle": "greencomeup",
+      "verified": false,
+      "callouts_90d": 67,
+      "callouts_7d": 45
+    },
+    "B5TrL7PsRUwCTL5bVcueieht5QchTw4TWLQDKqEaxEzi": {
+      "handle": null,
+      "verified": false,
+      "callouts_90d": 66,
+      "callouts_7d": 15
+    },
+    "BZXfMvCgrCQ5XYtPyWDmdjAistFmmTNah6Pzu9wydZRy": {
+      "handle": "octoseaa",
+      "verified": false,
+      "callouts_90d": 66,
+      "callouts_7d": 8
+    },
+    "EAnB5151L8ejp3SM6haLgyv3snk6oqc8acKgWEg9T5J": {
+      "handle": "ohFrostyyy",
+      "verified": false,
+      "callouts_90d": 65,
+      "callouts_7d": 19
+    },
+    "62N1K57D37AUDGp68tnDYKPjGDsaAAtmo357nBtEtuR": {
+      "handle": "Setuhx",
+      "verified": false,
+      "callouts_90d": 64,
+      "callouts_7d": 16
+    },
+    "4S8YBCt6hhi7Nr1NnKF6jF856LLN8JJFzD1a8nF5UuHA": {
+      "handle": "solanashaka",
+      "verified": false,
+      "callouts_90d": 64,
+      "callouts_7d": 64
+    },
+    "4y2T1ghykCTq4EddoXjptZamk4qAsqcZw6eKxS8jdvE1": {
+      "handle": "hdegrootvan",
+      "verified": false,
+      "callouts_90d": 63,
+      "callouts_7d": 1
+    },
+    "21rgbFW6sujQovCw3qt6R2EdE97Yzzvk8sSc37Bb72Cm": {
+      "handle": "hexiecs",
+      "verified": false,
+      "callouts_90d": 62,
+      "callouts_7d": 8
+    },
+    "FajxNukkjDLGXfB5V3L1msrU9qgzuzhN4s4YQfefSCKp": {
+      "handle": "cryptodivix",
+      "verified": false,
+      "callouts_90d": 62,
+      "callouts_7d": 3
+    },
+    "6yVb4pxNwDfr6rovwNnBg3SyKSvDcHGD4WdFPN1JJBqm": {
+      "handle": "0xEthan",
+      "verified": true,
+      "callouts_90d": 61,
+      "callouts_7d": 22
+    },
+    "DweUfjvwsy8Hs7Ye8yWJns3T1aD1cBGW42yHYy5nukM4": {
+      "handle": null,
+      "verified": false,
+      "callouts_90d": 60,
+      "callouts_7d": 9
+    },
+    "37Y6bz7AXpHHRzMHGMqGRxv8JMuHQCS2FFHrPZkUeRt2": {
+      "handle": "cryptolaanie",
+      "verified": false,
+      "callouts_90d": 59,
+      "callouts_7d": 0
+    },
+    "6S8GezkxYUfZy9JPtYnanbcZTMB87Wjt1qx3c6ELajKC": {
+      "handle": "nyhrox",
+      "verified": false,
+      "callouts_90d": 58,
+      "callouts_7d": 5
+    },
+    "FQqe7UPdWcwxcEoS1v5PnRq1cXGdXcCsxBm14XWhS7Zf": {
+      "handle": "f4vel",
+      "verified": false,
+      "callouts_90d": 58,
+      "callouts_7d": 2
+    },
+    "64ymeD9XTAkNJgHtXgrG6JCNZmBC9fSVcmgkL54pFikE": {
+      "handle": "Phineas_Sol",
+      "verified": false,
+      "callouts_90d": 58,
+      "callouts_7d": 7
+    },
+    "99i9uVA7Q56bY22ajKKUfTZTgTeP5yCtVGsrG9J4pDYQ": {
+      "handle": "TheRealZrool",
+      "verified": false,
+      "callouts_90d": 57,
+      "callouts_7d": 6
+    },
+    "CXVJewdc79TYR55sz4SGLSWUPz3r4LBJ9Mn93bZ8ZyAz": {
+      "handle": "swonzon",
+      "verified": false,
+      "callouts_90d": 57,
+      "callouts_7d": 7
+    },
+    "EHg5YkU2SZBTvuT87rUsvxArGp3HLeye1fXaSDfuMyaf": {
+      "handle": "tilcrypto",
+      "verified": false,
+      "callouts_90d": 57,
+      "callouts_7d": 12
+    },
+    "55zdqS3Y174qSAowPbhSC3WYWvy98neZraQqPUm7xksy": {
+      "handle": "Oaktastic1",
+      "verified": false,
+      "callouts_90d": 56,
+      "callouts_7d": 12
+    },
+    "FAicXNV5FVqtfbpn4Zccs71XcfGeyxBSGbqLDyDJZjke": {
+      "handle": "radiancebrr",
+      "verified": false,
+      "callouts_90d": 55,
+      "callouts_7d": 12
+    },
+    "EeXvxkcGqMDZeTaVeawzxm9mbzZwqDUMmfG3bF7uzumH": {
+      "handle": "fnmilito",
+      "verified": false,
+      "callouts_90d": 54,
+      "callouts_7d": 13
+    },
+    "CCUcjek5p6DLoH2YNtjizxYhAnStXAQAGVxhp1cYJF7w": {
+      "handle": "elchartox",
+      "verified": false,
+      "callouts_90d": 53,
+      "callouts_7d": 16
+    },
+    "2iPgNgss7ow3v5YFkTpzABStfjFSyG3BGvP5sZqADtFM": {
+      "handle": "JadenOnChain",
+      "verified": false,
+      "callouts_90d": 53,
+      "callouts_7d": 43
+    },
+    "9f5ywdCDA4QhSktBomozpHmZfSLqS6J9VqCrRehYWh1p": {
+      "handle": "matsu_sol",
+      "verified": false,
+      "callouts_90d": 52,
+      "callouts_7d": 9
+    },
+    "98T65wcMEjoNLDTJszBHGZEX75QRe8QaANXokv4yw3Mp": {
+      "handle": "LeckSol",
+      "verified": false,
+      "callouts_90d": 51,
+      "callouts_7d": 14
+    },
+    "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU": {
+      "handle": "Megga",
+      "verified": true,
+      "callouts_90d": 51,
+      "callouts_7d": 8
+    },
+    "7j7AA3HZR2zEjwAQEKPFh2qucLY4fqZpB9iodf39w8xW": {
+      "handle": "MazeCCC",
+      "verified": false,
+      "callouts_90d": 51,
+      "callouts_7d": 6
+    },
+    "G3gZWqrYkNmYFKYCyfRCNtGuxdyuE2wiYKkZpiZn4WSS": {
+      "handle": "goyimpnl",
+      "verified": false,
+      "callouts_90d": 49,
+      "callouts_7d": 3
+    },
+    "3bzaJd5yZG73EVDz8xosQb7gfZm2LN5auFGh6wnP1n1f": {
+      "handle": "MattFws",
+      "verified": false,
+      "callouts_90d": 49,
+      "callouts_7d": 17
+    },
+    "B3wagQZiZU2hKa5pUCj6rrdhWsX3Q6WfTTnki9PjwzMh": {
+      "handle": "xandereef",
+      "verified": false,
+      "callouts_90d": 49,
+      "callouts_7d": 29
+    },
+    "AVjEtg2ECYKXYeqdRQXvaaAZBjfTjYuSMTR4WLhKoeQN": {
+      "handle": "Putrickk",
+      "verified": false,
+      "callouts_90d": 48,
+      "callouts_7d": 36
+    },
+    "DsqRyTUh1R37asYcVf1KdX4CNnz5DKEFmnXvgT4NfTPE": {
+      "handle": "simplyclassic69",
+      "verified": false,
+      "callouts_90d": 45,
+      "callouts_7d": 14
+    },
+    "DTS6KBsfaveqP5WUuWpmk4Mac14nanwwnBaraUAWsrYJ": {
+      "handle": "Peenutslmao",
+      "verified": false,
+      "callouts_90d": 45,
+      "callouts_7d": 16
+    },
+    "GFHyYGrvQ2dTTRyTAi9dgKyEP5rgegCAduPnS3nAHJ8t": {
+      "handle": "TLowNFTs",
+      "verified": true,
+      "callouts_90d": 45,
+      "callouts_7d": 9
+    },
+    "5MztePcdvyzJr4Dd1Wj15scXEeddst1sMp759aNWf7gm": {
+      "handle": "trading_axe",
+      "verified": false,
+      "callouts_90d": 44,
+      "callouts_7d": 13
+    },
+    "DN7pYLSGYqHXwvPLh8tJM2zoJjhMSsNGVRVkMWVpredr": {
+      "handle": "Fabix_R",
+      "verified": false,
+      "callouts_90d": 41,
+      "callouts_7d": 23
+    },
+    "4sAUSQFdvWRBxR8UoLBYbw8CcXuwXWxnN8pXa4mtm5nU": {
+      "handle": "XScharo",
+      "verified": false,
+      "callouts_90d": 41,
+      "callouts_7d": 0
+    },
+    "8fsKLLtvKNanL4ginCaiRS6UfeemY11rSf8U8fN1dJw4": {
+      "handle": "Stigman__",
+      "verified": false,
+      "callouts_90d": 40,
+      "callouts_7d": 9
+    },
+    "67Nwfi9hgwqhxGoovT2JGLU67uxfomLwQAWncjXXzU6U": {
+      "handle": "0xSilver",
+      "verified": true,
+      "callouts_90d": 39,
+      "callouts_7d": 8
+    },
+    "831yhv67QpKqLBJjbmw2xoDUeeFHGUx8RnuRj9imeoEs": {
+      "handle": "treysocial",
+      "verified": false,
+      "callouts_90d": 38,
+      "callouts_7d": 3
+    },
+    "EaVboaPxFCYanjoNWdkxTbPvt57nhXGu5i6m9m6ZS2kK": {
+      "handle": "cladzsol",
+      "verified": false,
+      "callouts_90d": 37,
+      "callouts_7d": 5
+    },
+    "H61fn1qiMi7esgnRe7FDxp5CRmafSafyABkuxwVdSV3t": {
+      "handle": "RookieXBT",
+      "verified": false,
+      "callouts_90d": 37,
+      "callouts_7d": 5
+    },
+    "CUKFKdJw7F91bZBbtAJMrLLxqtVigVSJhx644EFnCnw": {
+      "handle": "baraka_wins",
+      "verified": false,
+      "callouts_90d": 36,
+      "callouts_7d": 3
+    },
+    "B799XD2RtgkxYRvv5Q9CFnSpVifrsJErWz6MpvBdYFdR": {
+      "handle": "guidustyy",
+      "verified": false,
+      "callouts_90d": 36,
+      "callouts_7d": 5
+    },
+    "DjM7Tu7whh6P3pGVBfDzwXAx2zaw51GJWrJE3PwtuN7s": {
+      "handle": "VERYKOOLLUKEY",
+      "verified": false,
+      "callouts_90d": 35,
+      "callouts_7d": 3
+    },
+    "DtjYbZntc2mEm1UrZHNcKguak6h6QM4S5xobnwFgg92Y": {
+      "handle": "xfilesboy",
+      "verified": true,
+      "callouts_90d": 35,
+      "callouts_7d": 0
+    },
+    "CCc5m84JvEoe5cCPV5dYHqiXCuvNHpFpAuUB6ggsCRUg": {
+      "handle": "Suso100x",
+      "verified": false,
+      "callouts_90d": 34,
+      "callouts_7d": 10
+    },
+    "A38dM3RtNpewkwkWJeyj8C9c8yWtgaaAdh4Rdj1SXg3M": {
+      "handle": "thememeshunterx",
+      "verified": false,
+      "callouts_90d": 34,
+      "callouts_7d": 4
+    },
+    "34ZEH778zL8ctkLwxxERLX5ZnUu6MuFyX9CWrs8kucMw": {
+      "handle": "0xGroovy",
+      "verified": false,
+      "callouts_90d": 32,
+      "callouts_7d": 6
+    },
+    "5fM9cY5GMo8QtTmxuvNx7bWFUoNhdQ1H5w8bMdXGVtaH": {
+      "handle": "quarsays",
+      "verified": false,
+      "callouts_90d": 30,
+      "callouts_7d": 9
+    },
+    "Fz964ToUoHoyX3mBSMSxX8Y4kDT6beHk9ix4UaHrnSqg": {
+      "handle": "iclipcarefully",
+      "verified": false,
+      "callouts_90d": 30,
+      "callouts_7d": 0
+    },
+    "winkACDSxstg19HJgX1pwDGpD8f2ZpiqqAjyAbkgXLu": {
+      "handle": "doncaarbon",
+      "verified": false,
+      "callouts_90d": 30,
+      "callouts_7d": 4
+    },
+    "2net6etAtTe3Rbq2gKECmQwnzcKVXRaLcHy2Zy1iCiWz": {
+      "handle": "goatedondsticks",
+      "verified": false,
+      "callouts_90d": 30,
+      "callouts_7d": 8
+    },
+    "9oqcX4mTVdLP7MDs7ZTL7jueW5EMjXTx7bwqy57cEuww": {
+      "handle": "miragemunny",
+      "verified": false,
+      "callouts_90d": 29,
+      "callouts_7d": 2
+    },
+    "G3g1CKqKWSVEVURZDNMazDBv7YAhMNTjhJBVRTiKZygk": {
+      "handle": "insydercrypto",
+      "verified": false,
+      "callouts_90d": 28,
+      "callouts_7d": 1
+    },
+    "2hN82SXLUffhG3vxpezRmae1sGrCBMqHHBDxjmjpagqk": {
+      "handle": "lyftical",
+      "verified": false,
+      "callouts_90d": 27,
+      "callouts_7d": 18
+    },
+    "8k1sAmVUjzaZkxqexeYkCPphjcQobYugQeGmCyvKtHNG": {
+      "handle": "PoorGoat_",
+      "verified": false,
+      "callouts_90d": 27,
+      "callouts_7d": 2
+    },
+    "4nwfXw7n98jEQn93VWY7Cuf1jnn1scHXuXCPGVYS9k6T": {
+      "handle": "FrostBallin",
+      "verified": true,
+      "callouts_90d": 27,
+      "callouts_7d": 4
+    },
+    "7cQjAvzJsmdePPMk8TiW8hYHHhCfdNtEaaNK3o46YP12": {
+      "handle": "parsiiix",
+      "verified": false,
+      "callouts_90d": 26,
+      "callouts_7d": 0
+    },
+    "AAcnkt8u8NgZBAPY5eUTSSc4oeHZNfB6dXsV1yWf8YSC": {
+      "handle": "CryptoGodJohn",
+      "verified": false,
+      "callouts_90d": 25,
+      "callouts_7d": 3
+    },
+    "FPx2BavA7J2C7Nz6WpoPL9f5kDAKjxLb38PHNZMoxCra": {
+      "handle": "AchillesXBT",
+      "verified": false,
+      "callouts_90d": 25,
+      "callouts_7d": 4
+    },
+    "Enjoy9BmQgAUD9AKC4HpUbHByVdzwp7jQppKukEvdyWm": {
+      "handle": "0xEnjooyer",
+      "verified": false,
+      "callouts_90d": 25,
+      "callouts_7d": 0
+    },
+    "7dP8DmRka5rmQti4zEEDjdAyaQyvFsPkcXMjEKJucqCu": {
+      "handle": "Jeetburner",
+      "verified": false,
+      "callouts_90d": 25,
+      "callouts_7d": 3
+    },
+    "gkNNf4NwkR61B1QKBFtELe6TVZFhYRaC2LbVkoNyCkB": {
+      "handle": "0xPradaa",
+      "verified": false,
+      "callouts_90d": 25,
+      "callouts_7d": 14
+    },
+    "JAmx4Wsh7cWXRzQuVt3TCKAyDfRm9HA7ztJa4f7RM8h9": {
+      "handle": "tallxyyy",
+      "verified": false,
+      "callouts_90d": 25,
+      "callouts_7d": 5
+    },
+    "Hi5yNvPSfagdja5xjYMTYWnnjSE3ze5KsezTLfuD2mqd": {
+      "handle": "mastern0de3",
+      "verified": false,
+      "callouts_90d": 24,
+      "callouts_7d": 1
+    },
+    "AGqjivJr1dSv73TVUvdtqAwogzmThzvYMVXjGWg2FYLm": {
+      "handle": "noobmini_",
+      "verified": false,
+      "callouts_90d": 24,
+      "callouts_7d": 2
+    },
+    "CgaA9a1JwAXJyfHuvZ7VW8YfTVRkdiT5mjBBSKcg7Rz5": {
+      "handle": "ArtCryptoz",
+      "verified": false,
+      "callouts_90d": 23,
+      "callouts_7d": 8
+    },
+    "5B79fMkcFeRTiwm7ehsZsFiKsC7m7n1Bgv9yLxPp9q2X": {
+      "handle": "bandeez",
+      "verified": false,
+      "callouts_90d": 23,
+      "callouts_7d": 1
+    },
+    "Fv8byBKV8jK8jxoUtgB1A1dqGcxSoN8x7bUZobP8Xn1d": {
+      "handle": "BanfSol",
+      "verified": false,
+      "callouts_90d": 23,
+      "callouts_7d": 5
+    },
+    "FCt3Gyuqcoc4vHrnAYdxVbqSg3m1AyDHtaVZMN8TctPv": {
+      "handle": "Piana100x",
+      "verified": false,
+      "callouts_90d": 23,
+      "callouts_7d": 4
+    },
+    "CEUA7zVoDRqRYoeHTP58UHU6TR8yvtVbeLrX1dppqoXJ": {
+      "handle": "tdmilky",
+      "verified": true,
+      "callouts_90d": 22,
+      "callouts_7d": 1
+    },
+    "LeenseyyUU3ccdBPCFCrrZ8oKU2B3T2uToGGZ7eVABY": {
+      "handle": "leensx100",
+      "verified": true,
+      "callouts_90d": 22,
+      "callouts_7d": 5
+    },
+    "B9oKseVKRntTvfADyaUoH7oVmoyVbBfUf4NKyQc4KK2D": {
+      "handle": "fozzycapone",
+      "verified": false,
+      "callouts_90d": 21,
+      "callouts_7d": 6
+    },
+    "951wq3qDowjKHaycrNaiRB5WpovYVKXnqhnrcKPh46zt": {
+      "handle": "savemejrus",
+      "verified": false,
+      "callouts_90d": 21,
+      "callouts_7d": 12
+    },
+    "36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG": {
+      "handle": "melxprt",
+      "verified": false,
+      "callouts_90d": 21,
+      "callouts_7d": 0
+    },
+    "CkPFGv2Wv1vwdWjtXioEgb8jhZQfs3eVZez3QCetu7xD": {
+      "handle": "lynk0x",
+      "verified": false,
+      "callouts_90d": 20,
+      "callouts_7d": 5
+    },
+    "BtMBMPkoNbnLF9Xn552guQq528KKXcsNBNNBre3oaQtr": {
+      "handle": "ihateoop",
+      "verified": false,
+      "callouts_90d": 20,
+      "callouts_7d": 8
+    },
+    "FeYVZPsDkmg3D9ddcySxLqGvAR9ES29ABZkeRcUn4FfY": {
+      "handle": "Async_duck",
+      "verified": false,
+      "callouts_90d": 19,
+      "callouts_7d": 0
+    },
+    "F2SuErm4MviWJ2HzKXk2nuzBC6xe883CFWUDCPz6cyWm": {
+      "handle": "earlTrades",
+      "verified": true,
+      "callouts_90d": 19,
+      "callouts_7d": 13
+    },
+    "J15mCwMU8EeSvaiFTTyM8teCoxXf82aLUh6FgtDy5q1g": {
+      "handle": "Fwasty",
+      "verified": false,
+      "callouts_90d": 19,
+      "callouts_7d": 14
+    },
+    "BQ4KBzzXXk6ZMxVQb4mePuUbJfe85MerzYj53eatzUWd": {
+      "handle": "brc20niubi",
+      "verified": false,
+      "callouts_90d": 18,
+      "callouts_7d": 5
+    },
+    "xyzfhxfy8NhfeNG3Um3WaUvFXzNuHkrhrZMD8dsStB6": {
+      "handle": "oh_gasp",
+      "verified": false,
+      "callouts_90d": 18,
+      "callouts_7d": 2
+    },
+    "71PCu3E4JP5RDBoY6wJteqzxkKNXLyE1byg5BTAL9UtQ": {
+      "handle": "Ramsetx",
+      "verified": false,
+      "callouts_90d": 18,
+      "callouts_7d": 1
+    },
+    "3uz65G8e463MA5FxcSu1rTUyWRtrRLRZYskKtEHHj7qn": {
+      "handle": "Felixonchain",
+      "verified": true,
+      "callouts_90d": 17,
+      "callouts_7d": 9
+    },
+    "GJyhzLoZAxZHZGPvF3V1wsyGUnoGSQ55n6hN6nHv7W8B": {
+      "handle": "LilMoonLambo",
+      "verified": false,
+      "callouts_90d": 17,
+      "callouts_7d": 3
+    },
+    "4CE33zq4XtQwo8WGuBYHdeH68rUkRwYrztGKkzgiuRmk": {
+      "handle": "PXYtrade",
+      "verified": false,
+      "callouts_90d": 17,
+      "callouts_7d": 8
+    },
+    "FwjYcbfktK8PC2bzCrqxR6QkUPxmHFbcFGNrz3YAV7ft": {
+      "handle": "stackppr",
+      "verified": false,
+      "callouts_90d": 15,
+      "callouts_7d": 6
+    },
+    "mW4PZB45isHmnjGkLpJvjKBzVS5NXzTJ8UDyug4gTsM": {
+      "handle": "igndex",
+      "verified": false,
+      "callouts_90d": 14,
+      "callouts_7d": 0
+    },
+    "FUZZUhT5qKncddMxLnkeiN7Dh1CmSpWPScp55iexZ85t": {
+      "handle": "slfuzz",
+      "verified": false,
+      "callouts_90d": 14,
+      "callouts_7d": 9
+    },
+    "AUEQxhkAVz71w2WBa9BYSoZrydhYNJaKmfNomoNs9E4t": {
+      "handle": "rise_crypt",
+      "verified": false,
+      "callouts_90d": 14,
+      "callouts_7d": 1
+    },
+    "Dxudj2DQ5odnqgZvUocaeWc1eYC78Q8vfmVtPpvTrRNh": {
+      "handle": "stormtradez",
+      "verified": false,
+      "callouts_90d": 14,
+      "callouts_7d": 0
+    },
+    "B9K2wTQcRDLRLhMKFyRh2hPqHrr6VKiCC9yNGpkMUXrh": {
+      "handle": "Xanse_crypto",
+      "verified": false,
+      "callouts_90d": 14,
+      "callouts_7d": 0
+    },
+    "5vg7he5HibvsAW86wfiuP6jw7VwKmUAnP6P93mVCdpJu": {
+      "handle": "blixze",
+      "verified": false,
+      "callouts_90d": 13,
+      "callouts_7d": 0
+    },
+    "EA9TnaqEZXq5VNGHuyV8169ydLWvJq5uAJiv43boLBBf": {
+      "handle": "SarDooms",
+      "verified": false,
+      "callouts_90d": 13,
+      "callouts_7d": 2
+    },
+    "4cXnf2z85UiZ5cyKsPMEULq1yufAtpkatmX4j4DBZqj2": {
+      "handle": "Waiter1x",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 0
+    },
+    "Dgehc8YMv6dHsiPJVoumvq4pSBkMVvrTgTUg7wdcYJPJ": {
+      "handle": "maghrrebi",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 0
+    },
+    "7bsTkeWcSPG6nzsbXucxV89YUULoSExNJdX2WqfLHwZ4": {
+      "handle": "bigwarzeth",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 0
+    },
+    "An68XCxJvfXc9NRWjNXGSFY55dyFVKjfgtpt8AKGJ2dE": {
+      "handle": "bihozNFTs",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 1
+    },
+    "7VBTpiiEjkwRbRGHJFUz6o5fWuhPFtAmy8JGhNqwHNnn": {
+      "handle": "ohbrox",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 2
+    },
+    "99xnE2zEFi8YhmKDaikc1EvH6ELTQJppnqUwMzmpLXrs": {
+      "handle": "ColerCooks",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 4
+    },
+    "3tnzEgqo6U19ocZbbc49vcGv3mGSoWNFAYjQQk5gF2qP": {
+      "handle": "Junior_dot_",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 3
+    },
+    "3MNu91fiPyCefHL88aBYntpwfraf3dBrqJ8VYjJQyaqt": {
+      "handle": "ocrxa",
+      "verified": false,
+      "callouts_90d": 12,
+      "callouts_7d": 0
+    },
+    "CxgPWvH2GoEDENELne2XKAR2z2Fr4shG2uaeyqZceGve": {
+      "handle": "narracanz",
+      "verified": false,
+      "callouts_90d": 11,
+      "callouts_7d": 4
+    },
+    "YvEsBWpHK5PJ6Q8m4YrocwKeWys1NG67pbgi73UPnuX": {
+      "handle": "GucciArchives",
+      "verified": true,
+      "callouts_90d": 11,
+      "callouts_7d": 1
+    },
+    "5JrDgnED5QFiaE8Znny2S9GwCeDK2pLYjMfWmjKogs3w": {
+      "handle": "deceasedcold_",
+      "verified": false,
+      "callouts_90d": 11,
+      "callouts_7d": 1
+    },
+    "5fHJszey2UdB2nETS1y6NS2wSG4ic9byKtbgJzaYzGeV": {
+      "handle": "k4yeSol",
+      "verified": false,
+      "callouts_90d": 11,
+      "callouts_7d": 2
+    },
+    "qP3Q8d4WWsGbqkTfyA9Dr6cAD7DQoBuxPJMFTK48rWU": {
+      "handle": "0xkitty69",
+      "verified": false,
+      "callouts_90d": 11,
+      "callouts_7d": 1
+    },
+    "BTf4A2exGK9BCVDNzy65b9dUzXgMqB4weVkvTMFQsadd": {
+      "handle": "Kevsznx",
+      "verified": false,
+      "callouts_90d": 10,
+      "callouts_7d": 0
+    },
+    "BCnqsPEtA1TkgednYEebRpkmwFRJDCjMQcKZMMtEdArc": {
+      "handle": "kreo444",
+      "verified": false,
+      "callouts_90d": 10,
+      "callouts_7d": 0
+    },
+    "7Js5gmq57y9jG2sseKrAeJt3vbncSWSFFHDEsyJDnyVm": {
+      "handle": "YamiPNL",
+      "verified": false,
+      "callouts_90d": 10,
+      "callouts_7d": 0
+    },
+    "B32QbbdDAyhvUQzjcaM5j6ZVKwjCxAwGH5Xgvb9SJqnC": {
+      "handle": "kadenox",
+      "verified": false,
+      "callouts_90d": 9,
+      "callouts_7d": 3
+    },
+    "8CLkTAHZt1joF4Swh7YKjGAA8qge1T1SZdoWJJsoGgys": {
+      "handle": "RaidzTrades",
+      "verified": false,
+      "callouts_90d": 9,
+      "callouts_7d": 3
+    },
+    "RaSSH7hMwLKtMT96xZyY4JwHRCCNYvvNeBh6AaFMqdA": {
+      "handle": "rastacowboy2021",
+      "verified": false,
+      "callouts_90d": 9,
+      "callouts_7d": 0
+    },
+    "FsG3BaPmRTdSrPaivbgJsFNCCa8cPfkUtk8VLWXkHpHP": {
+      "handle": "Reljoooo",
+      "verified": false,
+      "callouts_90d": 9,
+      "callouts_7d": 5
+    },
+    "2fg5QD1eD7rzNNCsvnhmXFm5hqNgwTTG8p7kQ6f3rx6f": {
+      "handle": "Cupseyy",
+      "verified": false,
+      "callouts_90d": 8,
+      "callouts_7d": 0
+    },
+    "hahaA2GjzZbwgAwwryjmTb8VkmLt68hdZVHhtcpknpT": {
+      "handle": "AspectOnChain",
+      "verified": false,
+      "callouts_90d": 8,
+      "callouts_7d": 3
+    },
+    "525LueqAyZJueCoiisfWy6nyh4MTvmF4X9jSqi6efXJT": {
+      "handle": "metaversejoji",
+      "verified": false,
+      "callouts_90d": 8,
+      "callouts_7d": 0
+    },
+    "A4KxLRntS2V6giboMyfDtwoysmsKPaz8Juw6CwHYxVXn": {
+      "handle": "leviixbt",
+      "verified": false,
+      "callouts_90d": 8,
+      "callouts_7d": 4
+    },
+    "J1XAE4onKYG1kTghgaytnyFgR3otQs1xEnJRRWM3djSQ": {
+      "handle": "yodefv",
+      "verified": false,
+      "callouts_90d": 8,
+      "callouts_7d": 0
+    },
+    "zyncUiCSpP5zExdpvpRgx8twZ1AxTAqaeqtTVZ45ART": {
+      "handle": "zyncxbt",
+      "verified": false,
+      "callouts_90d": 8,
+      "callouts_7d": 0
+    },
+    "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR": {
+      "handle": "casino616",
+      "verified": false,
+      "callouts_90d": 7,
+      "callouts_7d": 4
+    },
+    "G4q7d1fckiQ4uXxtQpEfgddzBVrXs28yr7VEP2xdRi4p": {
+      "handle": "CreatorFinanceX",
+      "verified": false,
+      "callouts_90d": 7,
+      "callouts_7d": 0
+    },
+    "mGbBx5GBee8gKj8Tr2YfuP18WnoGYEtkErtx6KgkdG1": {
+      "handle": "Merc_eth",
+      "verified": false,
+      "callouts_90d": 7,
+      "callouts_7d": 3
+    },
+    "2e1w3Xo441Ytvwn54wCn8itAXwCKbiizc9ynGEv14Vis": {
+      "handle": "prettyoverr",
+      "verified": false,
+      "callouts_90d": 7,
+      "callouts_7d": 3
+    },
+    "DxwDRWxQXDaVZquH3YvCVBQ75nUf16FttQ4q88okn5mc": {
+      "handle": "limpcritisism",
+      "verified": false,
+      "callouts_90d": 7,
+      "callouts_7d": 0
+    },
+    "AtmeWwb6Y6KNDgu2dPJT5dsar84bFCbNxLiW2DyYfm8p": {
+      "handle": "sizeab1e",
+      "verified": false,
+      "callouts_90d": 7,
+      "callouts_7d": 0
+    },
+    "GxifJqkZv6CvgLVpcv5Z8tkqcCyVSWfUyvr2zCCjpEmV": {
+      "handle": "Ygktgk",
+      "verified": false,
+      "callouts_90d": 6,
+      "callouts_7d": 6
+    },
+    "95TWoKkvv2z85EXBzd2z6NwbxH2f54AvwuCA9x3NoKep": {
+      "handle": "cryptokillua99",
+      "verified": false,
+      "callouts_90d": 6,
+      "callouts_7d": 0
+    },
+    "DEdEW3SMPU2dCfXEcgj2YppmX9H3bnMDJaU4ctn2BQDQ": {
+      "handle": "0xsolomon",
+      "verified": false,
+      "callouts_90d": 6,
+      "callouts_7d": 0
+    },
+    "F8WtsrLzexRkjv11b1sgA3Qj7E889RGYa1jFLGoPwKTB": {
+      "handle": "kayz_ce",
+      "verified": false,
+      "callouts_90d": 6,
+      "callouts_7d": 3
+    },
+    "ATpSExwhE2x1H7rv6Uoi4TJdzGz15LjDXNzhV6pjDVYi": {
+      "handle": "Merkytrades",
+      "verified": false,
+      "callouts_90d": 6,
+      "callouts_7d": 0
+    },
+    "53BnNc49Ajgstciq3CRoyxuBpkkW1r8pgPyvr7JGYnsh": {
+      "handle": "m0nkicrypto",
+      "verified": false,
+      "callouts_90d": 6,
+      "callouts_7d": 3
+    },
+    "8nqtxpFpuXwfXG4pBLsDkkuMMPK9FjSkBMCn542HiM3v": {
+      "handle": "dovvvv7",
+      "verified": false,
+      "callouts_90d": 5,
+      "callouts_7d": 0
+    },
+    "7ABz8qEFZTHPkovMDsmQkm64DZWN5wRtU7LEtD2ShkQ6": {
+      "handle": "redwithbag",
+      "verified": false,
+      "callouts_90d": 5,
+      "callouts_7d": 0
+    }
+  }
+}
