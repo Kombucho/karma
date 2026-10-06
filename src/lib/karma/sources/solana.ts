@@ -1,6 +1,6 @@
 import type { KV } from "../cache";
 import { WSOL_MINT } from "../constants";
-import { RateLimiter, fetchJson, sleep } from "../http";
+import { QuotaError, RateLimiter, fetchJson, sleep } from "../http";
 import type { TxDelta } from "../types";
 
 const PUBLIC_RPC = "https://api.mainnet-beta.solana.com";
@@ -32,6 +32,28 @@ const POOLABLE = new Set(["getSignaturesForAddress", "getTransaction", "getBalan
  */
 const STATE_METHODS = new Set(["getBalance", "getMultipleAccounts", "getAccountInfo", "getTokenSupply", "getTokenLargestAccounts"]);
 const STATE_RPS = 30;
+
+/** History reads: only an archival node may answer these, or old wallets look newborn. */
+const HISTORY_METHODS = new Set(["getSignaturesForAddress", "getTransaction"]);
+/** Helius-only (DAS). No fallback serves them; the caller already degrades (top-20 holders via largest accounts). */
+const DAS_METHODS = new Set(["getTokenAccounts", "getAsset", "getAssetsByOwner"]);
+
+/**
+ * Last-resort keyless endpoints, tried in order when the primary throws or its quota is spent (measured
+ * 6 Oct 2026 with Helius at "max usage reached"). Tatum serves current state (supply, largest accounts) but
+ * not history; mainnet-beta is archival but ~1 call/s and throttles getTokenLargestAccounts hard; keyless
+ * PublicNode is fast but keeps ~2 days of ledger, so it never answers history.
+ */
+const FALLBACKS: { url: string; label: string; rps: number; archival: boolean }[] = [
+  { url: PUBLICNODE_RPC, label: "PublicNode (fallback)", rps: PUBLICNODE_RPS, archival: false },
+  { url: "https://solana-mainnet.gateway.tatum.io", label: "Tatum (fallback)", rps: 3, archival: false },
+  { url: PUBLIC_RPC, label: "public Solana RPC (fallback)", rps: PUBLIC_RPS, archival: true },
+];
+
+/** A provider whose quota is spent sits out this long, process-wide, instead of failing every call slowly. */
+const DEAD_FOR_MS = 10 * 60_000;
+const UNREACHABLE_FOR_MS = 2 * 60_000;
+const deadUntil = new Map<string, number>();
 
 /** One native SOL movement in a Helius-parsed transaction. */
 export interface EnhancedTx {
@@ -91,6 +113,10 @@ export class SolanaRpc {
   peers: SolanaRpc[] = [];
   /** A fast non-archival node for current-state reads and recent transactions. PUBLICNODE_SOLANA_URL. */
   state?: SolanaRpc;
+  /** Keyless endpoints tried in order when this one fails or is out of quota. See FALLBACKS. */
+  fallbacks: SolanaRpc[] = [];
+  /** Whether this node keeps full ledger history (fallbacks only; the primary is assumed archival). */
+  archival = true;
   /** Helius key, when present: unlocks the Enhanced Transactions API (100 parsed txs in one call). */
   heliusKey?: string;
   /** A secondary node fails fast (one retry, 8s timeout) so the primary picks the call up quickly. */
@@ -113,6 +139,12 @@ export class SolanaRpc {
         rpc.state = new SolanaRpc(process.env.PUBLICNODE_SOLANA_URL, "PublicNode (state)", STATE_RPS, cache);
         rpc.state.maxRetries = 1;
       }
+      rpc.fallbacks = FALLBACKS.map((f) => {
+        const fb = new SolanaRpc(f.url, f.label, f.rps, cache);
+        fb.archival = f.archival;
+        fb.maxRetries = 1;
+        return fb;
+      });
       // "url|rps,url|rps" — each extra free-tier provider adds its own budget to the pool.
       for (const entry of (SOLANA_RPC_EXTRA_URLS ?? "").split(",").map((e) => e.trim()).filter(Boolean)) {
         const [url, rps] = entry.split("|");
@@ -149,12 +181,59 @@ export class SolanaRpc {
     // Route a standard call to whichever provider in the pool has the shortest queue right now.
     if (this.peers.length && POOLABLE.has(method)) {
       const best = [this, ...this.peers].reduce((a, b) => (b.limiter.backlogMs() < a.limiter.backlogMs() ? b : a));
-      if (best !== this) return best.callDirect<T>(method, params).catch(() => this.callDirect<T>(method, params));
+      if (best !== this) return best.callDirect<T>(method, params).catch(() => this.withFallbacks<T>(method, params));
     }
-    return this.callDirect<T>(method, params);
+    return this.withFallbacks<T>(method, params);
+  }
+
+  /** The primary, then each eligible fallback in order. A fallback's null transaction is a miss, not an answer. */
+  private async withFallbacks<T>(method: string, params: unknown[] | Record<string, unknown>): Promise<T> {
+    let lastErr: unknown;
+    try {
+      return await this.callDirect<T>(method, params);
+    } catch (e) {
+      lastErr = e;
+    }
+    if (DAS_METHODS.has(method)) throw lastErr;
+    for (const fb of this.fallbacks) {
+      if (HISTORY_METHODS.has(method) && !fb.archival) continue;
+      try {
+        const res = await fb.callDirect<T>(method, params);
+        if (res === null && method === "getTransaction") continue;
+        return res;
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    throw lastErr;
+  }
+
+  private isDead(): boolean {
+    return (deadUntil.get(this.url) ?? 0) > Date.now();
+  }
+
+  private markIfSpent(e: unknown) {
+    if (e instanceof QuotaError || (e instanceof Error && /max usage|quota/i.test(e.message))) {
+      if (!this.isDead()) console.warn(`[rpc] ${this.label} out of quota, skipping it for ${DEAD_FOR_MS / 60_000} min`);
+      deadUntil.set(this.url, Date.now() + DEAD_FOR_MS);
+    }
   }
 
   private async callDirect<T>(method: string, params: unknown[] | Record<string, unknown>): Promise<T> {
+    if (this.isDead()) throw new Error(`${method}: ${this.label} out of quota`);
+    try {
+      return await this.callOnce<T>(method, params);
+    } catch (e) {
+      this.markIfSpent(e);
+      // A secondary node that can't be reached at all (timeout, refused, blocked) sits out briefly too,
+      // so a dead fallback costs one 8s timeout per scan rather than one per call.
+      if (this.maxRetries < 6 && e instanceof Error && (e.name === "TimeoutError" || e.name === "TypeError"))
+        deadUntil.set(this.url, Math.max(deadUntil.get(this.url) ?? 0, Date.now() + UNREACHABLE_FOR_MS));
+      throw e;
+    }
+  }
+
+  private async callOnce<T>(method: string, params: unknown[] | Record<string, unknown>): Promise<T> {
     for (let attempt = 0; ; attempt++) {
       const res = await fetchJson<RpcResponse<T>>(
         this.url,
@@ -180,10 +259,19 @@ export class SolanaRpc {
    * pages back. Null when there's no Helius key, so callers fall back to plain RPC.
    */
   async enhancedTransactions(address: string, opts: { before?: string; limit?: number } = {}): Promise<EnhancedTx[] | null> {
-    if (!this.heliusKey) return null;
+    if (!this.heliusKey || this.isDead()) return null;
     const q = new URLSearchParams({ "api-key": this.heliusKey, limit: String(opts.limit ?? 100) });
     if (opts.before) q.set("before", opts.before);
-    return fetchJson<EnhancedTx[]>(`https://api-mainnet.helius-rpc.com/v0/addresses/${address}/transactions?${q}`, {}, { limiter: this.enhancedLimiter, retries: 3 });
+    try {
+      return await fetchJson<EnhancedTx[]>(`https://api-mainnet.helius-rpc.com/v0/addresses/${address}/transactions?${q}`, {}, { limiter: this.enhancedLimiter, retries: 3 });
+    } catch (e) {
+      // Same key, same quota: a spent key sends callers down their plain-RPC path instead of failing the scan.
+      if (e instanceof QuotaError) {
+        this.markIfSpent(e);
+        return null;
+      }
+      throw e;
+    }
   }
 
   getSignatures(address: string, before?: string, limit = 1000) {
