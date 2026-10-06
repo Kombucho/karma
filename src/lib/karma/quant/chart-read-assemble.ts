@@ -45,6 +45,7 @@ export async function assembleChartRead({ mint, network, symbol, cache }: Assemb
     hypotheses: chart && "hypotheses" in chart ? chart.hypotheses : [],
     record: chart && "record" in chart ? chart.record : null,
     young: chart && "young" in chart ? chart.young : false,
+    candles: chart && "candles" in chart ? chart.candles : [],
     // Server-side only (the route strips it before responding): every hypothesis, for Jev's ledger.
     ...(chart && "hypotheses_all" in chart ? { hypotheses_all: chart.hypotheses_all } : {}),
     rubric_version: CHART_READ_RUBRIC,
@@ -57,7 +58,18 @@ async function chartHalf(mint: string, network: string, cache: KV) {
   const [c, market] = await Promise.all([fetchChartCandles(network, mint, cache), fetchMarketNow(mint, network).catch(() => null)]);
   if (!c.candles1h?.length && !c.candles15m?.length) return null;
   const last = (c.candles15m ?? c.candles1h ?? []).at(-1)?.c ?? null;
-  return readChartPatternsAndLevels(mint, c, market?.price_usd ?? last, cache);
+  // DexScreener's quote can come from a stray pair ($AGENCY, 6 Oct 2026: $0.00465 while its pool never
+  // traded under $0.00625), which flips every level to the wrong side. Over 20% off the pool's own latest
+  // candle, trust the candle.
+  const live = market?.price_usd ?? null;
+  const price = live && last && Math.abs(Math.log(live / last)) > Math.log(1.2) ? last : (live ?? last);
+  const read = await readChartPatternsAndLevels(mint, c, price, cache);
+  // The last 3 days of 1h candles ride along for the panel's chart (same series the levels came from), the
+  // still-open one carried to the price the read used so "now" sits on the chart.
+  const candles = (c.candles1h ?? []).slice(-72).map(({ t, o, h, l, c: cl }) => ({ t, o, h, l, c: cl }));
+  const open = candles.at(-1);
+  if (open && price && price > 0) Object.assign(open, { c: price, h: Math.max(open.h, price), l: Math.min(open.l, price) });
+  return { ...read, candles };
 }
 
 /** Nearest first on each side, resistances then supports. */
@@ -116,7 +128,7 @@ export function chartReadSnapshot(read: ChartRead, network: string, symbol: stri
       token_risk: null,
       transfer_fee_bps: null,
     },
-    chart_read: read,
+    chart_read: { ...read, candles: undefined }, // the chart's candles are display-only; the ledger refetches
     chart_targets: targets,
   };
   return { mint: read.mint, t: read.t, price_usd: read.price, rubric_version: CHART_READ_RUBRIC, features, answers, source: "page" };
