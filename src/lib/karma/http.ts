@@ -12,6 +12,13 @@ export class HttpError extends Error {
   }
 }
 
+/**
+ * A 429 that is a spent monthly quota, not a burst limit: retrying can't help until the plan resets, so it
+ * throws on the first response instead of burning ~60s of backoff per call (Helius sends "max usage reached").
+ */
+export class QuotaError extends HttpError {}
+const QUOTA_BODY = /max usage|quota|credits? (exhausted|exceeded)|monthly limit|upgrade your plan/i;
+
 const redact = (url: string) => url.replace(/api-key=[^&]+/, "api-key=***");
 
 const lane = new AsyncLocalStorage<"low">();
@@ -72,6 +79,10 @@ export async function fetchJson<T>(
       if (attempt >= retries) throw err;
       await sleep(backoff(attempt));
       continue;
+    }
+    if (res.status === 429) {
+      const body = await res.clone().text();
+      if (QUOTA_BODY.test(body)) throw new QuotaError(res.status, body, url);
     }
     if (res.status === 429 || res.status >= 500) {
       if (attempt >= retries) throw new HttpError(res.status, await res.text(), url);
