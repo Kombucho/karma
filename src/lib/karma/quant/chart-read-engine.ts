@@ -357,7 +357,9 @@ export async function readChartPatternsAndLevels(mint: string, c: ChartCandles, 
     const phys = (days: number) => (sigma ? touchProb(px, l.price, sigma, days) : null);
     const odds = (h: 4 | 24 | 72, days: number) => {
       const p = phys(days);
-      return p === null ? null : levelOdds(h, p, ctx);
+      // The level lab fitted its calibration on coins with a 30-day series; under ~11 days σ comes from 6h
+      // returns instead and the calibration extrapolates (+23 pts on a 5-day coin), so show the physics.
+      return p === null ? null : ageDays < 11 ? p : levelOdds(h, p, ctx);
     };
     const phys24 = phys(1);
     const j = noul(A?.[`touch_${ids.get(l)}`]);

@@ -37,6 +37,17 @@ export function sigmaDaily(daily: Candle[] | null, hourly: Candle[] | null, coar
   } else if (hourly && hourly.length >= 24 * 11) {
     for (let k = hourly.length - 1; k - 24 >= 0 && rets.length < 30; k -= 24) rets.push(Math.log(hourly[k].c / hourly[k - 24].c));
   }
+  // A coin under ~11 days old has no 30-day series, and fresh coins are most of what gets scanned: read the
+  // day off its last 3 days of 6h returns (σ_6h·√4) once it has 2 days. Not σ_1h·√24: memecoins snap back
+  // within the day, so hourly scaling ran ~15% hot ($AGENCY, 6 Oct 2026: 1h→0.60, 6h→0.53, 12h→0.50 a day),
+  // and not the whole life: launch-hour candles move 100× and swamp the variance.
+  if (rets.length < 10 && hourly && hourly.length >= 48) {
+    rets.length = 0;
+    const h = hourly.slice(-72);
+    for (let k = 6; k < h.length; k++) if (h[k - 6].c > 0 && h[k].c > 0) rets.push(Math.log(h[k].c / h[k - 6].c));
+    const mh = rets.reduce((a, b) => a + b, 0) / rets.length;
+    return Math.sqrt(rets.reduce((a, b) => a + (b - mh) ** 2, 0) / (rets.length - 1)) * 2;
+  }
   if (rets.length < 10) return null;
   const m = rets.reduce((a, b) => a + b, 0) / rets.length;
   const v30 = Math.sqrt(rets.reduce((a, b) => a + (b - m) ** 2, 0) / (rets.length - 1));

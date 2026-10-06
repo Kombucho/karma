@@ -102,6 +102,8 @@ export interface ChartRead {
   record?: { touch_24h: TrackRecord | null; move_7d: TrackRecord | null; hypotheses: TrackRecord | null } | null;
   patterns: PatternRead[]; // sorted by p_in_play desc
   levels: LevelRead[]; // nearest first on each side
+  /** Last ~72 1h candles (OHLC) for the panel's chart; display-only, stripped from stored snapshots. */
+  candles?: { t: number; o: number; h: number; l: number; c: number }[];
   /** Jev's single best call, for the headline: e.g. "likely retest 0.00648 support (62%) before 0.00736". */
   headline: string | null;
   /** Rubric version + graded track record, same as Jev's read. */

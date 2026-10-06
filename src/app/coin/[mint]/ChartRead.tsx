@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { ChartRead, HypothesisRead, LevelRead, PatternRead, TrackRecord, WeekRead } from "@/lib/karma/quant/chart-read";
+import type { ChartRead, LevelRead, PatternRead, TrackRecord, WeekRead } from "@/lib/karma/quant/chart-read";
 import type { ChartHealth } from "@/lib/karma/sources/ta";
 
 /**
@@ -90,7 +90,12 @@ export default function ChartReadPanel({ mint, chartNetwork }: { mint: string; c
       {h ? <IndicatorLine h={h} /> : null}
 
       {h?.pool && chartNetwork ? (
-        <div className="mt-3 overflow-hidden rounded-sm border border-white/10" style={{ height: 320 }}>
+        <details className="group mt-2">
+          <summary className="cursor-pointer list-none text-[11px] text-zinc-600 hover:text-zinc-100">
+            <span className="group-open:hidden">▸</span>
+            <span className="hidden group-open:inline">▾</span> live chart
+          </summary>
+        <div className="mt-2 overflow-hidden rounded-sm border border-white/10" style={{ height: 320 }}>
           <iframe
             title="chart"
             src={`https://www.geckoterminal.com/${chartNetwork}/pools/${h.pool}?embed=1&info=0&swaps=0&grayscale=0&light_chart=0`}
@@ -99,6 +104,7 @@ export default function ChartReadPanel({ mint, chartNetwork }: { mint: string; c
             allow="clipboard-write"
           />
         </div>
+        </details>
       ) : null}
 
       <p className="mt-2 text-[11px] leading-snug text-zinc-600">
@@ -129,12 +135,8 @@ function ReadBody({ r }: { r: ChartRead }) {
       <Today levels={r.levels} price={r.price} />
       {r.week && r.price != null ? <Week w={r.week} price={r.price} /> : null}
 
-      {r.levels.length ? <Ladder levels={r.levels} price={r.price} /> : null}
-      {r.young ? (
-        <p className="mt-1 text-[10px] text-zinc-500">young coin (under ~60 days): backtests show its odds run a few points high until it has more history.</p>
-      ) : null}
+      {r.levels.length && r.price != null ? <LevelChart levels={r.levels} price={r.price} candles={r.candles ?? []} /> : null}
       {r.patterns.some((p) => p.kind !== "range") ? <Patterns patterns={r.patterns.filter((p) => p.kind !== "range")} /> : null}
-      {r.hypotheses ? <Hypotheses hs={r.hypotheses} price={r.price} /> : null}
     </>
   );
 }
@@ -181,46 +183,6 @@ function Week({ w, price }: { w: WeekRead; price: number }) {
   );
 }
 
-// ── Hypotheses: the funnel ───────────────────────────────────────────────────────────────────────────
-
-const tick = (ok: boolean) => (ok ? "✓" : "✗");
-
-/**
- * 1h / 4h ideas that survived the daily and weekly checks. Each shows its odds next to what chance alone
- * gives for the same target and invalidation: in the lab the survivors' edge over chance was ~1–2 points,
- * and hiding the comparison would make geometry look like skill.
- */
-function Hypotheses({ hs, price }: { hs: HypothesisRead[]; price: number | null }) {
-  return (
-    <div className="mt-5 border-t border-white/10 pt-3">
-      <p className="silk text-[9px] tracking-[0.1em] text-zinc-500">IDEAS FROM 1H / 4H · CHECKED ON THE DAILY &amp; WEEKLY</p>
-      {!hs.length ? (
-        <p className="mt-1 text-[11px] text-zinc-500">no 1h / 4h idea survived the higher timeframes right now.</p>
-      ) : (
-        <ul className="mt-1.5 flex flex-col gap-2">
-          {hs.map((h, i) => {
-            const b = BIAS[h.bias];
-            const away = (x: number) => (price ? ` (${signed(x / price - 1)})` : "");
-            return (
-              <li key={i} className="text-[12px] leading-snug text-zinc-400">
-                <span className={b.cls}>{b.arrow}</span> <span className="font-semibold text-zinc-100">{nice(h.kind)}</span>{" "}
-                <span className="silk text-[9px] tracking-[0.1em] text-zinc-500">{h.tf.toUpperCase()}</span> · to ${px(h.target)}
-                {away(h.target)} before ${px(h.stop)}
-                {away(h.stop)} within {h.window_h < 48 ? `${h.window_h}h` : `${Math.round(h.window_h / 24)}d`}
-                <span className="tnum ml-1 text-zinc-100">{pct(h.p)}</span>
-                <span className="tnum text-zinc-600"> (chance alone {pct(h.p_chance)})</span>
-                <span className="block text-[10px] text-zinc-600">
-                  daily {tick(h.tests.daily)} · weekly {tick(h.tests.weekly)} · path clear {tick(h.tests.clear)} · stop guarded {tick(h.tests.protected)}
-                </span>
-              </li>
-            );
-          })}
-        </ul>
-      )}
-    </div>
-  );
-}
-
 // ── Jev's record ─────────────────────────────────────────────────────────────────────────────────────
 
 /** Jev's graded record for what this card claims, from its own ledger; "shadow" until a record exists. */
@@ -230,7 +192,6 @@ function Record({ r }: { r: ChartRead }) {
     [
       ["today's levels", rec?.touch_24h],
       ["the week", rec?.move_7d],
-      ["ideas", rec?.hypotheses],
     ] as [string, TrackRecord | null | undefined][]
   )
     .filter(([, t]) => t)
@@ -238,76 +199,134 @@ function Record({ r }: { r: ChartRead }) {
   return <>{bits.length ? `Jev's record · ${bits.join(" · ")}. ` : "shadow: Jev's calls are being scored against price in its ledger; no track record yet. "}</>;
 }
 
-// ── The level ladder ─────────────────────────────────────────────────────────────────────────────────
 
-const LADDER_COLS = "grid grid-cols-[5rem_3.5rem_1fr] items-center gap-x-3 sm:grid-cols-[5.5rem_4rem_1fr] sm:gap-x-4";
+// ── The level chart ──────────────────────────────────────────────────────────────────────────────────
 
-function Ladder({ levels, price }: { levels: LevelRead[]; price: number | null }) {
-  const [open, setOpen] = useState<number | null>(null);
-  // Resistances farthest-first so price sits in the middle; supports nearest-first below it.
-  const res = levels.filter((l) => l.side === "resistance").sort((a, b) => b.dist - a.dist);
-  const sup = levels.filter((l) => l.side === "support").sort((a, b) => b.dist - a.dist);
-  // Jev's likeliest destination gets the emphasis: the rung with the highest 24h touch probability.
-  const call = levels.reduce<LevelRead | null>((best, l) => ((l.p_touch_24h ?? -1) > (best?.p_touch_24h ?? -1) ? l : best), null);
-  const rows = [...res, null, ...sup];
+type Bar = NonNullable<ChartRead["candles"]>[number];
+const CHART_H = 240;
+const CHART_W = 600;
+/** Labels closer than this (share of chart height) get pushed apart so they never print over each other. */
+const LABEL_GAP = 0.075;
+
+/**
+ * Where price can go, drawn: the last 3 days of 1h candles, green zones up to each resistance and red zones
+ * down to each support. Zones stack, so a band's depth is how likely price is to reach it today: the near,
+ * likely levels read dark, the far, unlikely ones barely tinted. The numbers sit on the right.
+ */
+function LevelChart({ levels, price, candles }: { levels: LevelRead[]; price: number; candles: Bar[] }) {
+  const [open, setOpen] = useState<LevelRead | null>(null);
+  const call = levels.reduce<LevelRead | null>((b, l) => ((l.p_touch_24h ?? -1) > (b?.p_touch_24h ?? -1) ? l : b), null);
+
+  // Log scale: a memecoin's +50% and −33% are the same distance, which is how the move feels. The axis
+  // frames the levels and the last day, not the whole 3 days: an old spike would squash every level into
+  // a sliver. Older candles past the frame are clipped.
+  const prices = [price, ...levels.map((l) => l.price), ...candles.slice(-24).flatMap((c) => [c.h, c.l])].filter((v) => v > 0);
+  const lo = Math.log(Math.min(...prices));
+  const hi = Math.log(Math.max(...prices));
+  const pad = (hi - lo || 0.1) * 0.06;
+  const frac = (v: number) => 1 - (Math.log(v) - (lo - pad)) / (hi - lo + 2 * pad); // 0 = top
+  const y = (v: number) => frac(v) * CHART_H;
+
+  const yNow = y(price);
+  // Nearest first: each band runs from now to its level, so stacking deepens the zone price reaches first.
+  const near = (a: LevelRead, b: LevelRead) => Math.abs(a.dist) - Math.abs(b.dist);
+  const zones = [...levels].sort(near).reverse();
+  const depth = (p: number | null) => 0.05 + 0.2 * (p ?? 0.25);
+
+  const step = candles.length ? CHART_W / candles.length : 0;
+  const labels = spread([{ key: "now", at: frac(price) }, ...levels.map((l) => ({ key: `${l.side}${l.price}`, at: frac(l.price) }))]);
 
   return (
     <div className="mt-4">
-      <div className={`${LADDER_COLS} silk pb-1 text-[8px] tracking-[0.1em] text-zinc-600`}>
-        <span>LEVEL</span>
-        <span className="text-right">AWAY</span>
-        <span>CHANCE PRICE GETS THERE TODAY</span>
-      </div>
-      <div className="border-l-2 border-white/15">
-        {rows.map((l, i) =>
-          l === null ? (
-            <div key="now" className={`${LADDER_COLS} -ml-[2px] border-y border-dashed border-white/40 border-l-2 border-l-foreground bg-white/[0.04] py-1.5 pl-2.5`}>
-              <span className="tnum text-sm font-bold text-zinc-100">${px(price)}</span>
-              <span className="silk text-right text-[8px] tracking-[0.1em] text-zinc-500">NOW</span>
-              <span className="text-[10px] text-zinc-600">
-                {res.length} above · {sup.length} below
-              </span>
-            </div>
-          ) : (
-            <Rung key={`${l.side}${l.price}`} l={l} isCall={l === call} open={open === i} toggle={() => setOpen(open === i ? null : i)} />
-          ),
-        )}
-      </div>
-      <p className="mt-1 text-[10px] text-zinc-600">tap a level for why it&apos;s there.</p>
-    </div>
-  );
-}
+      <div className="flex gap-2">
+        <svg viewBox={`0 0 ${CHART_W} ${CHART_H}`} preserveAspectRatio="none" className="h-[240px] min-w-0 flex-1 overflow-hidden" role="img" aria-label={`price ${px(price)} with ${levels.length} levels`}>
+          {zones.map((l) => (
+            <rect
+              key={`z${l.side}${l.price}`}
+              x={0}
+              width={CHART_W}
+              y={Math.min(yNow, y(l.price))}
+              height={Math.abs(yNow - y(l.price))}
+              className={l.side === "resistance" ? "text-green-400" : "text-red-400"}
+              fill="currentColor"
+              fillOpacity={depth(l.p_touch_24h)}
+            />
+          ))}
+          {candles.map((c, i) => {
+            const up = c.c >= c.o;
+            const x = i * step + step / 2;
+            return (
+              <g key={c.t} className={up ? "text-green-400" : "text-red-400"} opacity={0.55}>
+                <line x1={x} x2={x} y1={y(c.h)} y2={y(c.l)} stroke="currentColor" strokeWidth={1} vectorEffect="non-scaling-stroke" />
+                <rect x={x - step * 0.32} width={step * 0.64} y={Math.min(y(c.o), y(c.c))} height={Math.max(1, Math.abs(y(c.o) - y(c.c)))} fill="currentColor" />
+              </g>
+            );
+          })}
+          {levels.map((l) => (
+            <line
+              key={`l${l.side}${l.price}`}
+              x1={0}
+              x2={CHART_W}
+              y1={y(l.price)}
+              y2={y(l.price)}
+              className={l.side === "resistance" ? "text-green-400" : "text-red-400"}
+              stroke="currentColor"
+              strokeWidth={l === call ? 2 : 1}
+              strokeDasharray="5 4"
+              vectorEffect="non-scaling-stroke"
+            />
+          ))}
+          <line x1={0} x2={CHART_W} y1={yNow} y2={yNow} className="text-zinc-100" stroke="currentColor" strokeWidth={1.5} vectorEffect="non-scaling-stroke" />
+        </svg>
 
-function Rung({ l, isCall, open, toggle }: { l: LevelRead; isCall: boolean; open: boolean; toggle: () => void }) {
-  const up = l.side === "resistance";
-  return (
-    <div className="border-b border-white/[0.07] last:border-b-0">
-      <button type="button" onClick={toggle} title={l.sources.join(" · ")} aria-expanded={open} className={`${LADDER_COLS} w-full py-1.5 pl-2.5 text-left hover:bg-white/[0.04]`}>
-        <span className={`tnum text-xs ${isCall ? "font-bold text-zinc-100" : "text-zinc-300"}`}>
-          <span className={`mr-1 ${up ? UP : DOWN}`}>{up ? "▲" : "▼"}</span>${px(l.price)}
-        </span>
-        <span className="tnum text-right text-[11px] text-zinc-500">{signed(l.dist)}</span>
-        <Meter p={l.p_touch_24h} strong={isCall} />
-      </button>
+        <div className="relative h-[240px] w-[9.5rem] shrink-0 sm:w-[10.5rem]">
+          <span className="tnum absolute right-0 -translate-y-1/2 text-right text-xs font-bold leading-tight text-zinc-100" style={{ top: `${labels.get("now")! * 100}%` }}>
+            <span className="silk mr-1 text-[8px] tracking-[0.1em] text-zinc-500">NOW</span>${px(price)}
+          </span>
+          {levels.map((l) => {
+            const up = l.side === "resistance";
+            const isCall = l === call;
+            return (
+              <button
+                key={`t${l.side}${l.price}`}
+                type="button"
+                onClick={() => setOpen(open === l ? null : l)}
+                aria-expanded={open === l}
+                title={l.sources.join(" · ")}
+                className="tnum absolute right-0 -translate-y-1/2 text-right leading-tight hover:opacity-70"
+                style={{ top: `${labels.get(`${l.side}${l.price}`)! * 100}%` }}
+              >
+                <span className={`whitespace-nowrap text-[11px] ${isCall ? "font-bold text-zinc-100" : "text-zinc-300"}`}>
+                  ${px(l.price)} <span className={`text-[10px] ${up ? UP : DOWN}`}>{signed(l.dist)}</span>{" "}
+                  <span className={isCall ? "font-bold text-zinc-100" : "text-zinc-500"}>{pct(l.p_touch_24h)}</span>
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      <p className="mt-1.5 text-[10px] text-zinc-600">
+        <span className={UP}>green</span>: room to the upside · <span className={DOWN}>red</span>: what you lose if it breaks down · % = chance price gets
+        there today · tap a level for why it&apos;s there.
+      </p>
       {open ? (
-        <p className="pb-2 pl-2.5 text-[11px] leading-snug text-zinc-500">
-          {up ? "resistance" : "support"} from {l.sources.join(" · ") || "—"}
+        <p className="mt-1 text-[11px] leading-snug text-zinc-500">
+          ${px(open.price)} {open.side} from {open.sources.join(" · ") || "—"}
         </p>
       ) : null}
     </div>
   );
 }
 
-/** A probability as a thin ink bar + numeral. Never coloured: ungraded odds are a guess, not a signal. */
-function Meter({ p, strong }: { p: number | null; strong?: boolean }) {
-  return (
-    <span className="flex min-w-0 items-center gap-1.5">
-      <span className="h-1.5 min-w-0 flex-1 bg-white/10">
-        <span className={`block h-full ${strong ? "bg-zinc-100" : "bg-zinc-600"}`} style={{ width: `${Math.round(Math.min(1, Math.max(0, p ?? 0)) * 100)}%` }} />
-      </span>
-      <span className={`tnum w-7 text-right text-[11px] ${strong ? "font-bold text-zinc-100" : "text-zinc-400"}`}>{pct(p)}</span>
-    </span>
-  );
+/** Nudge label positions (0–1, top-down) apart so no two sit closer than LABEL_GAP, keeping their order. */
+function spread(items: { key: string; at: number }[]): Map<string, number> {
+  const sorted = [...items].sort((a, b) => a.at - b.at).map((i) => ({ ...i }));
+  for (let i = 1; i < sorted.length; i++) sorted[i].at = Math.max(sorted[i].at, sorted[i - 1].at + LABEL_GAP);
+  // Pushed off the bottom: shift the whole stack back up, then clamp the top.
+  const over = sorted.length ? sorted.at(-1)!.at - (1 - LABEL_GAP / 2) : 0;
+  if (over > 0) for (const s of sorted) s.at -= over;
+  for (let i = 0; i < sorted.length; i++) sorted[i].at = Math.max(sorted[i].at, i ? sorted[i - 1].at + LABEL_GAP : LABEL_GAP / 2);
+  return new Map(sorted.map((s) => [s.key, s.at]));
 }
 
 // ── Pattern ──────────────────────────────────────────────────────────────────────────────────────────
