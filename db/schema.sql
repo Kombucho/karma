@@ -300,3 +300,16 @@ create table if not exists jev_scorecard (
   primary key (family, timeframe, context)
 );
 alter table jev_scorecard enable row level security;
+
+-- ── Wallet facts: the engine's durable cache (src/lib/karma/fact-cache.ts) ──────────────────────────
+-- Facts that never change once known (wallet origin, funder, a finalized tx's effect), keyed like the
+-- in-process cache ("origin:<wallet>", "funder:<wallet>", "delta2:<wallet>:<sig>"…). A scan that runs out of
+-- time leaves its reads here, so the next pass starts from them. ~200 B a row; trimmed at 60 days untouched.
+create table if not exists wallet_facts (
+  key         text primary key,
+  v           jsonb,
+  exp         timestamptz,
+  updated_at  timestamptz not null default now()
+);
+create index if not exists wallet_facts_updated_idx on wallet_facts (updated_at);
+alter table wallet_facts enable row level security;

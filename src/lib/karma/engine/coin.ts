@@ -205,6 +205,9 @@ export interface CoinScan {
   refusal_reasons: string[];
   /** True for coins under an hour old: the holder book is still forming, read the scan as a snapshot. */
   provisional: boolean;
+  /** Set by the layered cron when the scan's time budget ran out mid-read: stored so the next pass knows to
+   * finish it, never served (every reader treats a partial scan as no scan). */
+  partial?: boolean;
   age_seconds: number | null;
   volume_24h_usd: number;
   holders: CoinHolder[];
