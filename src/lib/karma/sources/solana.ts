@@ -148,7 +148,9 @@ export class SolanaRpc {
       // "url|rps,url|rps" — each extra free-tier provider adds its own budget to the pool.
       for (const entry of (SOLANA_RPC_EXTRA_URLS ?? "").split(",").map((e) => e.trim()).filter(Boolean)) {
         const [url, rps] = entry.split("|");
-        rpc.peers.push(new SolanaRpc(url, "peer RPC", Number(rps ?? 5), cache));
+        const peer = new SolanaRpc(url, "peer RPC", Number(rps ?? 5), cache);
+        peer.maxRetries = 2; // a flaky peer hands the call on quickly instead of backing off for a minute
+        rpc.peers.push(peer);
       }
       return rpc;
     };
@@ -180,7 +182,9 @@ export class SolanaRpc {
     }
     // Route a standard call to whichever provider in the pool has the shortest queue right now.
     if (this.peers.length && POOLABLE.has(method)) {
-      const best = [this, ...this.peers].reduce((a, b) => (b.limiter.backlogMs() < a.limiter.backlogMs() ? b : a));
+      // A provider out of quota has an empty queue (it never takes a slot), so it would always look idlest.
+      const live = [this, ...this.peers].filter((p) => !p.isDead());
+      const best = live.length ? live.reduce((a, b) => (b.limiter.backlogMs() < a.limiter.backlogMs() ? b : a)) : this;
       if (best !== this) return best.callDirect<T>(method, params).catch(() => this.withFallbacks<T>(method, params));
     }
     return this.withFallbacks<T>(method, params);
@@ -195,7 +199,8 @@ export class SolanaRpc {
       lastErr = e;
     }
     if (DAS_METHODS.has(method)) throw lastErr;
-    for (const fb of this.fallbacks) {
+    // Keyed peers (archival, own budgets) before the keyless last resorts.
+    for (const fb of [...this.peers, ...this.fallbacks]) {
       if (HISTORY_METHODS.has(method) && !fb.archival) continue;
       try {
         const res = await fb.callDirect<T>(method, params);
