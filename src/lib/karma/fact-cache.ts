@@ -25,12 +25,12 @@ export class FactCache implements KV {
     if (!c) return undefined;
     try {
       const { data, error } = await c.from("wallet_facts").select("v, exp").eq("key", key).maybeSingle();
-      if (error) return this.disable(error.message);
+      if (error) return this.fail(error.message);
       if (!data || (data.exp && new Date(data.exp as string).getTime() < Date.now())) return undefined;
       await this.mem.set(key, data.v as T);
       return data.v as T;
     } catch (e) {
-      return this.disable(String(e));
+      return this.fail(String(e));
     }
   }
 
@@ -42,15 +42,22 @@ export class FactCache implements KV {
     try {
       const exp = ttlSeconds ? new Date(Date.now() + ttlSeconds * 1000).toISOString() : null;
       const { error } = await c.from("wallet_facts").upsert({ key, v: value, exp, updated_at: new Date().toISOString() }, { onConflict: "key" });
-      if (error) this.disable(error.message);
+      if (error) this.fail(error.message);
     } catch (e) {
-      this.disable(String(e));
+      this.fail(String(e));
     }
   }
 
-  private disable(why: string): undefined {
-    if (!this.off) console.warn(`[fact-cache] durable tier off: ${why.slice(0, 120)}`);
-    this.off = true;
+  /**
+   * Only a missing table turns the durable tier off. A scan fires dozens of reads and writes at once, and on
+   * the free tier a few time out: those just miss this one fact (6 Oct: a blanket off-switch kept 2 facts
+   * from a whole cron run).
+   */
+  private fail(why: string): undefined {
+    if (/could not find the table|relation .* does not exist|PGRST205|42P01/i.test(why)) {
+      if (!this.off) console.warn(`[fact-cache] durable tier off: ${why.slice(0, 120)}`);
+      this.off = true;
+    }
     return undefined;
   }
 }
