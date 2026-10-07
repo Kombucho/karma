@@ -35,7 +35,7 @@ export async function pumpFunCoin(mint: string, cache: KV): Promise<PumpCoin | n
   const hit = await cache.get<PumpCoin>(key);
   if (hit) return hit;
   try {
-    const res = await fetch(`https://frontend-api-v3.pump.fun/coins/${mint}`, { headers: PUMP_HEADERS });
+    const res = await fetch(`https://frontend-api-v3.pump.fun/coins/${mint}`, { headers: PUMP_HEADERS, signal: AbortSignal.timeout(8000) });
     if (!res.ok) return null; // transient — don't cache the miss
     const c = (await res.json()) as { creator?: string; created_timestamp?: number; complete?: boolean; usd_market_cap?: number };
     const coin: PumpCoin = {
@@ -165,7 +165,7 @@ export async function pumpFunDevStats(dev: string, cache: KV, aliveMcapUsd = 500
   if (hit) return hit;
   const LIMIT = 100;
   try {
-    const res = await fetch(`https://frontend-api-v3.pump.fun/coins?creator=${dev}&limit=${LIMIT}&offset=0`, { headers: PUMP_HEADERS });
+    const res = await fetch(`https://frontend-api-v3.pump.fun/coins?creator=${dev}&limit=${LIMIT}&offset=0`, { headers: PUMP_HEADERS, signal: AbortSignal.timeout(8000) });
     if (!res.ok) return null;
     const coins = (await res.json()) as Array<{ complete?: boolean; usd_market_cap?: number }>;
     if (!Array.isArray(coins)) return null;

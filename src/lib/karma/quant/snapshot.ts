@@ -88,7 +88,7 @@ export async function runSnapshots(opts: {
       continue;
     }
     const stored = await getStoredScan<CoinScan>(mint);
-    if (!stored?.scan?.eligible) {
+    if (!stored?.scan?.eligible || stored.scan.partial) {
       s.skipped.no_scan++;
       continue;
     }

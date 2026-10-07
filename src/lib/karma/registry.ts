@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
-import { MemoryCache } from "./cache";
+import { FactCache } from "./fact-cache";
 import { INFRA_OWNERS } from "./constants";
 import type { WalletRegistry } from "./engine/coin";
 import { GRADE_TITLES } from "./scoring.config";
@@ -73,5 +73,5 @@ export function excludedFunders(): Set<string> {
 }
 
 /** One process-wide cache + RPC client, so every live surface shares rate limits and warm entries. */
-export const serverCache = new MemoryCache();
+export const serverCache = new FactCache();
 export const serverRpc = SolanaRpc.fromEnv(serverCache);

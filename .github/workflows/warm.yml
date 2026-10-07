@@ -1,0 +1,26 @@
+# Layered coin warmer: Vercel's own cron fires once a day, which can't finish a board of trending coins
+# when history reads run at ~1 call/s. Every 30 minutes this pokes the same endpoint; each run reads a
+# layer further into every coin (wide pass, then deep) and the facts it reads persist between runs.
+name: warm
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: warm
+  cancel-in-progress: false
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Run the warm cron
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          curl -sS --fail-with-body --max-time 320 \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            https://karmawtf.vercel.app/api/cron/warm

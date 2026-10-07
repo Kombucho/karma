@@ -105,7 +105,7 @@ async function loadScan(mint: string): Promise<CoinScan | null> {
   const hot = await serverCache.get<CoinScan>(`coinscan:${mint}`);
   if (hot) return hot;
   const stored = await getStoredScan<CoinScan>(mint);
-  return stored?.scan ?? null;
+  return stored?.scan && !stored.scan.partial ? stored.scan : null;
 }
 
 /**

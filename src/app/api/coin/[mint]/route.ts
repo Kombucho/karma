@@ -22,7 +22,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ mint: s
   let scan = await serverCache.get<CoinScan>(key);
   if (!scan) {
     const stored = await getStoredScan<CoinScan>(mint);
-    if (stored && stored.ageSeconds < DB_FRESH_SECONDS) {
+    if (stored && stored.ageSeconds < DB_FRESH_SECONDS && !stored.scan.partial) {
       scan = stored.scan;
       await serverCache.set(key, scan, SCAN_TTL);
     } else {

@@ -1,6 +1,6 @@
 import type { KV } from "../cache";
 import { WSOL_MINT } from "../constants";
-import { QuotaError, RateLimiter, fetchJson, sleep } from "../http";
+import { QuotaError, RateLimiter, budgetSleep, fetchJson } from "../http";
 import type { TxDelta } from "../types";
 
 const PUBLIC_RPC = "https://api.mainnet-beta.solana.com";
@@ -249,7 +249,7 @@ export class SolanaRpc {
       if (!retryable || attempt >= this.maxRetries) throw new Error(`${method}: ${res.error.message}`);
       const wait = Math.min(30_000, 1000 * 2 ** attempt);
       this.limiter.penalize(Math.min(wait, 750)); // see fetchJson: never freeze the whole queue
-      await sleep(wait);
+      await budgetSleep(wait);
     }
   }
 

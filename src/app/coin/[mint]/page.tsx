@@ -63,7 +63,7 @@ async function getScan(mint: string): Promise<CoinScan | { blocked: Access }> {
 
   // Cross-instance persistence: a scan another instance (or the cron) computed lives in the DB.
   const stored = await getStoredScan<CoinScan>(mint);
-  if (stored && stored.ageSeconds < DB_FRESH_SECONDS) {
+  if (stored && stored.ageSeconds < DB_FRESH_SECONDS && !stored.scan.partial) {
     await serverCache.set(key, stored.scan, SCAN_TTL);
     return stored.scan;
   }
