@@ -31,6 +31,11 @@ const MAX_BSC = 12;
 const DEADLINE_MS = 260_000; // stop well before the 300s ceiling
 /** Pass 1 budget per coin: the cheap layer plus whatever history fits. */
 const WIDE_MS = 15_000;
+/**
+ * Coins the wide pass touches. One run a day (free tier) has ~260s and a full keyless read is ~150s, so at
+ * most 1-2 coins finish per run: skim the top few, then let the deep pass finish the hottest.
+ */
+const WIDE_COINS = 4;
 /** Pass 2 cap per coin, so one huge holder book can't eat the whole run. */
 const DEEP_MS = 90_000;
 /** A complete scan younger than this is left alone. */
@@ -102,7 +107,7 @@ export async function GET(req: Request) {
     }
   };
   for (const mint of solMints) {
-    if (Date.now() > deadline - WIDE_MS) break;
+    if (Date.now() > deadline - WIDE_MS || layers.wide >= WIDE_COINS) break;
     const stored = await getStoredScan<CoinScan>(mint);
     if (stored && !stored.scan.partial && stored.ageSeconds < COMPLETE_FRESH_S) {
       layers.fresh++;

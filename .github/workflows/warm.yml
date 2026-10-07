@@ -1,11 +1,8 @@
-# Layered coin warmer: Vercel's own cron fires once a day, which can't finish a board of trending coins
-# when history reads run at ~1 call/s. Every 30 minutes this pokes the same endpoint; each run reads a
-# layer further into every coin (wide pass, then deep) and the facts it reads persist between runs.
+# Manual extra pass of the layered coin warmer (Actions → warm → Run workflow). The schedule is Vercel's
+# own daily cron (vercel.json), kept daily to stay inside the free tier; this only adds a run on demand.
 name: warm
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 concurrency:
